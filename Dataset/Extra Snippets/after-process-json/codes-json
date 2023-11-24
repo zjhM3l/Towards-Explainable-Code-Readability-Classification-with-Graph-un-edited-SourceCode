@@ -1,0 +1,205 @@
+class Test{ 
+class Test {
+    public static void main(String[] args) {
+        String msg = "这是一段包含特殊字符的文本：$%@!^&*()_+";
+        System.out.println("原始文本：" + msg);
+
+        byte[] data = msg.getBytes("GBK");
+
+        String decodedMsg = new String(data, "GBK");
+
+        System.out.println("转换后的文本：" + decodedMsg);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("请输入您的姓名：");
+        String name = scanner.nextLine();
+        System.out.println("你好，" + name + "！");
+    }
+}
+
+
+
+ }class Test{ 
+class Test {
+    public class my_class {
+        private static final int MY_CONSTANT = 10;
+        private static String MY_FIELD_NAME = "Hello World";
+
+        public void my_method() {
+            int MY_LOCAL_VARIABLE = 5;
+            System.out.println(MY_FIELD_NAME + " " + MY_LOCAL_VARIABLE);
+        }
+
+        public void my_another_method() {
+            MY_FIELD_NAME = "Goodbye World";
+            System.out.println(MY_FIELD_NAME);
+        }
+    }
+}
+
+
+ }class Test{ 
+class Test {
+    public class ExampleClass {
+
+        public void doSomething() {
+            System.out.println("Doing something");
+        }
+
+        public void doSomethingElse() {
+            System.out.println("Doing something else");
+        }
+
+        public void handleException() {
+            try {
+                int result = 1 / 0;
+                System.out.println("Result: " + result);
+            } catch (Exception e) {
+            }
+        }
+
+        public static void main(String[] args) {
+            ExampleClass example = new ExampleClass();
+            example.doSomething();
+            example.doSomethingElse();
+            example.handleException();
+        }
+    }
+}
+
+ }class Test{ 
+class Test {
+    public class Example {
+      private static String name = "John";
+      private String message = "Hello world";
+
+      public static void main(String[] args) {
+        Example obj = new Example();
+        System.out.println(name); // bad
+        System.out.println(obj.message); // bad
+        obj.printMessage(); // very bad
+      }
+
+      public void printMessage() {
+        System.out.println(this.message);
+      }
+
+      @Override
+      protected void finalize() throws Throwable {
+        // Perform finalization tasks here
+        super.finalize();
+      }
+    }
+}
+
+
+ }class Test{ 
+class Test{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter a number: ");
+        int num = scanner.nextInt();
+        System.out.println("The number you entered is " + num);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+
+}
+
+
+
+ }class Test{ 
+class Test {
+    public void exampleMethod(int param1, String param2, Map<String, List<Integer>> param3) {
+        boolean longNameCondition =
+                param1 > 0 && param2.length() > 10 &&
+                param3.containsKey("key") && param3.get("key").size() > 0;
+
+        if (longNameCondition) {
+            doSomething(param1, param2, param3);
+        } else {
+            for (String key : param3.keySet()) {
+                if (key.equals("key1")) {
+                    processKey1(param1, param2, param3);
+                } else if (key.equals("key2")) {
+                    processKey2(param1, param2, param3);
+                } else if (key.equals("key3")) {
+                    processKey3(param1, param2, param3);
+                } else {
+                    throw new IllegalArgumentException("Invalid key: " + key);
+                }
+            }
+        }
+    }
+}
+
+
+
+ }class Test{ 
+class Test {
+    public class Calculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        double num1 = scanner.nextDouble();
+        System.out.print("Enter the second number: ");
+        double num2 = scanner.nextDouble();
+        System.out.print("Enter an operator (+, -, *, /): ");
+        char operator = scanner.next().charAt(0);
+        double result = 0.0;
+
+        if (operator == '+') {
+            result = num1 + num2;
+        } else if (operator == '-') {
+            result = num1 - num2;
+        } else if (operator == '*') {
+            result = num1 * num2;
+        } else if (operator == '/') {
+            if (num2 == 0) {
+                System.out.println("Error: Division by zero");
+                return;
+            }
+            result = num1 / num2;
+        } else {
+            System.out.println("Error: Invalid operator");
+            return;
+        }
+
+        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+    }
+}
+}
+
+
+
+ }class Test{ 
+class Test {
+    public class Example {
+
+      @Deprecated private int field;
+
+      @Override
+      public String toString() {
+        switch(field) {
+          case 0:
+            return "zero";
+          case 1:
+            return "one";
+          case 2:
+            return "two";
+          default:
+            return "unknown";
+        }
+      }
+
+      public void setField(@Nullable int value) {
+        field = value;
+      }
+    }
+}
+
+
+
+ }

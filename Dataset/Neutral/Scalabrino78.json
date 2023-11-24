@@ -1,0 +1,3377 @@
+{
+  "!": "com.github.javaparser.ast.CompilationUnit",
+  "range": {
+    "beginLine": 1,
+    "beginColumn": 1,
+    "endLine": 39,
+    "endColumn": 2
+  },
+  "tokenRange": {
+    "beginToken": {
+      "kind": 19,
+      "text": "class"
+    },
+    "endToken": {
+      "kind": 0,
+      "text": ""
+    }
+  },
+  "imports": [],
+  "types": [
+    {
+      "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+      "range": {
+        "beginLine": 1,
+        "beginColumn": 1,
+        "endLine": 39,
+        "endColumn": 2
+      },
+      "tokenRange": {
+        "beginToken": {
+          "kind": 19,
+          "text": "class"
+        },
+        "endToken": {
+          "kind": 100,
+          "text": "}"
+        }
+      },
+      "extendedTypes": [],
+      "implementedTypes": [],
+      "isInterface": "false",
+      "typeParameters": [],
+      "members": [
+        {
+          "!": "com.github.javaparser.ast.body.MethodDeclaration",
+          "range": {
+            "beginLine": 2,
+            "beginColumn": 1,
+            "endLine": 37,
+            "endColumn": 2
+          },
+          "tokenRange": {
+            "beginToken": {
+              "kind": 107,
+              "text": "@"
+            },
+            "endToken": {
+              "kind": 100,
+              "text": "}"
+            }
+          },
+          "body": {
+            "!": "com.github.javaparser.ast.stmt.BlockStmt",
+            "range": {
+              "beginLine": 4,
+              "beginColumn": 52,
+              "endLine": 37,
+              "endColumn": 2
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 99,
+                "text": "{"
+              },
+              "endToken": {
+                "kind": 100,
+                "text": "}"
+              }
+            },
+            "statements": [
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 11,
+                  "beginColumn": 3,
+                  "endLine": 11,
+                  "endColumn": 28
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "Session"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                  "range": {
+                    "beginLine": 11,
+                    "beginColumn": 3,
+                    "endLine": 11,
+                    "endColumn": 27
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "Session"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "annotations": [],
+                  "modifiers": [],
+                  "variables": [
+                    {
+                      "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                      "range": {
+                        "beginLine": 11,
+                        "beginColumn": 11,
+                        "endLine": 11,
+                        "endColumn": 27
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "initializer": {
+                        "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                        "range": {
+                          "beginLine": 11,
+                          "beginColumn": 15,
+                          "endLine": 11,
+                          "endColumn": 27
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "openSession"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [],
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 11,
+                            "beginColumn": 15,
+                            "endLine": 11,
+                            "endColumn": 25
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "openSession"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "openSession"
+                            }
+                          },
+                          "identifier": "openSession"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 11,
+                          "beginColumn": 11,
+                          "endLine": 11,
+                          "endColumn": 11
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "s"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "s"
+                          }
+                        },
+                        "identifier": "s"
+                      },
+                      "type": {
+                        "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                        "range": {
+                          "beginLine": 11,
+                          "beginColumn": 3,
+                          "endLine": 11,
+                          "endColumn": 9
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "Session"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "Session"
+                          }
+                        },
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 11,
+                            "beginColumn": 3,
+                            "endLine": 11,
+                            "endColumn": 9
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "Session"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "Session"
+                            }
+                          },
+                          "identifier": "Session"
+                        },
+                        "annotations": []
+                      }
+                    }
+                  ]
+                },
+                "comment": [
+                  {
+                    "!": "com.github.javaparser.ast.comments.LineComment",
+                    "range": {
+                      "beginLine": 10,
+                      "beginColumn": 3,
+                      "endLine": 10,
+                      "endColumn": 27
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 5,
+                        "text": "// implicit join occurred"
+                      },
+                      "endToken": {
+                        "kind": 5,
+                        "text": "// implicit join occurred"
+                      }
+                    },
+                    "content": " implicit join occurred"
+                  },
+                  {
+                    "!": "com.github.javaparser.ast.comments.LineComment",
+                    "range": {
+                      "beginLine": 5,
+                      "beginColumn": 3,
+                      "endLine": 5,
+                      "endColumn": 81
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      },
+                      "endToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      }
+                    },
+                    "content": " and read from fieldForAnnotations in a deterministic order"
+                  },
+                  {
+                    "!": "com.github.javaparser.ast.comments.LineComment",
+                    "range": {
+                      "beginLine": 6,
+                      "beginColumn": 3,
+                      "endLine": 6,
+                      "endColumn": 68
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      },
+                      "endToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      }
+                    },
+                    "content": " and read from fieldForAnnotations in a deterministic order"
+                  },
+                  {
+                    "!": "com.github.javaparser.ast.comments.LineComment",
+                    "range": {
+                      "beginLine": 7,
+                      "beginColumn": 3,
+                      "endLine": 7,
+                      "endColumn": 75
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      },
+                      "endToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      }
+                    },
+                    "content": " and read from fieldForAnnotations in a deterministic order"
+                  },
+                  {
+                    "!": "com.github.javaparser.ast.comments.LineComment",
+                    "range": {
+                      "beginLine": 8,
+                      "beginColumn": 3,
+                      "endLine": 8,
+                      "endColumn": 89
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      },
+                      "endToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      }
+                    },
+                    "content": " and read from fieldForAnnotations in a deterministic order"
+                  },
+                  {
+                    "!": "com.github.javaparser.ast.comments.LineComment",
+                    "range": {
+                      "beginLine": 9,
+                      "beginColumn": 3,
+                      "endLine": 9,
+                      "endColumn": 83
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      },
+                      "endToken": {
+                        "kind": 5,
+                        "text": "// and read from fieldForAnnotations in a deterministic order"
+                      }
+                    },
+                    "content": " and read from fieldForAnnotations in a deterministic order"
+                  }
+                ]
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 12,
+                  "beginColumn": 3,
+                  "endLine": 12,
+                  "endColumn": 23
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 12,
+                    "beginColumn": 3,
+                    "endLine": 12,
+                    "endColumn": 22
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 12,
+                      "beginColumn": 5,
+                      "endLine": 12,
+                      "endColumn": 20
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "beginTransaction"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "beginTransaction"
+                      }
+                    },
+                    "identifier": "beginTransaction"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 12,
+                      "beginColumn": 3,
+                      "endLine": 12,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 12,
+                        "beginColumn": 3,
+                        "endLine": 12,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 13,
+                  "beginColumn": 3,
+                  "endLine": 13,
+                  "endColumn": 81
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "SimpleEntityWithAssociation"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                  "range": {
+                    "beginLine": 13,
+                    "beginColumn": 3,
+                    "endLine": 13,
+                    "endColumn": 80
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "SimpleEntityWithAssociation"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "annotations": [],
+                  "modifiers": [],
+                  "variables": [
+                    {
+                      "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                      "range": {
+                        "beginLine": 13,
+                        "beginColumn": 31,
+                        "endLine": 13,
+                        "endColumn": 80
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "owner"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "initializer": {
+                        "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 39,
+                          "endLine": 13,
+                          "endColumn": 80
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 42,
+                            "text": "new"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                            "range": {
+                              "beginLine": 13,
+                              "beginColumn": 72,
+                              "endLine": 13,
+                              "endColumn": 78
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 90,
+                                "text": "\"owner\""
+                              },
+                              "endToken": {
+                                "kind": 90,
+                                "text": "\"owner\""
+                              }
+                            },
+                            "value": "owner"
+                          }
+                        ],
+                        "type": {
+                          "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                          "range": {
+                            "beginLine": 13,
+                            "beginColumn": 43,
+                            "endLine": 13,
+                            "endColumn": 69
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SimpleEntityWithAssociation"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SimpleEntityWithAssociation"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 13,
+                              "beginColumn": 43,
+                              "endLine": 13,
+                              "endColumn": 69
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "SimpleEntityWithAssociation"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SimpleEntityWithAssociation"
+                              }
+                            },
+                            "identifier": "SimpleEntityWithAssociation"
+                          },
+                          "annotations": []
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 31,
+                          "endLine": 13,
+                          "endColumn": 35
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "owner"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "owner"
+                          }
+                        },
+                        "identifier": "owner"
+                      },
+                      "type": {
+                        "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 3,
+                          "endLine": 13,
+                          "endColumn": 29
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SimpleEntityWithAssociation"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SimpleEntityWithAssociation"
+                          }
+                        },
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 13,
+                            "beginColumn": 3,
+                            "endLine": 13,
+                            "endColumn": 29
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SimpleEntityWithAssociation"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SimpleEntityWithAssociation"
+                            }
+                          },
+                          "identifier": "SimpleEntityWithAssociation"
+                        },
+                        "annotations": []
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 14,
+                  "beginColumn": 3,
+                  "endLine": 14,
+                  "endColumn": 79
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "SimpleAssociatedEntity"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                  "range": {
+                    "beginLine": 14,
+                    "beginColumn": 3,
+                    "endLine": 14,
+                    "endColumn": 78
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "SimpleAssociatedEntity"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "annotations": [],
+                  "modifiers": [],
+                  "variables": [
+                    {
+                      "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                      "range": {
+                        "beginLine": 14,
+                        "beginColumn": 26,
+                        "endLine": 14,
+                        "endColumn": 78
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "e1"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "initializer": {
+                        "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                        "range": {
+                          "beginLine": 14,
+                          "beginColumn": 31,
+                          "endLine": 14,
+                          "endColumn": 78
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 42,
+                            "text": "new"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                            "range": {
+                              "beginLine": 14,
+                              "beginColumn": 59,
+                              "endLine": 14,
+                              "endColumn": 69
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 90,
+                                "text": "\"thing one\""
+                              },
+                              "endToken": {
+                                "kind": 90,
+                                "text": "\"thing one\""
+                              }
+                            },
+                            "value": "thing one"
+                          },
+                          {
+                            "!": "com.github.javaparser.ast.expr.NameExpr",
+                            "range": {
+                              "beginLine": 14,
+                              "beginColumn": 72,
+                              "endLine": 14,
+                              "endColumn": 76
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "owner"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "owner"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 14,
+                                "beginColumn": 72,
+                                "endLine": 14,
+                                "endColumn": 76
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "owner"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "owner"
+                                }
+                              },
+                              "identifier": "owner"
+                            }
+                          }
+                        ],
+                        "type": {
+                          "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                          "range": {
+                            "beginLine": 14,
+                            "beginColumn": 35,
+                            "endLine": 14,
+                            "endColumn": 56
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 14,
+                              "beginColumn": 35,
+                              "endLine": 14,
+                              "endColumn": 56
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "SimpleAssociatedEntity"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SimpleAssociatedEntity"
+                              }
+                            },
+                            "identifier": "SimpleAssociatedEntity"
+                          },
+                          "annotations": []
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 14,
+                          "beginColumn": 26,
+                          "endLine": 14,
+                          "endColumn": 27
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "e1"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "e1"
+                          }
+                        },
+                        "identifier": "e1"
+                      },
+                      "type": {
+                        "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                        "range": {
+                          "beginLine": 14,
+                          "beginColumn": 3,
+                          "endLine": 14,
+                          "endColumn": 24
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SimpleAssociatedEntity"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SimpleAssociatedEntity"
+                          }
+                        },
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 14,
+                            "beginColumn": 3,
+                            "endLine": 14,
+                            "endColumn": 24
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            }
+                          },
+                          "identifier": "SimpleAssociatedEntity"
+                        },
+                        "annotations": []
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 15,
+                  "beginColumn": 3,
+                  "endLine": 15,
+                  "endColumn": 72
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "SimpleAssociatedEntity"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                  "range": {
+                    "beginLine": 15,
+                    "beginColumn": 3,
+                    "endLine": 15,
+                    "endColumn": 71
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "SimpleAssociatedEntity"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "annotations": [],
+                  "modifiers": [],
+                  "variables": [
+                    {
+                      "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                      "range": {
+                        "beginLine": 15,
+                        "beginColumn": 26,
+                        "endLine": 15,
+                        "endColumn": 71
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "e2"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "initializer": {
+                        "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                        "range": {
+                          "beginLine": 15,
+                          "beginColumn": 31,
+                          "endLine": 15,
+                          "endColumn": 71
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 42,
+                            "text": "new"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 59,
+                              "endLine": 15,
+                              "endColumn": 69
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 90,
+                                "text": "\"thing two\""
+                              },
+                              "endToken": {
+                                "kind": 90,
+                                "text": "\"thing two\""
+                              }
+                            },
+                            "value": "thing two"
+                          }
+                        ],
+                        "type": {
+                          "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 35,
+                            "endLine": 15,
+                            "endColumn": 56
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 35,
+                              "endLine": 15,
+                              "endColumn": 56
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "SimpleAssociatedEntity"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SimpleAssociatedEntity"
+                              }
+                            },
+                            "identifier": "SimpleAssociatedEntity"
+                          },
+                          "annotations": []
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 15,
+                          "beginColumn": 26,
+                          "endLine": 15,
+                          "endColumn": 27
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "e2"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "e2"
+                          }
+                        },
+                        "identifier": "e2"
+                      },
+                      "type": {
+                        "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                        "range": {
+                          "beginLine": 15,
+                          "beginColumn": 3,
+                          "endLine": 15,
+                          "endColumn": 24
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SimpleAssociatedEntity"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SimpleAssociatedEntity"
+                          }
+                        },
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 3,
+                            "endLine": 15,
+                            "endColumn": 24
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SimpleAssociatedEntity"
+                            }
+                          },
+                          "identifier": "SimpleAssociatedEntity"
+                        },
+                        "annotations": []
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 16,
+                  "beginColumn": 3,
+                  "endLine": 16,
+                  "endColumn": 15
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 16,
+                    "beginColumn": 3,
+                    "endLine": 16,
+                    "endColumn": 14
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 16,
+                        "beginColumn": 11,
+                        "endLine": 16,
+                        "endColumn": 12
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "e1"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "e1"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 16,
+                          "beginColumn": 11,
+                          "endLine": 16,
+                          "endColumn": 12
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "e1"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "e1"
+                          }
+                        },
+                        "identifier": "e1"
+                      }
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 16,
+                      "beginColumn": 5,
+                      "endLine": 16,
+                      "endColumn": 8
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "save"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "save"
+                      }
+                    },
+                    "identifier": "save"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 16,
+                      "beginColumn": 3,
+                      "endLine": 16,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 16,
+                        "beginColumn": 3,
+                        "endLine": 16,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 17,
+                  "beginColumn": 3,
+                  "endLine": 17,
+                  "endColumn": 15
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 17,
+                    "beginColumn": 3,
+                    "endLine": 17,
+                    "endColumn": 14
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 17,
+                        "beginColumn": 11,
+                        "endLine": 17,
+                        "endColumn": 12
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "e2"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "e2"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 17,
+                          "beginColumn": 11,
+                          "endLine": 17,
+                          "endColumn": 12
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "e2"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "e2"
+                          }
+                        },
+                        "identifier": "e2"
+                      }
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 17,
+                      "beginColumn": 5,
+                      "endLine": 17,
+                      "endColumn": 8
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "save"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "save"
+                      }
+                    },
+                    "identifier": "save"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 17,
+                      "beginColumn": 3,
+                      "endLine": 17,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 17,
+                        "beginColumn": 3,
+                        "endLine": 17,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 18,
+                  "beginColumn": 3,
+                  "endLine": 18,
+                  "endColumn": 18
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 18,
+                    "beginColumn": 3,
+                    "endLine": 18,
+                    "endColumn": 17
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 18,
+                        "beginColumn": 11,
+                        "endLine": 18,
+                        "endColumn": 15
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "owner"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "owner"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 18,
+                          "beginColumn": 11,
+                          "endLine": 18,
+                          "endColumn": 15
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "owner"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "owner"
+                          }
+                        },
+                        "identifier": "owner"
+                      }
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 18,
+                      "beginColumn": 5,
+                      "endLine": 18,
+                      "endColumn": 8
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "save"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "save"
+                      }
+                    },
+                    "identifier": "save"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 18,
+                      "beginColumn": 3,
+                      "endLine": 18,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 18,
+                        "beginColumn": 3,
+                        "endLine": 18,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 19,
+                  "beginColumn": 3,
+                  "endLine": 19,
+                  "endColumn": 30
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 19,
+                    "beginColumn": 3,
+                    "endLine": 19,
+                    "endColumn": 29
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 19,
+                      "beginColumn": 22,
+                      "endLine": 19,
+                      "endColumn": 27
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "commit"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "commit"
+                      }
+                    },
+                    "identifier": "commit"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                    "range": {
+                      "beginLine": 19,
+                      "beginColumn": 3,
+                      "endLine": 19,
+                      "endColumn": 20
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [],
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 19,
+                        "beginColumn": 5,
+                        "endLine": 19,
+                        "endColumn": 18
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "getTransaction"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "getTransaction"
+                        }
+                      },
+                      "identifier": "getTransaction"
+                    },
+                    "scope": {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 19,
+                        "beginColumn": 3,
+                        "endLine": 19,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 19,
+                          "beginColumn": 3,
+                          "endLine": 19,
+                          "endColumn": 3
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "s"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "s"
+                          }
+                        },
+                        "identifier": "s"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 20,
+                  "beginColumn": 3,
+                  "endLine": 20,
+                  "endColumn": 12
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 20,
+                    "beginColumn": 3,
+                    "endLine": 20,
+                    "endColumn": 11
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 20,
+                      "beginColumn": 5,
+                      "endLine": 20,
+                      "endColumn": 9
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "close"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "close"
+                      }
+                    },
+                    "identifier": "close"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 20,
+                      "beginColumn": 3,
+                      "endLine": 20,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 20,
+                        "beginColumn": 3,
+                        "endLine": 20,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 22,
+                  "beginColumn": 3,
+                  "endLine": 22,
+                  "endColumn": 101
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "checkCounts"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 22,
+                    "beginColumn": 3,
+                    "endLine": 22,
+                    "endColumn": 100
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "checkCounts"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 22,
+                        "beginColumn": 16,
+                        "endLine": 22,
+                        "endColumn": 61
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"select e.owner from SimpleAssociatedEntity e\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"select e.owner from SimpleAssociatedEntity e\""
+                        }
+                      },
+                      "value": "select e.owner from SimpleAssociatedEntity e"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.IntegerLiteralExpr",
+                      "range": {
+                        "beginLine": 22,
+                        "beginColumn": 64,
+                        "endLine": 22,
+                        "endColumn": 64
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 77,
+                          "text": "1"
+                        },
+                        "endToken": {
+                          "kind": 77,
+                          "text": "1"
+                        }
+                      },
+                      "value": "1"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 22,
+                        "beginColumn": 67,
+                        "endLine": 22,
+                        "endColumn": 98
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in select clause\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in select clause\""
+                        }
+                      },
+                      "value": "implicit-join in select clause"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 22,
+                      "beginColumn": 3,
+                      "endLine": 22,
+                      "endColumn": 13
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      }
+                    },
+                    "identifier": "checkCounts"
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 23,
+                  "beginColumn": 3,
+                  "endLine": 23,
+                  "endColumn": 107
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "checkCounts"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 23,
+                    "beginColumn": 3,
+                    "endLine": 23,
+                    "endColumn": 106
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "checkCounts"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 23,
+                        "beginColumn": 16,
+                        "endLine": 23,
+                        "endColumn": 67
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"select e.id, e.owner from SimpleAssociatedEntity e\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"select e.id, e.owner from SimpleAssociatedEntity e\""
+                        }
+                      },
+                      "value": "select e.id, e.owner from SimpleAssociatedEntity e"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.IntegerLiteralExpr",
+                      "range": {
+                        "beginLine": 23,
+                        "beginColumn": 70,
+                        "endLine": 23,
+                        "endColumn": 70
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 77,
+                          "text": "1"
+                        },
+                        "endToken": {
+                          "kind": 77,
+                          "text": "1"
+                        }
+                      },
+                      "value": "1"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 23,
+                        "beginColumn": 73,
+                        "endLine": 23,
+                        "endColumn": 104
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in select clause\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in select clause\""
+                        }
+                      },
+                      "value": "implicit-join in select clause"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 23,
+                      "beginColumn": 3,
+                      "endLine": 23,
+                      "endColumn": 13
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      }
+                    },
+                    "identifier": "checkCounts"
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 26,
+                  "beginColumn": 3,
+                  "endLine": 26,
+                  "endColumn": 105
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "checkCounts"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 26,
+                    "beginColumn": 3,
+                    "endLine": 26,
+                    "endColumn": 104
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "checkCounts"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 26,
+                        "beginColumn": 16,
+                        "endLine": 26,
+                        "endColumn": 63
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"from SimpleAssociatedEntity e order by e.owner\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"from SimpleAssociatedEntity e order by e.owner\""
+                        }
+                      },
+                      "value": "from SimpleAssociatedEntity e order by e.owner"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.IntegerLiteralExpr",
+                      "range": {
+                        "beginLine": 26,
+                        "beginColumn": 66,
+                        "endLine": 26,
+                        "endColumn": 66
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 77,
+                          "text": "2"
+                        },
+                        "endToken": {
+                          "kind": 77,
+                          "text": "2"
+                        }
+                      },
+                      "value": "2"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 26,
+                        "beginColumn": 69,
+                        "endLine": 26,
+                        "endColumn": 102
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in order-by clause\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in order-by clause\""
+                        }
+                      },
+                      "value": "implicit-join in order-by clause"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 26,
+                      "beginColumn": 3,
+                      "endLine": 26,
+                      "endColumn": 13
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      }
+                    },
+                    "identifier": "checkCounts"
+                  }
+                },
+                "comment": {
+                  "!": "com.github.javaparser.ast.comments.LineComment",
+                  "range": {
+                    "beginLine": 25,
+                    "beginColumn": 3,
+                    "endLine": 25,
+                    "endColumn": 103
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 5,
+                      "text": "// resolved to a \"id short cut\" when part of the order by clause -> no inner join = no weeding out..."
+                    },
+                    "endToken": {
+                      "kind": 5,
+                      "text": "// resolved to a \"id short cut\" when part of the order by clause -> no inner join = no weeding out..."
+                    }
+                  },
+                  "content": " resolved to a \"id short cut\" when part of the order by clause -> no inner join = no weeding out..."
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 28,
+                  "beginColumn": 3,
+                  "endLine": 28,
+                  "endColumn": 145
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "checkCounts"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 28,
+                    "beginColumn": 3,
+                    "endLine": 28,
+                    "endColumn": 144
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "checkCounts"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 28,
+                        "beginColumn": 16,
+                        "endLine": 28,
+                        "endColumn": 91
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"select e.owner.id, count(*) from SimpleAssociatedEntity e group by e.owner\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"select e.owner.id, count(*) from SimpleAssociatedEntity e group by e.owner\""
+                        }
+                      },
+                      "value": "select e.owner.id, count(*) from SimpleAssociatedEntity e group by e.owner"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.IntegerLiteralExpr",
+                      "range": {
+                        "beginLine": 28,
+                        "beginColumn": 94,
+                        "endLine": 28,
+                        "endColumn": 94
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 77,
+                          "text": "2"
+                        },
+                        "endToken": {
+                          "kind": 77,
+                          "text": "2"
+                        }
+                      },
+                      "value": "2"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 28,
+                        "beginColumn": 97,
+                        "endLine": 28,
+                        "endColumn": 142
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in select and group-by clauses\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"implicit-join in select and group-by clauses\""
+                        }
+                      },
+                      "value": "implicit-join in select and group-by clauses"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 28,
+                      "beginColumn": 3,
+                      "endLine": 28,
+                      "endColumn": 13
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkCounts"
+                      }
+                    },
+                    "identifier": "checkCounts"
+                  }
+                },
+                "comment": {
+                  "!": "com.github.javaparser.ast.comments.LineComment",
+                  "range": {
+                    "beginLine": 27,
+                    "beginColumn": 3,
+                    "endLine": 27,
+                    "endColumn": 103
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 5,
+                      "text": "// resolved to a \"id short cut\" when part of the group by clause -> no inner join = no weeding out..."
+                    },
+                    "endToken": {
+                      "kind": 5,
+                      "text": "// resolved to a \"id short cut\" when part of the group by clause -> no inner join = no weeding out..."
+                    }
+                  },
+                  "content": " resolved to a \"id short cut\" when part of the group by clause -> no inner join = no weeding out..."
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 30,
+                  "beginColumn": 4,
+                  "endLine": 30,
+                  "endColumn": 21
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.AssignExpr",
+                  "range": {
+                    "beginLine": 30,
+                    "beginColumn": 4,
+                    "endLine": 30,
+                    "endColumn": 20
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "operator": "ASSIGN",
+                  "target": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 30,
+                      "beginColumn": 4,
+                      "endLine": 30,
+                      "endColumn": 4
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 30,
+                        "beginColumn": 4,
+                        "endLine": 30,
+                        "endColumn": 4
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  },
+                  "value": {
+                    "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                    "range": {
+                      "beginLine": 30,
+                      "beginColumn": 8,
+                      "endLine": 30,
+                      "endColumn": 20
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "openSession"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [],
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 30,
+                        "beginColumn": 8,
+                        "endLine": 30,
+                        "endColumn": 18
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "openSession"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "openSession"
+                        }
+                      },
+                      "identifier": "openSession"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 31,
+                  "beginColumn": 3,
+                  "endLine": 31,
+                  "endColumn": 23
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 31,
+                    "beginColumn": 3,
+                    "endLine": 31,
+                    "endColumn": 22
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 31,
+                      "beginColumn": 5,
+                      "endLine": 31,
+                      "endColumn": 20
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "beginTransaction"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "beginTransaction"
+                      }
+                    },
+                    "identifier": "beginTransaction"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 31,
+                      "beginColumn": 3,
+                      "endLine": 31,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 31,
+                        "beginColumn": 3,
+                        "endLine": 31,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 32,
+                  "beginColumn": 3,
+                  "endLine": 32,
+                  "endColumn": 17
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 32,
+                    "beginColumn": 3,
+                    "endLine": 32,
+                    "endColumn": 16
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 32,
+                        "beginColumn": 13,
+                        "endLine": 32,
+                        "endColumn": 14
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "e1"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "e1"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 32,
+                          "beginColumn": 13,
+                          "endLine": 32,
+                          "endColumn": 14
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "e1"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "e1"
+                          }
+                        },
+                        "identifier": "e1"
+                      }
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 32,
+                      "beginColumn": 5,
+                      "endLine": 32,
+                      "endColumn": 10
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "delete"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "delete"
+                      }
+                    },
+                    "identifier": "delete"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 32,
+                      "beginColumn": 3,
+                      "endLine": 32,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 32,
+                        "beginColumn": 3,
+                        "endLine": 32,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 33,
+                  "beginColumn": 3,
+                  "endLine": 33,
+                  "endColumn": 17
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 33,
+                    "beginColumn": 3,
+                    "endLine": 33,
+                    "endColumn": 16
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 33,
+                        "beginColumn": 13,
+                        "endLine": 33,
+                        "endColumn": 14
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "e2"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "e2"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 33,
+                          "beginColumn": 13,
+                          "endLine": 33,
+                          "endColumn": 14
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "e2"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "e2"
+                          }
+                        },
+                        "identifier": "e2"
+                      }
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 33,
+                      "beginColumn": 5,
+                      "endLine": 33,
+                      "endColumn": 10
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "delete"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "delete"
+                      }
+                    },
+                    "identifier": "delete"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 33,
+                      "beginColumn": 3,
+                      "endLine": 33,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 33,
+                        "beginColumn": 3,
+                        "endLine": 33,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 34,
+                  "beginColumn": 3,
+                  "endLine": 34,
+                  "endColumn": 20
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 34,
+                    "beginColumn": 3,
+                    "endLine": 34,
+                    "endColumn": 19
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 34,
+                        "beginColumn": 13,
+                        "endLine": 34,
+                        "endColumn": 17
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "owner"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "owner"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 34,
+                          "beginColumn": 13,
+                          "endLine": 34,
+                          "endColumn": 17
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "owner"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "owner"
+                          }
+                        },
+                        "identifier": "owner"
+                      }
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 34,
+                      "beginColumn": 5,
+                      "endLine": 34,
+                      "endColumn": 10
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "delete"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "delete"
+                      }
+                    },
+                    "identifier": "delete"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 34,
+                      "beginColumn": 3,
+                      "endLine": 34,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 34,
+                        "beginColumn": 3,
+                        "endLine": 34,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 35,
+                  "beginColumn": 3,
+                  "endLine": 35,
+                  "endColumn": 30
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 35,
+                    "beginColumn": 3,
+                    "endLine": 35,
+                    "endColumn": 29
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 35,
+                      "beginColumn": 22,
+                      "endLine": 35,
+                      "endColumn": 27
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "commit"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "commit"
+                      }
+                    },
+                    "identifier": "commit"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                    "range": {
+                      "beginLine": 35,
+                      "beginColumn": 3,
+                      "endLine": 35,
+                      "endColumn": 20
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [],
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 35,
+                        "beginColumn": 5,
+                        "endLine": 35,
+                        "endColumn": 18
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "getTransaction"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "getTransaction"
+                        }
+                      },
+                      "identifier": "getTransaction"
+                    },
+                    "scope": {
+                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                      "range": {
+                        "beginLine": 35,
+                        "beginColumn": 3,
+                        "endLine": 35,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 35,
+                          "beginColumn": 3,
+                          "endLine": 35,
+                          "endColumn": 3
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "s"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "s"
+                          }
+                        },
+                        "identifier": "s"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 36,
+                  "beginColumn": 3,
+                  "endLine": 36,
+                  "endColumn": 12
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "s"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 36,
+                    "beginColumn": 3,
+                    "endLine": 36,
+                    "endColumn": 11
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "s"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 36,
+                      "beginColumn": 5,
+                      "endLine": 36,
+                      "endColumn": 9
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "close"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "close"
+                      }
+                    },
+                    "identifier": "close"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 36,
+                      "beginColumn": 3,
+                      "endLine": 36,
+                      "endColumn": 3
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "s"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "s"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 36,
+                        "beginColumn": 3,
+                        "endLine": 36,
+                        "endColumn": 3
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "s"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "s"
+                        }
+                      },
+                      "identifier": "s"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "type": {
+            "!": "com.github.javaparser.ast.type.VoidType",
+            "range": {
+              "beginLine": 4,
+              "beginColumn": 9,
+              "endLine": 4,
+              "endColumn": 12
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 62,
+                "text": "void"
+              },
+              "endToken": {
+                "kind": 62,
+                "text": "void"
+              }
+            },
+            "annotations": []
+          },
+          "modifiers": [
+            {
+              "!": "com.github.javaparser.ast.Modifier",
+              "range": {
+                "beginLine": 4,
+                "beginColumn": 2,
+                "endLine": 4,
+                "endColumn": 7
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 47,
+                  "text": "public"
+                },
+                "endToken": {
+                  "kind": 47,
+                  "text": "public"
+                }
+              },
+              "keyword": "PUBLIC"
+            }
+          ],
+          "name": {
+            "!": "com.github.javaparser.ast.expr.SimpleName",
+            "range": {
+              "beginLine": 4,
+              "beginColumn": 14,
+              "endLine": 4,
+              "endColumn": 48
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 94,
+                "text": "testImplicitJoinsInDifferentClauses"
+              },
+              "endToken": {
+                "kind": 94,
+                "text": "testImplicitJoinsInDifferentClauses"
+              }
+            },
+            "identifier": "testImplicitJoinsInDifferentClauses"
+          },
+          "parameters": [],
+          "thrownExceptions": [],
+          "typeParameters": [],
+          "annotations": [
+            {
+              "!": "com.github.javaparser.ast.expr.MarkerAnnotationExpr",
+              "range": {
+                "beginLine": 2,
+                "beginColumn": 1,
+                "endLine": 2,
+                "endColumn": 5
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 107,
+                  "text": "@"
+                },
+                "endToken": {
+                  "kind": 94,
+                  "text": "Test"
+                }
+              },
+              "name": {
+                "!": "com.github.javaparser.ast.expr.Name",
+                "range": {
+                  "beginLine": 2,
+                  "beginColumn": 2,
+                  "endLine": 2,
+                  "endColumn": 5
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "Test"
+                  },
+                  "endToken": {
+                    "kind": 94,
+                    "text": "Test"
+                  }
+                },
+                "identifier": "Test"
+              }
+            },
+            {
+              "!": "com.github.javaparser.ast.expr.NormalAnnotationExpr",
+              "range": {
+                "beginLine": 3,
+                "beginColumn": 2,
+                "endLine": 3,
+                "endColumn": 38
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 107,
+                  "text": "@"
+                },
+                "endToken": {
+                  "kind": 98,
+                  "text": ")"
+                }
+              },
+              "pairs": [
+                {
+                  "!": "com.github.javaparser.ast.expr.MemberValuePair",
+                  "range": {
+                    "beginLine": 3,
+                    "beginColumn": 17,
+                    "endLine": 3,
+                    "endColumn": 36
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "jiraKey"
+                    },
+                    "endToken": {
+                      "kind": 90,
+                      "text": "\"HHH-2257\""
+                    }
+                  },
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 3,
+                      "beginColumn": 17,
+                      "endLine": 3,
+                      "endColumn": 23
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "jiraKey"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "jiraKey"
+                      }
+                    },
+                    "identifier": "jiraKey"
+                  },
+                  "value": {
+                    "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                    "range": {
+                      "beginLine": 3,
+                      "beginColumn": 27,
+                      "endLine": 3,
+                      "endColumn": 36
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 90,
+                        "text": "\"HHH-2257\""
+                      },
+                      "endToken": {
+                        "kind": 90,
+                        "text": "\"HHH-2257\""
+                      }
+                    },
+                    "value": "HHH-2257"
+                  }
+                }
+              ],
+              "name": {
+                "!": "com.github.javaparser.ast.expr.Name",
+                "range": {
+                  "beginLine": 3,
+                  "beginColumn": 3,
+                  "endLine": 3,
+                  "endColumn": 14
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "TestForIssue"
+                  },
+                  "endToken": {
+                    "kind": 94,
+                    "text": "TestForIssue"
+                  }
+                },
+                "identifier": "TestForIssue"
+              }
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "name": {
+        "!": "com.github.javaparser.ast.expr.SimpleName",
+        "range": {
+          "beginLine": 1,
+          "beginColumn": 7,
+          "endLine": 1,
+          "endColumn": 10
+        },
+        "tokenRange": {
+          "beginToken": {
+            "kind": 94,
+            "text": "Test"
+          },
+          "endToken": {
+            "kind": 94,
+            "text": "Test"
+          }
+        },
+        "identifier": "Test"
+      },
+      "annotations": []
+    }
+  ]
+}

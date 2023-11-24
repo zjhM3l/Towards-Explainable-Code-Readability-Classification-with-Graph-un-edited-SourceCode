@@ -1,0 +1,3163 @@
+{
+  "!": "com.github.javaparser.ast.CompilationUnit",
+  "range": {
+    "beginLine": 1,
+    "beginColumn": 1,
+    "endLine": 41,
+    "endColumn": 2
+  },
+  "tokenRange": {
+    "beginToken": {
+      "kind": 19,
+      "text": "class"
+    },
+    "endToken": {
+      "kind": 0,
+      "text": ""
+    }
+  },
+  "imports": [],
+  "types": [
+    {
+      "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+      "range": {
+        "beginLine": 1,
+        "beginColumn": 1,
+        "endLine": 41,
+        "endColumn": 2
+      },
+      "tokenRange": {
+        "beginToken": {
+          "kind": 19,
+          "text": "class"
+        },
+        "endToken": {
+          "kind": 100,
+          "text": "}"
+        }
+      },
+      "extendedTypes": [],
+      "implementedTypes": [],
+      "isInterface": "false",
+      "typeParameters": [],
+      "members": [
+        {
+          "!": "com.github.javaparser.ast.body.MethodDeclaration",
+          "range": {
+            "beginLine": 2,
+            "beginColumn": 1,
+            "endLine": 39,
+            "endColumn": 2
+          },
+          "tokenRange": {
+            "beginToken": {
+              "kind": 45,
+              "text": "private"
+            },
+            "endToken": {
+              "kind": 100,
+              "text": "}"
+            }
+          },
+          "body": {
+            "!": "com.github.javaparser.ast.stmt.BlockStmt",
+            "range": {
+              "beginLine": 2,
+              "beginColumn": 55,
+              "endLine": 39,
+              "endColumn": 2
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 99,
+                "text": "{"
+              },
+              "endToken": {
+                "kind": 100,
+                "text": "}"
+              }
+            },
+            "statements": [
+              {
+                "!": "com.github.javaparser.ast.stmt.ForEachStmt",
+                "range": {
+                  "beginLine": 3,
+                  "beginColumn": 3,
+                  "endLine": 19,
+                  "endColumn": 3
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 32,
+                    "text": "for"
+                  },
+                  "endToken": {
+                    "kind": 100,
+                    "text": "}"
+                  }
+                },
+                "body": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 3,
+                    "beginColumn": 56,
+                    "endLine": 19,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 4,
+                        "beginColumn": 4,
+                        "endLine": 4,
+                        "endColumn": 58
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "Access"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 4,
+                          "beginColumn": 4,
+                          "endLine": 4,
+                          "endColumn": 57
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "Access"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 4,
+                              "beginColumn": 11,
+                              "endLine": 4,
+                              "endColumn": 57
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "access"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 4,
+                                "beginColumn": 20,
+                                "endLine": 4,
+                                "endColumn": 57
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "property"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.ClassExpr",
+                                  "range": {
+                                    "beginLine": 4,
+                                    "beginColumn": 44,
+                                    "endLine": 4,
+                                    "endColumn": 55
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "Access"
+                                    },
+                                    "endToken": {
+                                      "kind": 19,
+                                      "text": "class"
+                                    }
+                                  },
+                                  "type": {
+                                    "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                                    "range": {
+                                      "beginLine": 4,
+                                      "beginColumn": 44,
+                                      "endLine": 4,
+                                      "endColumn": 49
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "Access"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "Access"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 4,
+                                        "beginColumn": 44,
+                                        "endLine": 4,
+                                        "endColumn": 49
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "Access"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "Access"
+                                        }
+                                      },
+                                      "identifier": "Access"
+                                    },
+                                    "annotations": []
+                                  }
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 4,
+                                  "beginColumn": 29,
+                                  "endLine": 4,
+                                  "endColumn": 41
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getAnnotation"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getAnnotation"
+                                  }
+                                },
+                                "identifier": "getAnnotation"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 4,
+                                  "beginColumn": 20,
+                                  "endLine": 4,
+                                  "endColumn": 27
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "property"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "property"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 4,
+                                    "beginColumn": 20,
+                                    "endLine": 4,
+                                    "endColumn": 27
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    }
+                                  },
+                                  "identifier": "property"
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 4,
+                                "beginColumn": 11,
+                                "endLine": 4,
+                                "endColumn": 16
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "access"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "access"
+                                }
+                              },
+                              "identifier": "access"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 4,
+                                "beginColumn": 4,
+                                "endLine": 4,
+                                "endColumn": 9
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "Access"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "Access"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 4,
+                                  "beginColumn": 4,
+                                  "endLine": 4,
+                                  "endColumn": 9
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "Access"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "Access"
+                                  }
+                                },
+                                "identifier": "Access"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.IfStmt",
+                      "range": {
+                        "beginLine": 5,
+                        "beginColumn": 4,
+                        "endLine": 7,
+                        "endColumn": 4
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 34,
+                          "text": "if"
+                        },
+                        "endToken": {
+                          "kind": 100,
+                          "text": "}"
+                        }
+                      },
+                      "condition": {
+                        "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                        "range": {
+                          "beginLine": 5,
+                          "beginColumn": 9,
+                          "endLine": 5,
+                          "endColumn": 22
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "access"
+                          },
+                          "endToken": {
+                            "kind": 43,
+                            "text": "null"
+                          }
+                        },
+                        "left": {
+                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                          "range": {
+                            "beginLine": 5,
+                            "beginColumn": 9,
+                            "endLine": 5,
+                            "endColumn": 14
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "access"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "access"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 5,
+                              "beginColumn": 9,
+                              "endLine": 5,
+                              "endColumn": 14
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "access"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "access"
+                              }
+                            },
+                            "identifier": "access"
+                          }
+                        },
+                        "operator": "EQUALS",
+                        "right": {
+                          "!": "com.github.javaparser.ast.expr.NullLiteralExpr",
+                          "range": {
+                            "beginLine": 5,
+                            "beginColumn": 19,
+                            "endLine": 5,
+                            "endColumn": 22
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 43,
+                              "text": "null"
+                            },
+                            "endToken": {
+                              "kind": 43,
+                              "text": "null"
+                            }
+                          }
+                        }
+                      },
+                      "thenStmt": {
+                        "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                        "range": {
+                          "beginLine": 5,
+                          "beginColumn": 26,
+                          "endLine": 7,
+                          "endColumn": 4
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 99,
+                            "text": "{"
+                          },
+                          "endToken": {
+                            "kind": 100,
+                            "text": "}"
+                          }
+                        },
+                        "statements": [
+                          {
+                            "!": "com.github.javaparser.ast.stmt.ContinueStmt",
+                            "range": {
+                              "beginLine": 6,
+                              "beginColumn": 5,
+                              "endLine": 6,
+                              "endColumn": 13
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 21,
+                                "text": "continue"
+                              },
+                              "endToken": {
+                                "kind": 103,
+                                "text": ";"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 12,
+                        "beginColumn": 4,
+                        "endLine": 12,
+                        "endColumn": 74
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "AccessType"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 12,
+                          "beginColumn": 4,
+                          "endLine": 12,
+                          "endColumn": 73
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "AccessType"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 12,
+                              "beginColumn": 15,
+                              "endLine": 12,
+                              "endColumn": 73
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "accessType"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 12,
+                                "beginColumn": 28,
+                                "endLine": 12,
+                                "endColumn": 73
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 12,
+                                    "beginColumn": 58,
+                                    "endLine": 12,
+                                    "endColumn": 71
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "access"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 12,
+                                      "beginColumn": 65,
+                                      "endLine": 12,
+                                      "endColumn": 69
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "value"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "value"
+                                      }
+                                    },
+                                    "identifier": "value"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 12,
+                                      "beginColumn": 58,
+                                      "endLine": 12,
+                                      "endColumn": 63
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "access"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "access"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 12,
+                                        "beginColumn": 58,
+                                        "endLine": 12,
+                                        "endColumn": 63
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "access"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "access"
+                                        }
+                                      },
+                                      "identifier": "access"
+                                    }
+                                  }
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 12,
+                                  "beginColumn": 39,
+                                  "endLine": 12,
+                                  "endColumn": 55
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getAccessStrategy"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getAccessStrategy"
+                                  }
+                                },
+                                "identifier": "getAccessStrategy"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 12,
+                                  "beginColumn": 28,
+                                  "endLine": 12,
+                                  "endColumn": 37
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 12,
+                                    "beginColumn": 28,
+                                    "endLine": 12,
+                                    "endColumn": 37
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "AccessType"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "AccessType"
+                                    }
+                                  },
+                                  "identifier": "AccessType"
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 12,
+                                "beginColumn": 15,
+                                "endLine": 12,
+                                "endColumn": 24
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "accessType"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "accessType"
+                                }
+                              },
+                              "identifier": "accessType"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 12,
+                                "beginColumn": 4,
+                                "endLine": 12,
+                                "endColumn": 13
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 12,
+                                  "beginColumn": 4,
+                                  "endLine": 12,
+                                  "endColumn": 13
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  }
+                                },
+                                "identifier": "AccessType"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      },
+                      "comment": [
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 11,
+                            "beginColumn": 4,
+                            "endLine": 11,
+                            "endColumn": 109
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                            }
+                          },
+                          "content": " use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 10,
+                            "beginColumn": 4,
+                            "endLine": 10,
+                            "endColumn": 95
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                            }
+                          },
+                          "content": " use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 9,
+                            "beginColumn": 4,
+                            "endLine": 9,
+                            "endColumn": 52
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                            }
+                          },
+                          "content": " use field access for this property even if the default access type for the class is AccessType.PROPERTY"
+                        }
+                      ]
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.IfStmt",
+                      "range": {
+                        "beginLine": 13,
+                        "beginColumn": 13,
+                        "endLine": 18,
+                        "endColumn": 4
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 34,
+                          "text": "if"
+                        },
+                        "endToken": {
+                          "kind": 100,
+                          "text": "}"
+                        }
+                      },
+                      "condition": {
+                        "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 17,
+                          "endLine": 13,
+                          "endColumn": 46
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "accessType"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "FIELD"
+                          }
+                        },
+                        "left": {
+                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                          "range": {
+                            "beginLine": 13,
+                            "beginColumn": 17,
+                            "endLine": 13,
+                            "endColumn": 26
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "accessType"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "accessType"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 13,
+                              "beginColumn": 17,
+                              "endLine": 13,
+                              "endColumn": 26
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "accessType"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "accessType"
+                              }
+                            },
+                            "identifier": "accessType"
+                          }
+                        },
+                        "operator": "EQUALS",
+                        "right": {
+                          "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                          "range": {
+                            "beginLine": 13,
+                            "beginColumn": 31,
+                            "endLine": 13,
+                            "endColumn": 46
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "AccessType"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "FIELD"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 13,
+                              "beginColumn": 42,
+                              "endLine": 13,
+                              "endColumn": 46
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "FIELD"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "FIELD"
+                              }
+                            },
+                            "identifier": "FIELD"
+                          },
+                          "scope": {
+                            "!": "com.github.javaparser.ast.expr.NameExpr",
+                            "range": {
+                              "beginLine": 13,
+                              "beginColumn": 31,
+                              "endLine": 13,
+                              "endColumn": 40
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "AccessType"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "AccessType"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 13,
+                                "beginColumn": 31,
+                                "endLine": 13,
+                                "endColumn": 40
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                }
+                              },
+                              "identifier": "AccessType"
+                            }
+                          }
+                        }
+                      },
+                      "elseStmt": {
+                        "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                        "range": {
+                          "beginLine": 16,
+                          "beginColumn": 18,
+                          "endLine": 18,
+                          "endColumn": 4
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 99,
+                            "text": "{"
+                          },
+                          "endToken": {
+                            "kind": 100,
+                            "text": "}"
+                          }
+                        },
+                        "statements": [
+                          {
+                            "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                            "range": {
+                              "beginLine": 17,
+                              "beginColumn": 5,
+                              "endLine": 17,
+                              "endColumn": 90
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "LOG"
+                              },
+                              "endToken": {
+                                "kind": 103,
+                                "text": ";"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 17,
+                                "beginColumn": 5,
+                                "endLine": 17,
+                                "endColumn": 89
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "LOG"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                                  "range": {
+                                    "beginLine": 17,
+                                    "beginColumn": 16,
+                                    "endLine": 17,
+                                    "endColumn": 87
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 90,
+                                      "text": "\"Placing @Access(AccessType.FIELD) on a field does not have any effect.\""
+                                    },
+                                    "endToken": {
+                                      "kind": 90,
+                                      "text": "\"Placing @Access(AccessType.FIELD) on a field does not have any effect.\""
+                                    }
+                                  },
+                                  "value": "Placing @Access(AccessType.FIELD) on a field does not have any effect."
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 17,
+                                  "beginColumn": 9,
+                                  "endLine": 17,
+                                  "endColumn": 13
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "debug"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "debug"
+                                  }
+                                },
+                                "identifier": "debug"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 17,
+                                  "beginColumn": 5,
+                                  "endLine": 17,
+                                  "endColumn": 7
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "LOG"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "LOG"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 17,
+                                    "beginColumn": 5,
+                                    "endLine": 17,
+                                    "endColumn": 7
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "LOG"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "LOG"
+                                    }
+                                  },
+                                  "identifier": "LOG"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "thenStmt": {
+                        "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 49,
+                          "endLine": 15,
+                          "endColumn": 4
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 99,
+                            "text": "{"
+                          },
+                          "endToken": {
+                            "kind": 100,
+                            "text": "}"
+                          }
+                        },
+                        "statements": [
+                          {
+                            "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                            "range": {
+                              "beginLine": 14,
+                              "beginColumn": 5,
+                              "endLine": 14,
+                              "endColumn": 56
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "propertyAccessMap"
+                              },
+                              "endToken": {
+                                "kind": 103,
+                                "text": ";"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 14,
+                                "beginColumn": 5,
+                                "endLine": 14,
+                                "endColumn": 55
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "propertyAccessMap"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 14,
+                                    "beginColumn": 27,
+                                    "endLine": 14,
+                                    "endColumn": 44
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 14,
+                                      "beginColumn": 36,
+                                      "endLine": 14,
+                                      "endColumn": 42
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "getName"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "getName"
+                                      }
+                                    },
+                                    "identifier": "getName"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 14,
+                                      "beginColumn": 27,
+                                      "endLine": 14,
+                                      "endColumn": 34
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 14,
+                                        "beginColumn": 27,
+                                        "endLine": 14,
+                                        "endColumn": 34
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "property"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "property"
+                                        }
+                                      },
+                                      "identifier": "property"
+                                    }
+                                  }
+                                },
+                                {
+                                  "!": "com.github.javaparser.ast.expr.NameExpr",
+                                  "range": {
+                                    "beginLine": 14,
+                                    "beginColumn": 47,
+                                    "endLine": 14,
+                                    "endColumn": 54
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 14,
+                                      "beginColumn": 47,
+                                      "endLine": 14,
+                                      "endColumn": 54
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      }
+                                    },
+                                    "identifier": "property"
+                                  }
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 14,
+                                  "beginColumn": 23,
+                                  "endLine": 14,
+                                  "endColumn": 25
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "put"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "put"
+                                  }
+                                },
+                                "identifier": "put"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 14,
+                                  "beginColumn": 5,
+                                  "endLine": 14,
+                                  "endColumn": 21
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "propertyAccessMap"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "propertyAccessMap"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 14,
+                                    "beginColumn": 5,
+                                    "endLine": 14,
+                                    "endColumn": 21
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "propertyAccessMap"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "propertyAccessMap"
+                                    }
+                                  },
+                                  "identifier": "propertyAccessMap"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "iterable": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 3,
+                    "beginColumn": 30,
+                    "endLine": 3,
+                    "endColumn": 52
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "fieldAccessMap"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 3,
+                      "beginColumn": 45,
+                      "endLine": 3,
+                      "endColumn": 50
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "values"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "values"
+                      }
+                    },
+                    "identifier": "values"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 3,
+                      "beginColumn": 30,
+                      "endLine": 3,
+                      "endColumn": 43
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "fieldAccessMap"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "fieldAccessMap"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 3,
+                        "beginColumn": 30,
+                        "endLine": 3,
+                        "endColumn": 43
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "fieldAccessMap"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "fieldAccessMap"
+                        }
+                      },
+                      "identifier": "fieldAccessMap"
+                    }
+                  }
+                },
+                "variable": {
+                  "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                  "range": {
+                    "beginLine": 3,
+                    "beginColumn": 9,
+                    "endLine": 3,
+                    "endColumn": 26
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "XProperty"
+                    },
+                    "endToken": {
+                      "kind": 94,
+                      "text": "property"
+                    }
+                  },
+                  "annotations": [],
+                  "modifiers": [],
+                  "variables": [
+                    {
+                      "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                      "range": {
+                        "beginLine": 3,
+                        "beginColumn": 19,
+                        "endLine": 3,
+                        "endColumn": 26
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "property"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "property"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 3,
+                          "beginColumn": 19,
+                          "endLine": 3,
+                          "endColumn": 26
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "property"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "property"
+                          }
+                        },
+                        "identifier": "property"
+                      },
+                      "type": {
+                        "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                        "range": {
+                          "beginLine": 3,
+                          "beginColumn": 9,
+                          "endLine": 3,
+                          "endColumn": 17
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "XProperty"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "XProperty"
+                          }
+                        },
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 3,
+                            "beginColumn": 9,
+                            "endLine": 3,
+                            "endColumn": 17
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "XProperty"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "XProperty"
+                            }
+                          },
+                          "identifier": "XProperty"
+                        },
+                        "annotations": []
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ForEachStmt",
+                "range": {
+                  "beginLine": 21,
+                  "beginColumn": 3,
+                  "endLine": 38,
+                  "endColumn": 3
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 32,
+                    "text": "for"
+                  },
+                  "endToken": {
+                    "kind": 100,
+                    "text": "}"
+                  }
+                },
+                "body": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 21,
+                    "beginColumn": 59,
+                    "endLine": 38,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 22,
+                        "beginColumn": 4,
+                        "endLine": 22,
+                        "endColumn": 58
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "Access"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 22,
+                          "beginColumn": 4,
+                          "endLine": 22,
+                          "endColumn": 57
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "Access"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 22,
+                              "beginColumn": 11,
+                              "endLine": 22,
+                              "endColumn": 57
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "access"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 22,
+                                "beginColumn": 20,
+                                "endLine": 22,
+                                "endColumn": 57
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "property"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.ClassExpr",
+                                  "range": {
+                                    "beginLine": 22,
+                                    "beginColumn": 44,
+                                    "endLine": 22,
+                                    "endColumn": 55
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "Access"
+                                    },
+                                    "endToken": {
+                                      "kind": 19,
+                                      "text": "class"
+                                    }
+                                  },
+                                  "type": {
+                                    "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                                    "range": {
+                                      "beginLine": 22,
+                                      "beginColumn": 44,
+                                      "endLine": 22,
+                                      "endColumn": 49
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "Access"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "Access"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 22,
+                                        "beginColumn": 44,
+                                        "endLine": 22,
+                                        "endColumn": 49
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "Access"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "Access"
+                                        }
+                                      },
+                                      "identifier": "Access"
+                                    },
+                                    "annotations": []
+                                  }
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 22,
+                                  "beginColumn": 29,
+                                  "endLine": 22,
+                                  "endColumn": 41
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getAnnotation"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getAnnotation"
+                                  }
+                                },
+                                "identifier": "getAnnotation"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 22,
+                                  "beginColumn": 20,
+                                  "endLine": 22,
+                                  "endColumn": 27
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "property"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "property"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 22,
+                                    "beginColumn": 20,
+                                    "endLine": 22,
+                                    "endColumn": 27
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    }
+                                  },
+                                  "identifier": "property"
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 22,
+                                "beginColumn": 11,
+                                "endLine": 22,
+                                "endColumn": 16
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "access"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "access"
+                                }
+                              },
+                              "identifier": "access"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 22,
+                                "beginColumn": 4,
+                                "endLine": 22,
+                                "endColumn": 9
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "Access"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "Access"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 22,
+                                  "beginColumn": 4,
+                                  "endLine": 22,
+                                  "endColumn": 9
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "Access"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "Access"
+                                  }
+                                },
+                                "identifier": "Access"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.IfStmt",
+                      "range": {
+                        "beginLine": 23,
+                        "beginColumn": 4,
+                        "endLine": 25,
+                        "endColumn": 4
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 34,
+                          "text": "if"
+                        },
+                        "endToken": {
+                          "kind": 100,
+                          "text": "}"
+                        }
+                      },
+                      "condition": {
+                        "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                        "range": {
+                          "beginLine": 23,
+                          "beginColumn": 9,
+                          "endLine": 23,
+                          "endColumn": 22
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "access"
+                          },
+                          "endToken": {
+                            "kind": 43,
+                            "text": "null"
+                          }
+                        },
+                        "left": {
+                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                          "range": {
+                            "beginLine": 23,
+                            "beginColumn": 9,
+                            "endLine": 23,
+                            "endColumn": 14
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "access"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "access"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 23,
+                              "beginColumn": 9,
+                              "endLine": 23,
+                              "endColumn": 14
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "access"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "access"
+                              }
+                            },
+                            "identifier": "access"
+                          }
+                        },
+                        "operator": "EQUALS",
+                        "right": {
+                          "!": "com.github.javaparser.ast.expr.NullLiteralExpr",
+                          "range": {
+                            "beginLine": 23,
+                            "beginColumn": 19,
+                            "endLine": 23,
+                            "endColumn": 22
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 43,
+                              "text": "null"
+                            },
+                            "endToken": {
+                              "kind": 43,
+                              "text": "null"
+                            }
+                          }
+                        }
+                      },
+                      "thenStmt": {
+                        "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                        "range": {
+                          "beginLine": 23,
+                          "beginColumn": 26,
+                          "endLine": 25,
+                          "endColumn": 4
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 99,
+                            "text": "{"
+                          },
+                          "endToken": {
+                            "kind": 100,
+                            "text": "}"
+                          }
+                        },
+                        "statements": [
+                          {
+                            "!": "com.github.javaparser.ast.stmt.ContinueStmt",
+                            "range": {
+                              "beginLine": 24,
+                              "beginColumn": 5,
+                              "endLine": 24,
+                              "endColumn": 13
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 21,
+                                "text": "continue"
+                              },
+                              "endToken": {
+                                "kind": 103,
+                                "text": ";"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 27,
+                        "beginColumn": 4,
+                        "endLine": 27,
+                        "endColumn": 74
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "AccessType"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 27,
+                          "beginColumn": 4,
+                          "endLine": 27,
+                          "endColumn": 73
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "AccessType"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 27,
+                              "beginColumn": 15,
+                              "endLine": 27,
+                              "endColumn": 73
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "accessType"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 27,
+                                "beginColumn": 28,
+                                "endLine": 27,
+                                "endColumn": 73
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 27,
+                                    "beginColumn": 58,
+                                    "endLine": 27,
+                                    "endColumn": 71
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "access"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 27,
+                                      "beginColumn": 65,
+                                      "endLine": 27,
+                                      "endColumn": 69
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "value"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "value"
+                                      }
+                                    },
+                                    "identifier": "value"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 27,
+                                      "beginColumn": 58,
+                                      "endLine": 27,
+                                      "endColumn": 63
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "access"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "access"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 27,
+                                        "beginColumn": 58,
+                                        "endLine": 27,
+                                        "endColumn": 63
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "access"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "access"
+                                        }
+                                      },
+                                      "identifier": "access"
+                                    }
+                                  }
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 27,
+                                  "beginColumn": 39,
+                                  "endLine": 27,
+                                  "endColumn": 55
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getAccessStrategy"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getAccessStrategy"
+                                  }
+                                },
+                                "identifier": "getAccessStrategy"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 27,
+                                  "beginColumn": 28,
+                                  "endLine": 27,
+                                  "endColumn": 37
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 27,
+                                    "beginColumn": 28,
+                                    "endLine": 27,
+                                    "endColumn": 37
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "AccessType"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "AccessType"
+                                    }
+                                  },
+                                  "identifier": "AccessType"
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 27,
+                                "beginColumn": 15,
+                                "endLine": 27,
+                                "endColumn": 24
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "accessType"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "accessType"
+                                }
+                              },
+                              "identifier": "accessType"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 27,
+                                "beginColumn": 4,
+                                "endLine": 27,
+                                "endColumn": 13
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 27,
+                                  "beginColumn": 4,
+                                  "endLine": 27,
+                                  "endColumn": 13
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "AccessType"
+                                  }
+                                },
+                                "identifier": "AccessType"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.IfStmt",
+                      "range": {
+                        "beginLine": 32,
+                        "beginColumn": 13,
+                        "endLine": 37,
+                        "endColumn": 4
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 34,
+                          "text": "if"
+                        },
+                        "endToken": {
+                          "kind": 100,
+                          "text": "}"
+                        }
+                      },
+                      "condition": {
+                        "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                        "range": {
+                          "beginLine": 32,
+                          "beginColumn": 17,
+                          "endLine": 32,
+                          "endColumn": 49
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "accessType"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "PROPERTY"
+                          }
+                        },
+                        "left": {
+                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                          "range": {
+                            "beginLine": 32,
+                            "beginColumn": 17,
+                            "endLine": 32,
+                            "endColumn": 26
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "accessType"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "accessType"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 32,
+                              "beginColumn": 17,
+                              "endLine": 32,
+                              "endColumn": 26
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "accessType"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "accessType"
+                              }
+                            },
+                            "identifier": "accessType"
+                          }
+                        },
+                        "operator": "EQUALS",
+                        "right": {
+                          "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                          "range": {
+                            "beginLine": 32,
+                            "beginColumn": 31,
+                            "endLine": 32,
+                            "endColumn": 49
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "AccessType"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "PROPERTY"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 32,
+                              "beginColumn": 42,
+                              "endLine": 32,
+                              "endColumn": 49
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "PROPERTY"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "PROPERTY"
+                              }
+                            },
+                            "identifier": "PROPERTY"
+                          },
+                          "scope": {
+                            "!": "com.github.javaparser.ast.expr.NameExpr",
+                            "range": {
+                              "beginLine": 32,
+                              "beginColumn": 31,
+                              "endLine": 32,
+                              "endColumn": 40
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "AccessType"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "AccessType"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 32,
+                                "beginColumn": 31,
+                                "endLine": 32,
+                                "endColumn": 40
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "AccessType"
+                                }
+                              },
+                              "identifier": "AccessType"
+                            }
+                          }
+                        }
+                      },
+                      "elseStmt": {
+                        "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                        "range": {
+                          "beginLine": 35,
+                          "beginColumn": 18,
+                          "endLine": 37,
+                          "endColumn": 4
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 99,
+                            "text": "{"
+                          },
+                          "endToken": {
+                            "kind": 100,
+                            "text": "}"
+                          }
+                        },
+                        "statements": [
+                          {
+                            "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                            "range": {
+                              "beginLine": 36,
+                              "beginColumn": 5,
+                              "endLine": 36,
+                              "endColumn": 93
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "LOG"
+                              },
+                              "endToken": {
+                                "kind": 103,
+                                "text": ";"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 36,
+                                "beginColumn": 5,
+                                "endLine": 36,
+                                "endColumn": 92
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "LOG"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                                  "range": {
+                                    "beginLine": 36,
+                                    "beginColumn": 16,
+                                    "endLine": 36,
+                                    "endColumn": 90
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 90,
+                                      "text": "\"Placing @Access(AccessType.PROPERTY) on a field does not have any effect.\""
+                                    },
+                                    "endToken": {
+                                      "kind": 90,
+                                      "text": "\"Placing @Access(AccessType.PROPERTY) on a field does not have any effect.\""
+                                    }
+                                  },
+                                  "value": "Placing @Access(AccessType.PROPERTY) on a field does not have any effect."
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 36,
+                                  "beginColumn": 9,
+                                  "endLine": 36,
+                                  "endColumn": 13
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "debug"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "debug"
+                                  }
+                                },
+                                "identifier": "debug"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 36,
+                                  "beginColumn": 5,
+                                  "endLine": 36,
+                                  "endColumn": 7
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "LOG"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "LOG"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 36,
+                                    "beginColumn": 5,
+                                    "endLine": 36,
+                                    "endColumn": 7
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "LOG"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "LOG"
+                                    }
+                                  },
+                                  "identifier": "LOG"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "thenStmt": {
+                        "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                        "range": {
+                          "beginLine": 32,
+                          "beginColumn": 52,
+                          "endLine": 34,
+                          "endColumn": 4
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 99,
+                            "text": "{"
+                          },
+                          "endToken": {
+                            "kind": 100,
+                            "text": "}"
+                          }
+                        },
+                        "statements": [
+                          {
+                            "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                            "range": {
+                              "beginLine": 33,
+                              "beginColumn": 5,
+                              "endLine": 33,
+                              "endColumn": 53
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "fieldAccessMap"
+                              },
+                              "endToken": {
+                                "kind": 103,
+                                "text": ";"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 33,
+                                "beginColumn": 5,
+                                "endLine": 33,
+                                "endColumn": 52
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "fieldAccessMap"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 33,
+                                    "beginColumn": 24,
+                                    "endLine": 33,
+                                    "endColumn": 41
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 33,
+                                      "beginColumn": 33,
+                                      "endLine": 33,
+                                      "endColumn": 39
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "getName"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "getName"
+                                      }
+                                    },
+                                    "identifier": "getName"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 33,
+                                      "beginColumn": 24,
+                                      "endLine": 33,
+                                      "endColumn": 31
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 33,
+                                        "beginColumn": 24,
+                                        "endLine": 33,
+                                        "endColumn": 31
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "property"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "property"
+                                        }
+                                      },
+                                      "identifier": "property"
+                                    }
+                                  }
+                                },
+                                {
+                                  "!": "com.github.javaparser.ast.expr.NameExpr",
+                                  "range": {
+                                    "beginLine": 33,
+                                    "beginColumn": 44,
+                                    "endLine": 33,
+                                    "endColumn": 51
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "property"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 33,
+                                      "beginColumn": 44,
+                                      "endLine": 33,
+                                      "endColumn": 51
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "property"
+                                      }
+                                    },
+                                    "identifier": "property"
+                                  }
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 33,
+                                  "beginColumn": 20,
+                                  "endLine": 33,
+                                  "endColumn": 22
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "put"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "put"
+                                  }
+                                },
+                                "identifier": "put"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 33,
+                                  "beginColumn": 5,
+                                  "endLine": 33,
+                                  "endColumn": 18
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "fieldAccessMap"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "fieldAccessMap"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 33,
+                                    "beginColumn": 5,
+                                    "endLine": 33,
+                                    "endColumn": 18
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "fieldAccessMap"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "fieldAccessMap"
+                                    }
+                                  },
+                                  "identifier": "fieldAccessMap"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "comment": [
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 31,
+                            "beginColumn": 4,
+                            "endLine": 31,
+                            "endColumn": 88
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// return use method access even if the default class access type is AccessType.FIELD"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// return use method access even if the default class access type is AccessType.FIELD"
+                            }
+                          },
+                          "content": " return use method access even if the default class access type is AccessType.FIELD"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 30,
+                            "beginColumn": 4,
+                            "endLine": 30,
+                            "endColumn": 98
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// return use method access even if the default class access type is AccessType.FIELD"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// return use method access even if the default class access type is AccessType.FIELD"
+                            }
+                          },
+                          "content": " return use method access even if the default class access type is AccessType.FIELD"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 29,
+                            "beginColumn": 4,
+                            "endLine": 29,
+                            "endColumn": 52
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// return use method access even if the default class access type is AccessType.FIELD"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// return use method access even if the default class access type is AccessType.FIELD"
+                            }
+                          },
+                          "content": " return use method access even if the default class access type is AccessType.FIELD"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "iterable": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 21,
+                    "beginColumn": 30,
+                    "endLine": 21,
+                    "endColumn": 55
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "propertyAccessMap"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 21,
+                      "beginColumn": 48,
+                      "endLine": 21,
+                      "endColumn": 53
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "values"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "values"
+                      }
+                    },
+                    "identifier": "values"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                    "range": {
+                      "beginLine": 21,
+                      "beginColumn": 30,
+                      "endLine": 21,
+                      "endColumn": 46
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "propertyAccessMap"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "propertyAccessMap"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 21,
+                        "beginColumn": 30,
+                        "endLine": 21,
+                        "endColumn": 46
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "propertyAccessMap"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "propertyAccessMap"
+                        }
+                      },
+                      "identifier": "propertyAccessMap"
+                    }
+                  }
+                },
+                "variable": {
+                  "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                  "range": {
+                    "beginLine": 21,
+                    "beginColumn": 9,
+                    "endLine": 21,
+                    "endColumn": 26
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "XProperty"
+                    },
+                    "endToken": {
+                      "kind": 94,
+                      "text": "property"
+                    }
+                  },
+                  "annotations": [],
+                  "modifiers": [],
+                  "variables": [
+                    {
+                      "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                      "range": {
+                        "beginLine": 21,
+                        "beginColumn": 19,
+                        "endLine": 21,
+                        "endColumn": 26
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "property"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "property"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 21,
+                          "beginColumn": 19,
+                          "endLine": 21,
+                          "endColumn": 26
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "property"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "property"
+                          }
+                        },
+                        "identifier": "property"
+                      },
+                      "type": {
+                        "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                        "range": {
+                          "beginLine": 21,
+                          "beginColumn": 9,
+                          "endLine": 21,
+                          "endColumn": 17
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "XProperty"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "XProperty"
+                          }
+                        },
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 21,
+                            "beginColumn": 9,
+                            "endLine": 21,
+                            "endColumn": 17
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "XProperty"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "XProperty"
+                            }
+                          },
+                          "identifier": "XProperty"
+                        },
+                        "annotations": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "type": {
+            "!": "com.github.javaparser.ast.type.VoidType",
+            "range": {
+              "beginLine": 2,
+              "beginColumn": 9,
+              "endLine": 2,
+              "endColumn": 12
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 62,
+                "text": "void"
+              },
+              "endToken": {
+                "kind": 62,
+                "text": "void"
+              }
+            },
+            "annotations": []
+          },
+          "modifiers": [
+            {
+              "!": "com.github.javaparser.ast.Modifier",
+              "range": {
+                "beginLine": 2,
+                "beginColumn": 1,
+                "endLine": 2,
+                "endColumn": 7
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 45,
+                  "text": "private"
+                },
+                "endToken": {
+                  "kind": 45,
+                  "text": "private"
+                }
+              },
+              "keyword": "PRIVATE"
+            }
+          ],
+          "name": {
+            "!": "com.github.javaparser.ast.expr.SimpleName",
+            "range": {
+              "beginLine": 2,
+              "beginColumn": 14,
+              "endLine": 2,
+              "endColumn": 51
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 94,
+                "text": "considerExplicitFieldAndPropertyAccess"
+              },
+              "endToken": {
+                "kind": 94,
+                "text": "considerExplicitFieldAndPropertyAccess"
+              }
+            },
+            "identifier": "considerExplicitFieldAndPropertyAccess"
+          },
+          "parameters": [],
+          "thrownExceptions": [],
+          "typeParameters": [],
+          "annotations": []
+        }
+      ],
+      "modifiers": [],
+      "name": {
+        "!": "com.github.javaparser.ast.expr.SimpleName",
+        "range": {
+          "beginLine": 1,
+          "beginColumn": 7,
+          "endLine": 1,
+          "endColumn": 10
+        },
+        "tokenRange": {
+          "beginToken": {
+            "kind": 94,
+            "text": "Test"
+          },
+          "endToken": {
+            "kind": 94,
+            "text": "Test"
+          }
+        },
+        "identifier": "Test"
+      },
+      "annotations": []
+    }
+  ]
+}

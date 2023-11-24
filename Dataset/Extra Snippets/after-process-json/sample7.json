@@ -1,0 +1,4023 @@
+{
+  "!": "com.github.javaparser.ast.CompilationUnit",
+  "range": {
+    "beginLine": 1,
+    "beginColumn": 1,
+    "endLine": 38,
+    "endColumn": 2
+  },
+  "tokenRange": {
+    "beginToken": {
+      "kind": 19,
+      "text": "class"
+    },
+    "endToken": {
+      "kind": 0,
+      "text": ""
+    }
+  },
+  "imports": [],
+  "types": [
+    {
+      "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+      "range": {
+        "beginLine": 1,
+        "beginColumn": 1,
+        "endLine": 38,
+        "endColumn": 2
+      },
+      "tokenRange": {
+        "beginToken": {
+          "kind": 19,
+          "text": "class"
+        },
+        "endToken": {
+          "kind": 100,
+          "text": "}"
+        }
+      },
+      "extendedTypes": [],
+      "implementedTypes": [],
+      "isInterface": "false",
+      "typeParameters": [],
+      "members": [
+        {
+          "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+          "range": {
+            "beginLine": 2,
+            "beginColumn": 1,
+            "endLine": 34,
+            "endColumn": 1
+          },
+          "tokenRange": {
+            "beginToken": {
+              "kind": 19,
+              "text": "class"
+            },
+            "endToken": {
+              "kind": 100,
+              "text": "}"
+            }
+          },
+          "extendedTypes": [],
+          "implementedTypes": [],
+          "isInterface": "false",
+          "typeParameters": [],
+          "members": [
+            {
+              "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+              "range": {
+                "beginLine": 3,
+                "beginColumn": 5,
+                "endLine": 33,
+                "endColumn": 1
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 47,
+                  "text": "public"
+                },
+                "endToken": {
+                  "kind": 100,
+                  "text": "}"
+                }
+              },
+              "extendedTypes": [],
+              "implementedTypes": [],
+              "isInterface": "false",
+              "typeParameters": [],
+              "members": [
+                {
+                  "!": "com.github.javaparser.ast.body.MethodDeclaration",
+                  "range": {
+                    "beginLine": 4,
+                    "beginColumn": 5,
+                    "endLine": 32,
+                    "endColumn": 5
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 47,
+                      "text": "public"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "body": {
+                    "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                    "range": {
+                      "beginLine": 4,
+                      "beginColumn": 44,
+                      "endLine": 32,
+                      "endColumn": 5
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 99,
+                        "text": "{"
+                      },
+                      "endToken": {
+                        "kind": 100,
+                        "text": "}"
+                      }
+                    },
+                    "statements": [
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 5,
+                          "beginColumn": 9,
+                          "endLine": 5,
+                          "endColumn": 49
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "Scanner"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                          "range": {
+                            "beginLine": 5,
+                            "beginColumn": 9,
+                            "endLine": 5,
+                            "endColumn": 48
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "Scanner"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "annotations": [],
+                          "modifiers": [],
+                          "variables": [
+                            {
+                              "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                              "range": {
+                                "beginLine": 5,
+                                "beginColumn": 17,
+                                "endLine": 5,
+                                "endColumn": 48
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "scanner"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "initializer": {
+                                "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                                "range": {
+                                  "beginLine": 5,
+                                  "beginColumn": 27,
+                                  "endLine": 5,
+                                  "endColumn": 48
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 42,
+                                    "text": "new"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [
+                                  {
+                                    "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                                    "range": {
+                                      "beginLine": 5,
+                                      "beginColumn": 39,
+                                      "endLine": 5,
+                                      "endColumn": 47
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "System"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "in"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 5,
+                                        "beginColumn": 46,
+                                        "endLine": 5,
+                                        "endColumn": 47
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "in"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "in"
+                                        }
+                                      },
+                                      "identifier": "in"
+                                    },
+                                    "scope": {
+                                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                                      "range": {
+                                        "beginLine": 5,
+                                        "beginColumn": 39,
+                                        "endLine": 5,
+                                        "endColumn": 44
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "System"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "System"
+                                        }
+                                      },
+                                      "name": {
+                                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                                        "range": {
+                                          "beginLine": 5,
+                                          "beginColumn": 39,
+                                          "endLine": 5,
+                                          "endColumn": 44
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "System"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "System"
+                                          }
+                                        },
+                                        "identifier": "System"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "type": {
+                                  "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                                  "range": {
+                                    "beginLine": 5,
+                                    "beginColumn": 31,
+                                    "endLine": 5,
+                                    "endColumn": 37
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "Scanner"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "Scanner"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 5,
+                                      "beginColumn": 31,
+                                      "endLine": 5,
+                                      "endColumn": 37
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "Scanner"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "Scanner"
+                                      }
+                                    },
+                                    "identifier": "Scanner"
+                                  },
+                                  "annotations": []
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 5,
+                                  "beginColumn": 17,
+                                  "endLine": 5,
+                                  "endColumn": 23
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "scanner"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "scanner"
+                                  }
+                                },
+                                "identifier": "scanner"
+                              },
+                              "type": {
+                                "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                                "range": {
+                                  "beginLine": 5,
+                                  "beginColumn": 9,
+                                  "endLine": 5,
+                                  "endColumn": 15
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "Scanner"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "Scanner"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 5,
+                                    "beginColumn": 9,
+                                    "endLine": 5,
+                                    "endColumn": 15
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "Scanner"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "Scanner"
+                                    }
+                                  },
+                                  "identifier": "Scanner"
+                                },
+                                "annotations": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 6,
+                          "beginColumn": 9,
+                          "endLine": 6,
+                          "endColumn": 53
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "System"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                          "range": {
+                            "beginLine": 6,
+                            "beginColumn": 9,
+                            "endLine": 6,
+                            "endColumn": 52
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "System"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "arguments": [
+                            {
+                              "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                              "range": {
+                                "beginLine": 6,
+                                "beginColumn": 26,
+                                "endLine": 6,
+                                "endColumn": 51
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 90,
+                                  "text": "\"Enter the first number: \""
+                                },
+                                "endToken": {
+                                  "kind": 90,
+                                  "text": "\"Enter the first number: \""
+                                }
+                              },
+                              "value": "Enter the first number: "
+                            }
+                          ],
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 6,
+                              "beginColumn": 20,
+                              "endLine": 6,
+                              "endColumn": 24
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "print"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "print"
+                              }
+                            },
+                            "identifier": "print"
+                          },
+                          "scope": {
+                            "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                            "range": {
+                              "beginLine": 6,
+                              "beginColumn": 9,
+                              "endLine": 6,
+                              "endColumn": 18
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "System"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "out"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 6,
+                                "beginColumn": 16,
+                                "endLine": 6,
+                                "endColumn": 18
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                }
+                              },
+                              "identifier": "out"
+                            },
+                            "scope": {
+                              "!": "com.github.javaparser.ast.expr.NameExpr",
+                              "range": {
+                                "beginLine": 6,
+                                "beginColumn": 9,
+                                "endLine": 6,
+                                "endColumn": 14
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 6,
+                                  "beginColumn": 9,
+                                  "endLine": 6,
+                                  "endColumn": 14
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  }
+                                },
+                                "identifier": "System"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 7,
+                          "beginColumn": 9,
+                          "endLine": 7,
+                          "endColumn": 43
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 24,
+                            "text": "double"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                          "range": {
+                            "beginLine": 7,
+                            "beginColumn": 9,
+                            "endLine": 7,
+                            "endColumn": 42
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 24,
+                              "text": "double"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "annotations": [],
+                          "modifiers": [],
+                          "variables": [
+                            {
+                              "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                              "range": {
+                                "beginLine": 7,
+                                "beginColumn": 16,
+                                "endLine": 7,
+                                "endColumn": 42
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "num1"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "initializer": {
+                                "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                "range": {
+                                  "beginLine": 7,
+                                  "beginColumn": 23,
+                                  "endLine": 7,
+                                  "endColumn": 42
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "scanner"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [],
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 7,
+                                    "beginColumn": 31,
+                                    "endLine": 7,
+                                    "endColumn": 40
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "nextDouble"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "nextDouble"
+                                    }
+                                  },
+                                  "identifier": "nextDouble"
+                                },
+                                "scope": {
+                                  "!": "com.github.javaparser.ast.expr.NameExpr",
+                                  "range": {
+                                    "beginLine": 7,
+                                    "beginColumn": 23,
+                                    "endLine": 7,
+                                    "endColumn": 29
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "scanner"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "scanner"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 7,
+                                      "beginColumn": 23,
+                                      "endLine": 7,
+                                      "endColumn": 29
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "scanner"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "scanner"
+                                      }
+                                    },
+                                    "identifier": "scanner"
+                                  }
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 7,
+                                  "beginColumn": 16,
+                                  "endLine": 7,
+                                  "endColumn": 19
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "num1"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "num1"
+                                  }
+                                },
+                                "identifier": "num1"
+                              },
+                              "type": {
+                                "!": "com.github.javaparser.ast.type.PrimitiveType",
+                                "range": {
+                                  "beginLine": 7,
+                                  "beginColumn": 9,
+                                  "endLine": 7,
+                                  "endColumn": 14
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 24,
+                                    "text": "double"
+                                  },
+                                  "endToken": {
+                                    "kind": 24,
+                                    "text": "double"
+                                  }
+                                },
+                                "type": "DOUBLE",
+                                "annotations": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 8,
+                          "beginColumn": 9,
+                          "endLine": 8,
+                          "endColumn": 54
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "System"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                          "range": {
+                            "beginLine": 8,
+                            "beginColumn": 9,
+                            "endLine": 8,
+                            "endColumn": 53
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "System"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "arguments": [
+                            {
+                              "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 26,
+                                "endLine": 8,
+                                "endColumn": 52
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 90,
+                                  "text": "\"Enter the second number: \""
+                                },
+                                "endToken": {
+                                  "kind": 90,
+                                  "text": "\"Enter the second number: \""
+                                }
+                              },
+                              "value": "Enter the second number: "
+                            }
+                          ],
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 20,
+                              "endLine": 8,
+                              "endColumn": 24
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "print"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "print"
+                              }
+                            },
+                            "identifier": "print"
+                          },
+                          "scope": {
+                            "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 9,
+                              "endLine": 8,
+                              "endColumn": 18
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "System"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "out"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 16,
+                                "endLine": 8,
+                                "endColumn": 18
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                }
+                              },
+                              "identifier": "out"
+                            },
+                            "scope": {
+                              "!": "com.github.javaparser.ast.expr.NameExpr",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 9,
+                                "endLine": 8,
+                                "endColumn": 14
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 8,
+                                  "beginColumn": 9,
+                                  "endLine": 8,
+                                  "endColumn": 14
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  }
+                                },
+                                "identifier": "System"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 9,
+                          "beginColumn": 9,
+                          "endLine": 9,
+                          "endColumn": 43
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 24,
+                            "text": "double"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                          "range": {
+                            "beginLine": 9,
+                            "beginColumn": 9,
+                            "endLine": 9,
+                            "endColumn": 42
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 24,
+                              "text": "double"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "annotations": [],
+                          "modifiers": [],
+                          "variables": [
+                            {
+                              "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                              "range": {
+                                "beginLine": 9,
+                                "beginColumn": 16,
+                                "endLine": 9,
+                                "endColumn": 42
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "num2"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "initializer": {
+                                "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                "range": {
+                                  "beginLine": 9,
+                                  "beginColumn": 23,
+                                  "endLine": 9,
+                                  "endColumn": 42
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "scanner"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [],
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 9,
+                                    "beginColumn": 31,
+                                    "endLine": 9,
+                                    "endColumn": 40
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "nextDouble"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "nextDouble"
+                                    }
+                                  },
+                                  "identifier": "nextDouble"
+                                },
+                                "scope": {
+                                  "!": "com.github.javaparser.ast.expr.NameExpr",
+                                  "range": {
+                                    "beginLine": 9,
+                                    "beginColumn": 23,
+                                    "endLine": 9,
+                                    "endColumn": 29
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "scanner"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "scanner"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 9,
+                                      "beginColumn": 23,
+                                      "endLine": 9,
+                                      "endColumn": 29
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "scanner"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "scanner"
+                                      }
+                                    },
+                                    "identifier": "scanner"
+                                  }
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 9,
+                                  "beginColumn": 16,
+                                  "endLine": 9,
+                                  "endColumn": 19
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "num2"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "num2"
+                                  }
+                                },
+                                "identifier": "num2"
+                              },
+                              "type": {
+                                "!": "com.github.javaparser.ast.type.PrimitiveType",
+                                "range": {
+                                  "beginLine": 9,
+                                  "beginColumn": 9,
+                                  "endLine": 9,
+                                  "endColumn": 14
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 24,
+                                    "text": "double"
+                                  },
+                                  "endToken": {
+                                    "kind": 24,
+                                    "text": "double"
+                                  }
+                                },
+                                "type": "DOUBLE",
+                                "annotations": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 10,
+                          "beginColumn": 9,
+                          "endLine": 10,
+                          "endColumn": 61
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "System"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                          "range": {
+                            "beginLine": 10,
+                            "beginColumn": 9,
+                            "endLine": 10,
+                            "endColumn": 60
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "System"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "arguments": [
+                            {
+                              "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                              "range": {
+                                "beginLine": 10,
+                                "beginColumn": 26,
+                                "endLine": 10,
+                                "endColumn": 59
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 90,
+                                  "text": "\"Enter an operator (+, -, *, /): \""
+                                },
+                                "endToken": {
+                                  "kind": 90,
+                                  "text": "\"Enter an operator (+, -, *, /): \""
+                                }
+                              },
+                              "value": "Enter an operator (+, -, *, /): "
+                            }
+                          ],
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 10,
+                              "beginColumn": 20,
+                              "endLine": 10,
+                              "endColumn": 24
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "print"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "print"
+                              }
+                            },
+                            "identifier": "print"
+                          },
+                          "scope": {
+                            "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                            "range": {
+                              "beginLine": 10,
+                              "beginColumn": 9,
+                              "endLine": 10,
+                              "endColumn": 18
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "System"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "out"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 10,
+                                "beginColumn": 16,
+                                "endLine": 10,
+                                "endColumn": 18
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                }
+                              },
+                              "identifier": "out"
+                            },
+                            "scope": {
+                              "!": "com.github.javaparser.ast.expr.NameExpr",
+                              "range": {
+                                "beginLine": 10,
+                                "beginColumn": 9,
+                                "endLine": 10,
+                                "endColumn": 14
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 10,
+                                  "beginColumn": 9,
+                                  "endLine": 10,
+                                  "endColumn": 14
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  }
+                                },
+                                "identifier": "System"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 11,
+                          "beginColumn": 9,
+                          "endLine": 11,
+                          "endColumn": 49
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 18,
+                            "text": "char"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                          "range": {
+                            "beginLine": 11,
+                            "beginColumn": 9,
+                            "endLine": 11,
+                            "endColumn": 48
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 18,
+                              "text": "char"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "annotations": [],
+                          "modifiers": [],
+                          "variables": [
+                            {
+                              "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                              "range": {
+                                "beginLine": 11,
+                                "beginColumn": 14,
+                                "endLine": 11,
+                                "endColumn": 48
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "operator"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "initializer": {
+                                "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                "range": {
+                                  "beginLine": 11,
+                                  "beginColumn": 25,
+                                  "endLine": 11,
+                                  "endColumn": 48
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "scanner"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [
+                                  {
+                                    "!": "com.github.javaparser.ast.expr.IntegerLiteralExpr",
+                                    "range": {
+                                      "beginLine": 11,
+                                      "beginColumn": 47,
+                                      "endLine": 11,
+                                      "endColumn": 47
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 77,
+                                        "text": "0"
+                                      },
+                                      "endToken": {
+                                        "kind": 77,
+                                        "text": "0"
+                                      }
+                                    },
+                                    "value": "0"
+                                  }
+                                ],
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 11,
+                                    "beginColumn": 40,
+                                    "endLine": 11,
+                                    "endColumn": 45
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "charAt"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "charAt"
+                                    }
+                                  },
+                                  "identifier": "charAt"
+                                },
+                                "scope": {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 11,
+                                    "beginColumn": 25,
+                                    "endLine": 11,
+                                    "endColumn": 38
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "scanner"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 11,
+                                      "beginColumn": 33,
+                                      "endLine": 11,
+                                      "endColumn": 36
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "next"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "next"
+                                      }
+                                    },
+                                    "identifier": "next"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 11,
+                                      "beginColumn": 25,
+                                      "endLine": 11,
+                                      "endColumn": 31
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "scanner"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "scanner"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 11,
+                                        "beginColumn": 25,
+                                        "endLine": 11,
+                                        "endColumn": 31
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "scanner"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "scanner"
+                                        }
+                                      },
+                                      "identifier": "scanner"
+                                    }
+                                  }
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 11,
+                                  "beginColumn": 14,
+                                  "endLine": 11,
+                                  "endColumn": 21
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "operator"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "operator"
+                                  }
+                                },
+                                "identifier": "operator"
+                              },
+                              "type": {
+                                "!": "com.github.javaparser.ast.type.PrimitiveType",
+                                "range": {
+                                  "beginLine": 11,
+                                  "beginColumn": 9,
+                                  "endLine": 11,
+                                  "endColumn": 12
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 18,
+                                    "text": "char"
+                                  },
+                                  "endToken": {
+                                    "kind": 18,
+                                    "text": "char"
+                                  }
+                                },
+                                "type": "CHAR",
+                                "annotations": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 12,
+                          "beginColumn": 9,
+                          "endLine": 12,
+                          "endColumn": 28
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 24,
+                            "text": "double"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                          "range": {
+                            "beginLine": 12,
+                            "beginColumn": 9,
+                            "endLine": 12,
+                            "endColumn": 27
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 24,
+                              "text": "double"
+                            },
+                            "endToken": {
+                              "kind": 82,
+                              "text": "0.0"
+                            }
+                          },
+                          "annotations": [],
+                          "modifiers": [],
+                          "variables": [
+                            {
+                              "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                              "range": {
+                                "beginLine": 12,
+                                "beginColumn": 16,
+                                "endLine": 12,
+                                "endColumn": 27
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "result"
+                                },
+                                "endToken": {
+                                  "kind": 82,
+                                  "text": "0.0"
+                                }
+                              },
+                              "initializer": {
+                                "!": "com.github.javaparser.ast.expr.DoubleLiteralExpr",
+                                "range": {
+                                  "beginLine": 12,
+                                  "beginColumn": 25,
+                                  "endLine": 12,
+                                  "endColumn": 27
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 82,
+                                    "text": "0.0"
+                                  },
+                                  "endToken": {
+                                    "kind": 82,
+                                    "text": "0.0"
+                                  }
+                                },
+                                "value": "0.0"
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 12,
+                                  "beginColumn": 16,
+                                  "endLine": 12,
+                                  "endColumn": 21
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "result"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "result"
+                                  }
+                                },
+                                "identifier": "result"
+                              },
+                              "type": {
+                                "!": "com.github.javaparser.ast.type.PrimitiveType",
+                                "range": {
+                                  "beginLine": 12,
+                                  "beginColumn": 9,
+                                  "endLine": 12,
+                                  "endColumn": 14
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 24,
+                                    "text": "double"
+                                  },
+                                  "endToken": {
+                                    "kind": 24,
+                                    "text": "double"
+                                  }
+                                },
+                                "type": "DOUBLE",
+                                "annotations": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.IfStmt",
+                        "range": {
+                          "beginLine": 14,
+                          "beginColumn": 9,
+                          "endLine": 29,
+                          "endColumn": 9
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 34,
+                            "text": "if"
+                          },
+                          "endToken": {
+                            "kind": 100,
+                            "text": "}"
+                          }
+                        },
+                        "condition": {
+                          "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                          "range": {
+                            "beginLine": 14,
+                            "beginColumn": 13,
+                            "endLine": 14,
+                            "endColumn": 27
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "operator"
+                            },
+                            "endToken": {
+                              "kind": 89,
+                              "text": "'+'"
+                            }
+                          },
+                          "left": {
+                            "!": "com.github.javaparser.ast.expr.NameExpr",
+                            "range": {
+                              "beginLine": 14,
+                              "beginColumn": 13,
+                              "endLine": 14,
+                              "endColumn": 20
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "operator"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "operator"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 14,
+                                "beginColumn": 13,
+                                "endLine": 14,
+                                "endColumn": 20
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "operator"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "operator"
+                                }
+                              },
+                              "identifier": "operator"
+                            }
+                          },
+                          "operator": "EQUALS",
+                          "right": {
+                            "!": "com.github.javaparser.ast.expr.CharLiteralExpr",
+                            "range": {
+                              "beginLine": 14,
+                              "beginColumn": 25,
+                              "endLine": 14,
+                              "endColumn": 27
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 89,
+                                "text": "'+'"
+                              },
+                              "endToken": {
+                                "kind": 89,
+                                "text": "'+'"
+                              }
+                            },
+                            "value": "+"
+                          }
+                        },
+                        "elseStmt": {
+                          "!": "com.github.javaparser.ast.stmt.IfStmt",
+                          "range": {
+                            "beginLine": 16,
+                            "beginColumn": 16,
+                            "endLine": 29,
+                            "endColumn": 9
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 34,
+                              "text": "if"
+                            },
+                            "endToken": {
+                              "kind": 100,
+                              "text": "}"
+                            }
+                          },
+                          "condition": {
+                            "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                            "range": {
+                              "beginLine": 16,
+                              "beginColumn": 20,
+                              "endLine": 16,
+                              "endColumn": 34
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "operator"
+                              },
+                              "endToken": {
+                                "kind": 89,
+                                "text": "'-'"
+                              }
+                            },
+                            "left": {
+                              "!": "com.github.javaparser.ast.expr.NameExpr",
+                              "range": {
+                                "beginLine": 16,
+                                "beginColumn": 20,
+                                "endLine": 16,
+                                "endColumn": 27
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "operator"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "operator"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 16,
+                                  "beginColumn": 20,
+                                  "endLine": 16,
+                                  "endColumn": 27
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "operator"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "operator"
+                                  }
+                                },
+                                "identifier": "operator"
+                              }
+                            },
+                            "operator": "EQUALS",
+                            "right": {
+                              "!": "com.github.javaparser.ast.expr.CharLiteralExpr",
+                              "range": {
+                                "beginLine": 16,
+                                "beginColumn": 32,
+                                "endLine": 16,
+                                "endColumn": 34
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 89,
+                                  "text": "'-'"
+                                },
+                                "endToken": {
+                                  "kind": 89,
+                                  "text": "'-'"
+                                }
+                              },
+                              "value": "-"
+                            }
+                          },
+                          "elseStmt": {
+                            "!": "com.github.javaparser.ast.stmt.IfStmt",
+                            "range": {
+                              "beginLine": 18,
+                              "beginColumn": 16,
+                              "endLine": 29,
+                              "endColumn": 9
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 34,
+                                "text": "if"
+                              },
+                              "endToken": {
+                                "kind": 100,
+                                "text": "}"
+                              }
+                            },
+                            "condition": {
+                              "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                              "range": {
+                                "beginLine": 18,
+                                "beginColumn": 20,
+                                "endLine": 18,
+                                "endColumn": 34
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "operator"
+                                },
+                                "endToken": {
+                                  "kind": 89,
+                                  "text": "'*'"
+                                }
+                              },
+                              "left": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 18,
+                                  "beginColumn": 20,
+                                  "endLine": 18,
+                                  "endColumn": 27
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "operator"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "operator"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 18,
+                                    "beginColumn": 20,
+                                    "endLine": 18,
+                                    "endColumn": 27
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "operator"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "operator"
+                                    }
+                                  },
+                                  "identifier": "operator"
+                                }
+                              },
+                              "operator": "EQUALS",
+                              "right": {
+                                "!": "com.github.javaparser.ast.expr.CharLiteralExpr",
+                                "range": {
+                                  "beginLine": 18,
+                                  "beginColumn": 32,
+                                  "endLine": 18,
+                                  "endColumn": 34
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 89,
+                                    "text": "'*'"
+                                  },
+                                  "endToken": {
+                                    "kind": 89,
+                                    "text": "'*'"
+                                  }
+                                },
+                                "value": "*"
+                              }
+                            },
+                            "elseStmt": {
+                              "!": "com.github.javaparser.ast.stmt.IfStmt",
+                              "range": {
+                                "beginLine": 20,
+                                "beginColumn": 16,
+                                "endLine": 29,
+                                "endColumn": 9
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 34,
+                                  "text": "if"
+                                },
+                                "endToken": {
+                                  "kind": 100,
+                                  "text": "}"
+                                }
+                              },
+                              "condition": {
+                                "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                "range": {
+                                  "beginLine": 20,
+                                  "beginColumn": 20,
+                                  "endLine": 20,
+                                  "endColumn": 34
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "operator"
+                                  },
+                                  "endToken": {
+                                    "kind": 89,
+                                    "text": "'/'"
+                                  }
+                                },
+                                "left": {
+                                  "!": "com.github.javaparser.ast.expr.NameExpr",
+                                  "range": {
+                                    "beginLine": 20,
+                                    "beginColumn": 20,
+                                    "endLine": 20,
+                                    "endColumn": 27
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "operator"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "operator"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 20,
+                                      "beginColumn": 20,
+                                      "endLine": 20,
+                                      "endColumn": 27
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "operator"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "operator"
+                                      }
+                                    },
+                                    "identifier": "operator"
+                                  }
+                                },
+                                "operator": "EQUALS",
+                                "right": {
+                                  "!": "com.github.javaparser.ast.expr.CharLiteralExpr",
+                                  "range": {
+                                    "beginLine": 20,
+                                    "beginColumn": 32,
+                                    "endLine": 20,
+                                    "endColumn": 34
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 89,
+                                      "text": "'/'"
+                                    },
+                                    "endToken": {
+                                      "kind": 89,
+                                      "text": "'/'"
+                                    }
+                                  },
+                                  "value": "/"
+                                }
+                              },
+                              "elseStmt": {
+                                "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                                "range": {
+                                  "beginLine": 26,
+                                  "beginColumn": 16,
+                                  "endLine": 29,
+                                  "endColumn": 9
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 99,
+                                    "text": "{"
+                                  },
+                                  "endToken": {
+                                    "kind": 100,
+                                    "text": "}"
+                                  }
+                                },
+                                "statements": [
+                                  {
+                                    "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                                    "range": {
+                                      "beginLine": 27,
+                                      "beginColumn": 13,
+                                      "endLine": 27,
+                                      "endColumn": 58
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "System"
+                                      },
+                                      "endToken": {
+                                        "kind": 103,
+                                        "text": ";"
+                                      }
+                                    },
+                                    "expression": {
+                                      "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                      "range": {
+                                        "beginLine": 27,
+                                        "beginColumn": 13,
+                                        "endLine": 27,
+                                        "endColumn": 57
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "System"
+                                        },
+                                        "endToken": {
+                                          "kind": 98,
+                                          "text": ")"
+                                        }
+                                      },
+                                      "arguments": [
+                                        {
+                                          "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                                          "range": {
+                                            "beginLine": 27,
+                                            "beginColumn": 32,
+                                            "endLine": 27,
+                                            "endColumn": 56
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 90,
+                                              "text": "\"Error: Invalid operator\""
+                                            },
+                                            "endToken": {
+                                              "kind": 90,
+                                              "text": "\"Error: Invalid operator\""
+                                            }
+                                          },
+                                          "value": "Error: Invalid operator"
+                                        }
+                                      ],
+                                      "name": {
+                                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                                        "range": {
+                                          "beginLine": 27,
+                                          "beginColumn": 24,
+                                          "endLine": 27,
+                                          "endColumn": 30
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "println"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "println"
+                                          }
+                                        },
+                                        "identifier": "println"
+                                      },
+                                      "scope": {
+                                        "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                                        "range": {
+                                          "beginLine": 27,
+                                          "beginColumn": 13,
+                                          "endLine": 27,
+                                          "endColumn": 22
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "System"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "out"
+                                          }
+                                        },
+                                        "name": {
+                                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                                          "range": {
+                                            "beginLine": 27,
+                                            "beginColumn": 20,
+                                            "endLine": 27,
+                                            "endColumn": 22
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "out"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "out"
+                                            }
+                                          },
+                                          "identifier": "out"
+                                        },
+                                        "scope": {
+                                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                                          "range": {
+                                            "beginLine": 27,
+                                            "beginColumn": 13,
+                                            "endLine": 27,
+                                            "endColumn": 18
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "System"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "System"
+                                            }
+                                          },
+                                          "name": {
+                                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                                            "range": {
+                                              "beginLine": 27,
+                                              "beginColumn": 13,
+                                              "endLine": 27,
+                                              "endColumn": 18
+                                            },
+                                            "tokenRange": {
+                                              "beginToken": {
+                                                "kind": 94,
+                                                "text": "System"
+                                              },
+                                              "endToken": {
+                                                "kind": 94,
+                                                "text": "System"
+                                              }
+                                            },
+                                            "identifier": "System"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "!": "com.github.javaparser.ast.stmt.ReturnStmt",
+                                    "range": {
+                                      "beginLine": 28,
+                                      "beginColumn": 13,
+                                      "endLine": 28,
+                                      "endColumn": 19
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 49,
+                                        "text": "return"
+                                      },
+                                      "endToken": {
+                                        "kind": 103,
+                                        "text": ";"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              "thenStmt": {
+                                "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                                "range": {
+                                  "beginLine": 20,
+                                  "beginColumn": 37,
+                                  "endLine": 26,
+                                  "endColumn": 9
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 99,
+                                    "text": "{"
+                                  },
+                                  "endToken": {
+                                    "kind": 100,
+                                    "text": "}"
+                                  }
+                                },
+                                "statements": [
+                                  {
+                                    "!": "com.github.javaparser.ast.stmt.IfStmt",
+                                    "range": {
+                                      "beginLine": 21,
+                                      "beginColumn": 13,
+                                      "endLine": 24,
+                                      "endColumn": 13
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 34,
+                                        "text": "if"
+                                      },
+                                      "endToken": {
+                                        "kind": 100,
+                                        "text": "}"
+                                      }
+                                    },
+                                    "condition": {
+                                      "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                      "range": {
+                                        "beginLine": 21,
+                                        "beginColumn": 17,
+                                        "endLine": 21,
+                                        "endColumn": 25
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        },
+                                        "endToken": {
+                                          "kind": 77,
+                                          "text": "0"
+                                        }
+                                      },
+                                      "left": {
+                                        "!": "com.github.javaparser.ast.expr.NameExpr",
+                                        "range": {
+                                          "beginLine": 21,
+                                          "beginColumn": 17,
+                                          "endLine": 21,
+                                          "endColumn": 20
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "num2"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "num2"
+                                          }
+                                        },
+                                        "name": {
+                                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                                          "range": {
+                                            "beginLine": 21,
+                                            "beginColumn": 17,
+                                            "endLine": 21,
+                                            "endColumn": 20
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "num2"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "num2"
+                                            }
+                                          },
+                                          "identifier": "num2"
+                                        }
+                                      },
+                                      "operator": "EQUALS",
+                                      "right": {
+                                        "!": "com.github.javaparser.ast.expr.IntegerLiteralExpr",
+                                        "range": {
+                                          "beginLine": 21,
+                                          "beginColumn": 25,
+                                          "endLine": 21,
+                                          "endColumn": 25
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 77,
+                                            "text": "0"
+                                          },
+                                          "endToken": {
+                                            "kind": 77,
+                                            "text": "0"
+                                          }
+                                        },
+                                        "value": "0"
+                                      }
+                                    },
+                                    "thenStmt": {
+                                      "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                                      "range": {
+                                        "beginLine": 21,
+                                        "beginColumn": 28,
+                                        "endLine": 24,
+                                        "endColumn": 13
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 99,
+                                          "text": "{"
+                                        },
+                                        "endToken": {
+                                          "kind": 100,
+                                          "text": "}"
+                                        }
+                                      },
+                                      "statements": [
+                                        {
+                                          "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                                          "range": {
+                                            "beginLine": 22,
+                                            "beginColumn": 17,
+                                            "endLine": 22,
+                                            "endColumn": 62
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "System"
+                                            },
+                                            "endToken": {
+                                              "kind": 103,
+                                              "text": ";"
+                                            }
+                                          },
+                                          "expression": {
+                                            "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                            "range": {
+                                              "beginLine": 22,
+                                              "beginColumn": 17,
+                                              "endLine": 22,
+                                              "endColumn": 61
+                                            },
+                                            "tokenRange": {
+                                              "beginToken": {
+                                                "kind": 94,
+                                                "text": "System"
+                                              },
+                                              "endToken": {
+                                                "kind": 98,
+                                                "text": ")"
+                                              }
+                                            },
+                                            "arguments": [
+                                              {
+                                                "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                                                "range": {
+                                                  "beginLine": 22,
+                                                  "beginColumn": 36,
+                                                  "endLine": 22,
+                                                  "endColumn": 60
+                                                },
+                                                "tokenRange": {
+                                                  "beginToken": {
+                                                    "kind": 90,
+                                                    "text": "\"Error: Division by zero\""
+                                                  },
+                                                  "endToken": {
+                                                    "kind": 90,
+                                                    "text": "\"Error: Division by zero\""
+                                                  }
+                                                },
+                                                "value": "Error: Division by zero"
+                                              }
+                                            ],
+                                            "name": {
+                                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                                              "range": {
+                                                "beginLine": 22,
+                                                "beginColumn": 28,
+                                                "endLine": 22,
+                                                "endColumn": 34
+                                              },
+                                              "tokenRange": {
+                                                "beginToken": {
+                                                  "kind": 94,
+                                                  "text": "println"
+                                                },
+                                                "endToken": {
+                                                  "kind": 94,
+                                                  "text": "println"
+                                                }
+                                              },
+                                              "identifier": "println"
+                                            },
+                                            "scope": {
+                                              "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                                              "range": {
+                                                "beginLine": 22,
+                                                "beginColumn": 17,
+                                                "endLine": 22,
+                                                "endColumn": 26
+                                              },
+                                              "tokenRange": {
+                                                "beginToken": {
+                                                  "kind": 94,
+                                                  "text": "System"
+                                                },
+                                                "endToken": {
+                                                  "kind": 94,
+                                                  "text": "out"
+                                                }
+                                              },
+                                              "name": {
+                                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                                "range": {
+                                                  "beginLine": 22,
+                                                  "beginColumn": 24,
+                                                  "endLine": 22,
+                                                  "endColumn": 26
+                                                },
+                                                "tokenRange": {
+                                                  "beginToken": {
+                                                    "kind": 94,
+                                                    "text": "out"
+                                                  },
+                                                  "endToken": {
+                                                    "kind": 94,
+                                                    "text": "out"
+                                                  }
+                                                },
+                                                "identifier": "out"
+                                              },
+                                              "scope": {
+                                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                                "range": {
+                                                  "beginLine": 22,
+                                                  "beginColumn": 17,
+                                                  "endLine": 22,
+                                                  "endColumn": 22
+                                                },
+                                                "tokenRange": {
+                                                  "beginToken": {
+                                                    "kind": 94,
+                                                    "text": "System"
+                                                  },
+                                                  "endToken": {
+                                                    "kind": 94,
+                                                    "text": "System"
+                                                  }
+                                                },
+                                                "name": {
+                                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                                  "range": {
+                                                    "beginLine": 22,
+                                                    "beginColumn": 17,
+                                                    "endLine": 22,
+                                                    "endColumn": 22
+                                                  },
+                                                  "tokenRange": {
+                                                    "beginToken": {
+                                                      "kind": 94,
+                                                      "text": "System"
+                                                    },
+                                                    "endToken": {
+                                                      "kind": 94,
+                                                      "text": "System"
+                                                    }
+                                                  },
+                                                  "identifier": "System"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "!": "com.github.javaparser.ast.stmt.ReturnStmt",
+                                          "range": {
+                                            "beginLine": 23,
+                                            "beginColumn": 17,
+                                            "endLine": 23,
+                                            "endColumn": 23
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 49,
+                                              "text": "return"
+                                            },
+                                            "endToken": {
+                                              "kind": 103,
+                                              "text": ";"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                                    "range": {
+                                      "beginLine": 25,
+                                      "beginColumn": 13,
+                                      "endLine": 25,
+                                      "endColumn": 33
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "result"
+                                      },
+                                      "endToken": {
+                                        "kind": 103,
+                                        "text": ";"
+                                      }
+                                    },
+                                    "expression": {
+                                      "!": "com.github.javaparser.ast.expr.AssignExpr",
+                                      "range": {
+                                        "beginLine": 25,
+                                        "beginColumn": 13,
+                                        "endLine": 25,
+                                        "endColumn": 32
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "result"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        }
+                                      },
+                                      "operator": "ASSIGN",
+                                      "target": {
+                                        "!": "com.github.javaparser.ast.expr.NameExpr",
+                                        "range": {
+                                          "beginLine": 25,
+                                          "beginColumn": 13,
+                                          "endLine": 25,
+                                          "endColumn": 18
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "result"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "result"
+                                          }
+                                        },
+                                        "name": {
+                                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                                          "range": {
+                                            "beginLine": 25,
+                                            "beginColumn": 13,
+                                            "endLine": 25,
+                                            "endColumn": 18
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "result"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "result"
+                                            }
+                                          },
+                                          "identifier": "result"
+                                        }
+                                      },
+                                      "value": {
+                                        "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                        "range": {
+                                          "beginLine": 25,
+                                          "beginColumn": 22,
+                                          "endLine": 25,
+                                          "endColumn": 32
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "num1"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "num2"
+                                          }
+                                        },
+                                        "left": {
+                                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                                          "range": {
+                                            "beginLine": 25,
+                                            "beginColumn": 22,
+                                            "endLine": 25,
+                                            "endColumn": 25
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "num1"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "num1"
+                                            }
+                                          },
+                                          "name": {
+                                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                                            "range": {
+                                              "beginLine": 25,
+                                              "beginColumn": 22,
+                                              "endLine": 25,
+                                              "endColumn": 25
+                                            },
+                                            "tokenRange": {
+                                              "beginToken": {
+                                                "kind": 94,
+                                                "text": "num1"
+                                              },
+                                              "endToken": {
+                                                "kind": 94,
+                                                "text": "num1"
+                                              }
+                                            },
+                                            "identifier": "num1"
+                                          }
+                                        },
+                                        "operator": "DIVIDE",
+                                        "right": {
+                                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                                          "range": {
+                                            "beginLine": 25,
+                                            "beginColumn": 29,
+                                            "endLine": 25,
+                                            "endColumn": 32
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "num2"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "num2"
+                                            }
+                                          },
+                                          "name": {
+                                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                                            "range": {
+                                              "beginLine": 25,
+                                              "beginColumn": 29,
+                                              "endLine": 25,
+                                              "endColumn": 32
+                                            },
+                                            "tokenRange": {
+                                              "beginToken": {
+                                                "kind": 94,
+                                                "text": "num2"
+                                              },
+                                              "endToken": {
+                                                "kind": 94,
+                                                "text": "num2"
+                                              }
+                                            },
+                                            "identifier": "num2"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "thenStmt": {
+                              "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                              "range": {
+                                "beginLine": 18,
+                                "beginColumn": 37,
+                                "endLine": 20,
+                                "endColumn": 9
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 99,
+                                  "text": "{"
+                                },
+                                "endToken": {
+                                  "kind": 100,
+                                  "text": "}"
+                                }
+                              },
+                              "statements": [
+                                {
+                                  "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                                  "range": {
+                                    "beginLine": 19,
+                                    "beginColumn": 13,
+                                    "endLine": 19,
+                                    "endColumn": 33
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "result"
+                                    },
+                                    "endToken": {
+                                      "kind": 103,
+                                      "text": ";"
+                                    }
+                                  },
+                                  "expression": {
+                                    "!": "com.github.javaparser.ast.expr.AssignExpr",
+                                    "range": {
+                                      "beginLine": 19,
+                                      "beginColumn": 13,
+                                      "endLine": 19,
+                                      "endColumn": 32
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "result"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "num2"
+                                      }
+                                    },
+                                    "operator": "ASSIGN",
+                                    "target": {
+                                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                                      "range": {
+                                        "beginLine": 19,
+                                        "beginColumn": 13,
+                                        "endLine": 19,
+                                        "endColumn": 18
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "result"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "result"
+                                        }
+                                      },
+                                      "name": {
+                                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                                        "range": {
+                                          "beginLine": 19,
+                                          "beginColumn": 13,
+                                          "endLine": 19,
+                                          "endColumn": 18
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "result"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "result"
+                                          }
+                                        },
+                                        "identifier": "result"
+                                      }
+                                    },
+                                    "value": {
+                                      "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                      "range": {
+                                        "beginLine": 19,
+                                        "beginColumn": 22,
+                                        "endLine": 19,
+                                        "endColumn": 32
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num1"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        }
+                                      },
+                                      "left": {
+                                        "!": "com.github.javaparser.ast.expr.NameExpr",
+                                        "range": {
+                                          "beginLine": 19,
+                                          "beginColumn": 22,
+                                          "endLine": 19,
+                                          "endColumn": 25
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "num1"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "num1"
+                                          }
+                                        },
+                                        "name": {
+                                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                                          "range": {
+                                            "beginLine": 19,
+                                            "beginColumn": 22,
+                                            "endLine": 19,
+                                            "endColumn": 25
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "num1"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "num1"
+                                            }
+                                          },
+                                          "identifier": "num1"
+                                        }
+                                      },
+                                      "operator": "MULTIPLY",
+                                      "right": {
+                                        "!": "com.github.javaparser.ast.expr.NameExpr",
+                                        "range": {
+                                          "beginLine": 19,
+                                          "beginColumn": 29,
+                                          "endLine": 19,
+                                          "endColumn": 32
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "num2"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "num2"
+                                          }
+                                        },
+                                        "name": {
+                                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                                          "range": {
+                                            "beginLine": 19,
+                                            "beginColumn": 29,
+                                            "endLine": 19,
+                                            "endColumn": 32
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "num2"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "num2"
+                                            }
+                                          },
+                                          "identifier": "num2"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "thenStmt": {
+                            "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                            "range": {
+                              "beginLine": 16,
+                              "beginColumn": 37,
+                              "endLine": 18,
+                              "endColumn": 9
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 99,
+                                "text": "{"
+                              },
+                              "endToken": {
+                                "kind": 100,
+                                "text": "}"
+                              }
+                            },
+                            "statements": [
+                              {
+                                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                                "range": {
+                                  "beginLine": 17,
+                                  "beginColumn": 13,
+                                  "endLine": 17,
+                                  "endColumn": 33
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "result"
+                                  },
+                                  "endToken": {
+                                    "kind": 103,
+                                    "text": ";"
+                                  }
+                                },
+                                "expression": {
+                                  "!": "com.github.javaparser.ast.expr.AssignExpr",
+                                  "range": {
+                                    "beginLine": 17,
+                                    "beginColumn": 13,
+                                    "endLine": 17,
+                                    "endColumn": 32
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "result"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "num2"
+                                    }
+                                  },
+                                  "operator": "ASSIGN",
+                                  "target": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 17,
+                                      "beginColumn": 13,
+                                      "endLine": 17,
+                                      "endColumn": 18
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "result"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "result"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 17,
+                                        "beginColumn": 13,
+                                        "endLine": 17,
+                                        "endColumn": 18
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "result"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "result"
+                                        }
+                                      },
+                                      "identifier": "result"
+                                    }
+                                  },
+                                  "value": {
+                                    "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                    "range": {
+                                      "beginLine": 17,
+                                      "beginColumn": 22,
+                                      "endLine": 17,
+                                      "endColumn": 32
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "num1"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "num2"
+                                      }
+                                    },
+                                    "left": {
+                                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                                      "range": {
+                                        "beginLine": 17,
+                                        "beginColumn": 22,
+                                        "endLine": 17,
+                                        "endColumn": 25
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num1"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "num1"
+                                        }
+                                      },
+                                      "name": {
+                                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                                        "range": {
+                                          "beginLine": 17,
+                                          "beginColumn": 22,
+                                          "endLine": 17,
+                                          "endColumn": 25
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "num1"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "num1"
+                                          }
+                                        },
+                                        "identifier": "num1"
+                                      }
+                                    },
+                                    "operator": "MINUS",
+                                    "right": {
+                                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                                      "range": {
+                                        "beginLine": 17,
+                                        "beginColumn": 29,
+                                        "endLine": 17,
+                                        "endColumn": 32
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        }
+                                      },
+                                      "name": {
+                                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                                        "range": {
+                                          "beginLine": 17,
+                                          "beginColumn": 29,
+                                          "endLine": 17,
+                                          "endColumn": 32
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "num2"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "num2"
+                                          }
+                                        },
+                                        "identifier": "num2"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "thenStmt": {
+                          "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                          "range": {
+                            "beginLine": 14,
+                            "beginColumn": 30,
+                            "endLine": 16,
+                            "endColumn": 9
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 99,
+                              "text": "{"
+                            },
+                            "endToken": {
+                              "kind": 100,
+                              "text": "}"
+                            }
+                          },
+                          "statements": [
+                            {
+                              "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 13,
+                                "endLine": 15,
+                                "endColumn": 33
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "result"
+                                },
+                                "endToken": {
+                                  "kind": 103,
+                                  "text": ";"
+                                }
+                              },
+                              "expression": {
+                                "!": "com.github.javaparser.ast.expr.AssignExpr",
+                                "range": {
+                                  "beginLine": 15,
+                                  "beginColumn": 13,
+                                  "endLine": 15,
+                                  "endColumn": 32
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "result"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "num2"
+                                  }
+                                },
+                                "operator": "ASSIGN",
+                                "target": {
+                                  "!": "com.github.javaparser.ast.expr.NameExpr",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 13,
+                                    "endLine": 15,
+                                    "endColumn": 18
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "result"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "result"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 15,
+                                      "beginColumn": 13,
+                                      "endLine": 15,
+                                      "endColumn": 18
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "result"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "result"
+                                      }
+                                    },
+                                    "identifier": "result"
+                                  }
+                                },
+                                "value": {
+                                  "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 22,
+                                    "endLine": 15,
+                                    "endColumn": 32
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "num1"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "num2"
+                                    }
+                                  },
+                                  "left": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 15,
+                                      "beginColumn": 22,
+                                      "endLine": 15,
+                                      "endColumn": 25
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "num1"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "num1"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 15,
+                                        "beginColumn": 22,
+                                        "endLine": 15,
+                                        "endColumn": 25
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num1"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "num1"
+                                        }
+                                      },
+                                      "identifier": "num1"
+                                    }
+                                  },
+                                  "operator": "PLUS",
+                                  "right": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 15,
+                                      "beginColumn": 29,
+                                      "endLine": 15,
+                                      "endColumn": 32
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "num2"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "num2"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 15,
+                                        "beginColumn": 29,
+                                        "endLine": 15,
+                                        "endColumn": 32
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        }
+                                      },
+                                      "identifier": "num2"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                        "range": {
+                          "beginLine": 31,
+                          "beginColumn": 9,
+                          "endLine": 31,
+                          "endColumn": 80
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "System"
+                          },
+                          "endToken": {
+                            "kind": 103,
+                            "text": ";"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                          "range": {
+                            "beginLine": 31,
+                            "beginColumn": 9,
+                            "endLine": 31,
+                            "endColumn": 79
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "System"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "arguments": [
+                            {
+                              "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                              "range": {
+                                "beginLine": 31,
+                                "beginColumn": 28,
+                                "endLine": 31,
+                                "endColumn": 78
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "num1"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "result"
+                                }
+                              },
+                              "left": {
+                                "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                "range": {
+                                  "beginLine": 31,
+                                  "beginColumn": 28,
+                                  "endLine": 31,
+                                  "endColumn": 69
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "num1"
+                                  },
+                                  "endToken": {
+                                    "kind": 90,
+                                    "text": "\" = \""
+                                  }
+                                },
+                                "left": {
+                                  "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                  "range": {
+                                    "beginLine": 31,
+                                    "beginColumn": 28,
+                                    "endLine": 31,
+                                    "endColumn": 61
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "num1"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "num2"
+                                    }
+                                  },
+                                  "left": {
+                                    "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                    "range": {
+                                      "beginLine": 31,
+                                      "beginColumn": 28,
+                                      "endLine": 31,
+                                      "endColumn": 54
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "num1"
+                                      },
+                                      "endToken": {
+                                        "kind": 90,
+                                        "text": "\" \""
+                                      }
+                                    },
+                                    "left": {
+                                      "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                      "range": {
+                                        "beginLine": 31,
+                                        "beginColumn": 28,
+                                        "endLine": 31,
+                                        "endColumn": 48
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num1"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "operator"
+                                        }
+                                      },
+                                      "left": {
+                                        "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                                        "range": {
+                                          "beginLine": 31,
+                                          "beginColumn": 28,
+                                          "endLine": 31,
+                                          "endColumn": 37
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "num1"
+                                          },
+                                          "endToken": {
+                                            "kind": 90,
+                                            "text": "\" \""
+                                          }
+                                        },
+                                        "left": {
+                                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                                          "range": {
+                                            "beginLine": 31,
+                                            "beginColumn": 28,
+                                            "endLine": 31,
+                                            "endColumn": 31
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "num1"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "num1"
+                                            }
+                                          },
+                                          "name": {
+                                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                                            "range": {
+                                              "beginLine": 31,
+                                              "beginColumn": 28,
+                                              "endLine": 31,
+                                              "endColumn": 31
+                                            },
+                                            "tokenRange": {
+                                              "beginToken": {
+                                                "kind": 94,
+                                                "text": "num1"
+                                              },
+                                              "endToken": {
+                                                "kind": 94,
+                                                "text": "num1"
+                                              }
+                                            },
+                                            "identifier": "num1"
+                                          }
+                                        },
+                                        "operator": "PLUS",
+                                        "right": {
+                                          "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                                          "range": {
+                                            "beginLine": 31,
+                                            "beginColumn": 35,
+                                            "endLine": 31,
+                                            "endColumn": 37
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 90,
+                                              "text": "\" \""
+                                            },
+                                            "endToken": {
+                                              "kind": 90,
+                                              "text": "\" \""
+                                            }
+                                          },
+                                          "value": " "
+                                        }
+                                      },
+                                      "operator": "PLUS",
+                                      "right": {
+                                        "!": "com.github.javaparser.ast.expr.NameExpr",
+                                        "range": {
+                                          "beginLine": 31,
+                                          "beginColumn": 41,
+                                          "endLine": 31,
+                                          "endColumn": 48
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "operator"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "operator"
+                                          }
+                                        },
+                                        "name": {
+                                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                                          "range": {
+                                            "beginLine": 31,
+                                            "beginColumn": 41,
+                                            "endLine": 31,
+                                            "endColumn": 48
+                                          },
+                                          "tokenRange": {
+                                            "beginToken": {
+                                              "kind": 94,
+                                              "text": "operator"
+                                            },
+                                            "endToken": {
+                                              "kind": 94,
+                                              "text": "operator"
+                                            }
+                                          },
+                                          "identifier": "operator"
+                                        }
+                                      }
+                                    },
+                                    "operator": "PLUS",
+                                    "right": {
+                                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                                      "range": {
+                                        "beginLine": 31,
+                                        "beginColumn": 52,
+                                        "endLine": 31,
+                                        "endColumn": 54
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 90,
+                                          "text": "\" \""
+                                        },
+                                        "endToken": {
+                                          "kind": 90,
+                                          "text": "\" \""
+                                        }
+                                      },
+                                      "value": " "
+                                    }
+                                  },
+                                  "operator": "PLUS",
+                                  "right": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 31,
+                                      "beginColumn": 58,
+                                      "endLine": 31,
+                                      "endColumn": 61
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "num2"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "num2"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 31,
+                                        "beginColumn": 58,
+                                        "endLine": 31,
+                                        "endColumn": 61
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "num2"
+                                        }
+                                      },
+                                      "identifier": "num2"
+                                    }
+                                  }
+                                },
+                                "operator": "PLUS",
+                                "right": {
+                                  "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                                  "range": {
+                                    "beginLine": 31,
+                                    "beginColumn": 65,
+                                    "endLine": 31,
+                                    "endColumn": 69
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 90,
+                                      "text": "\" = \""
+                                    },
+                                    "endToken": {
+                                      "kind": 90,
+                                      "text": "\" = \""
+                                    }
+                                  },
+                                  "value": " = "
+                                }
+                              },
+                              "operator": "PLUS",
+                              "right": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 31,
+                                  "beginColumn": 73,
+                                  "endLine": 31,
+                                  "endColumn": 78
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "result"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "result"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 31,
+                                    "beginColumn": 73,
+                                    "endLine": 31,
+                                    "endColumn": 78
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "result"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "result"
+                                    }
+                                  },
+                                  "identifier": "result"
+                                }
+                              }
+                            }
+                          ],
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 31,
+                              "beginColumn": 20,
+                              "endLine": 31,
+                              "endColumn": 26
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "println"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "println"
+                              }
+                            },
+                            "identifier": "println"
+                          },
+                          "scope": {
+                            "!": "com.github.javaparser.ast.expr.FieldAccessExpr",
+                            "range": {
+                              "beginLine": 31,
+                              "beginColumn": 9,
+                              "endLine": 31,
+                              "endColumn": 18
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "System"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "out"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 31,
+                                "beginColumn": 16,
+                                "endLine": 31,
+                                "endColumn": 18
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "out"
+                                }
+                              },
+                              "identifier": "out"
+                            },
+                            "scope": {
+                              "!": "com.github.javaparser.ast.expr.NameExpr",
+                              "range": {
+                                "beginLine": 31,
+                                "beginColumn": 9,
+                                "endLine": 31,
+                                "endColumn": 14
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "System"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 31,
+                                  "beginColumn": 9,
+                                  "endLine": 31,
+                                  "endColumn": 14
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "System"
+                                  }
+                                },
+                                "identifier": "System"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "type": {
+                    "!": "com.github.javaparser.ast.type.VoidType",
+                    "range": {
+                      "beginLine": 4,
+                      "beginColumn": 19,
+                      "endLine": 4,
+                      "endColumn": 22
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 62,
+                        "text": "void"
+                      },
+                      "endToken": {
+                        "kind": 62,
+                        "text": "void"
+                      }
+                    },
+                    "annotations": []
+                  },
+                  "modifiers": [
+                    {
+                      "!": "com.github.javaparser.ast.Modifier",
+                      "range": {
+                        "beginLine": 4,
+                        "beginColumn": 5,
+                        "endLine": 4,
+                        "endColumn": 10
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 47,
+                          "text": "public"
+                        },
+                        "endToken": {
+                          "kind": 47,
+                          "text": "public"
+                        }
+                      },
+                      "keyword": "PUBLIC"
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.Modifier",
+                      "range": {
+                        "beginLine": 4,
+                        "beginColumn": 12,
+                        "endLine": 4,
+                        "endColumn": 17
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 51,
+                          "text": "static"
+                        },
+                        "endToken": {
+                          "kind": 51,
+                          "text": "static"
+                        }
+                      },
+                      "keyword": "STATIC"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 4,
+                      "beginColumn": 24,
+                      "endLine": 4,
+                      "endColumn": 27
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "main"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "main"
+                      }
+                    },
+                    "identifier": "main"
+                  },
+                  "parameters": [
+                    {
+                      "!": "com.github.javaparser.ast.body.Parameter",
+                      "range": {
+                        "beginLine": 4,
+                        "beginColumn": 29,
+                        "endLine": 4,
+                        "endColumn": 41
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "String"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "args"
+                        }
+                      },
+                      "annotations": [],
+                      "isVarArgs": "false",
+                      "modifiers": [],
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 4,
+                          "beginColumn": 38,
+                          "endLine": 4,
+                          "endColumn": 41
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "args"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "args"
+                          }
+                        },
+                        "identifier": "args"
+                      },
+                      "type": {
+                        "!": "com.github.javaparser.ast.type.ArrayType",
+                        "range": {
+                          "beginLine": 4,
+                          "beginColumn": 29,
+                          "endLine": 4,
+                          "endColumn": 36
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "String"
+                          },
+                          "endToken": {
+                            "kind": 102,
+                            "text": "]"
+                          }
+                        },
+                        "componentType": {
+                          "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                          "range": {
+                            "beginLine": 4,
+                            "beginColumn": 29,
+                            "endLine": 4,
+                            "endColumn": 34
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "String"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "String"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 4,
+                              "beginColumn": 29,
+                              "endLine": 4,
+                              "endColumn": 34
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "String"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "String"
+                              }
+                            },
+                            "identifier": "String"
+                          },
+                          "annotations": []
+                        },
+                        "origin": "TYPE",
+                        "annotations": []
+                      },
+                      "varArgsAnnotations": []
+                    }
+                  ],
+                  "thrownExceptions": [],
+                  "typeParameters": [],
+                  "annotations": []
+                }
+              ],
+              "modifiers": [
+                {
+                  "!": "com.github.javaparser.ast.Modifier",
+                  "range": {
+                    "beginLine": 3,
+                    "beginColumn": 5,
+                    "endLine": 3,
+                    "endColumn": 10
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 47,
+                      "text": "public"
+                    },
+                    "endToken": {
+                      "kind": 47,
+                      "text": "public"
+                    }
+                  },
+                  "keyword": "PUBLIC"
+                }
+              ],
+              "name": {
+                "!": "com.github.javaparser.ast.expr.SimpleName",
+                "range": {
+                  "beginLine": 3,
+                  "beginColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 27
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "Calculator"
+                  },
+                  "endToken": {
+                    "kind": 94,
+                    "text": "Calculator"
+                  }
+                },
+                "identifier": "Calculator"
+              },
+              "annotations": []
+            }
+          ],
+          "modifiers": [],
+          "name": {
+            "!": "com.github.javaparser.ast.expr.SimpleName",
+            "range": {
+              "beginLine": 2,
+              "beginColumn": 7,
+              "endLine": 2,
+              "endColumn": 10
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 94,
+                "text": "Test"
+              },
+              "endToken": {
+                "kind": 94,
+                "text": "Test"
+              }
+            },
+            "identifier": "Test"
+          },
+          "annotations": []
+        }
+      ],
+      "modifiers": [],
+      "name": {
+        "!": "com.github.javaparser.ast.expr.SimpleName",
+        "range": {
+          "beginLine": 1,
+          "beginColumn": 7,
+          "endLine": 1,
+          "endColumn": 10
+        },
+        "tokenRange": {
+          "beginToken": {
+            "kind": 94,
+            "text": "Test"
+          },
+          "endToken": {
+            "kind": 94,
+            "text": "Test"
+          }
+        },
+        "identifier": "Test"
+      },
+      "annotations": []
+    }
+  ]
+}

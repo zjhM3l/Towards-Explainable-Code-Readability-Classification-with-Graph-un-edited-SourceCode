@@ -1,0 +1,2932 @@
+{
+  "!": "com.github.javaparser.ast.CompilationUnit",
+  "range": {
+    "beginLine": 1,
+    "beginColumn": 1,
+    "endLine": 29,
+    "endColumn": 2
+  },
+  "tokenRange": {
+    "beginToken": {
+      "kind": 19,
+      "text": "class"
+    },
+    "endToken": {
+      "kind": 0,
+      "text": ""
+    }
+  },
+  "imports": [],
+  "types": [
+    {
+      "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+      "range": {
+        "beginLine": 1,
+        "beginColumn": 1,
+        "endLine": 29,
+        "endColumn": 2
+      },
+      "tokenRange": {
+        "beginToken": {
+          "kind": 19,
+          "text": "class"
+        },
+        "endToken": {
+          "kind": 100,
+          "text": "}"
+        }
+      },
+      "extendedTypes": [],
+      "implementedTypes": [],
+      "isInterface": "false",
+      "typeParameters": [],
+      "members": [
+        {
+          "!": "com.github.javaparser.ast.body.MethodDeclaration",
+          "range": {
+            "beginLine": 2,
+            "beginColumn": 2,
+            "endLine": 27,
+            "endColumn": 2
+          },
+          "tokenRange": {
+            "beginToken": {
+              "kind": 107,
+              "text": "@"
+            },
+            "endToken": {
+              "kind": 100,
+              "text": "}"
+            }
+          },
+          "body": {
+            "!": "com.github.javaparser.ast.stmt.BlockStmt",
+            "range": {
+              "beginLine": 3,
+              "beginColumn": 50,
+              "endLine": 27,
+              "endColumn": 2
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 99,
+                "text": "{"
+              },
+              "endToken": {
+                "kind": 100,
+                "text": "}"
+              }
+            },
+            "statements": [
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 4,
+                  "beginColumn": 3,
+                  "endLine": 4,
+                  "endColumn": 74
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "assertTranslation"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 4,
+                    "beginColumn": 3,
+                    "endLine": 4,
+                    "endColumn": 73
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "assertTranslation"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 4,
+                        "beginColumn": 21,
+                        "endLine": 4,
+                        "endColumn": 72
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"from Animal a where abs(a.bodyWeight-:param) < 2.0\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"from Animal a where abs(a.bodyWeight-:param) < 2.0\""
+                        }
+                      },
+                      "value": "from Animal a where abs(a.bodyWeight-:param) < 2.0"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 4,
+                      "beginColumn": 3,
+                      "endLine": 4,
+                      "endColumn": 19
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      }
+                    },
+                    "identifier": "assertTranslation"
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 5,
+                  "beginColumn": 3,
+                  "endLine": 5,
+                  "endColumn": 76
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "assertTranslation"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 5,
+                    "beginColumn": 3,
+                    "endLine": 5,
+                    "endColumn": 75
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "assertTranslation"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 5,
+                        "beginColumn": 21,
+                        "endLine": 5,
+                        "endColumn": 74
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"from Animal a where abs(:param - a.bodyWeight) < 2.0\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"from Animal a where abs(:param - a.bodyWeight) < 2.0\""
+                        }
+                      },
+                      "value": "from Animal a where abs(:param - a.bodyWeight) < 2.0"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 5,
+                      "beginColumn": 3,
+                      "endLine": 5,
+                      "endColumn": 19
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      }
+                    },
+                    "identifier": "assertTranslation"
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 6,
+                  "beginColumn": 3,
+                  "endLine": 6,
+                  "endColumn": 60
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "assertTranslation"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 6,
+                    "beginColumn": 3,
+                    "endLine": 6,
+                    "endColumn": 59
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "assertTranslation"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 6,
+                        "beginColumn": 21,
+                        "endLine": 6,
+                        "endColumn": 58
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"from Animal where abs(:x - :y) < 2.0\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"from Animal where abs(:x - :y) < 2.0\""
+                        }
+                      },
+                      "value": "from Animal where abs(:x - :y) < 2.0"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 6,
+                      "beginColumn": 3,
+                      "endLine": 6,
+                      "endColumn": 19
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      }
+                    },
+                    "identifier": "assertTranslation"
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 7,
+                  "beginColumn": 3,
+                  "endLine": 7,
+                  "endColumn": 70
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "assertTranslation"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 7,
+                    "beginColumn": 3,
+                    "endLine": 7,
+                    "endColumn": 69
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "assertTranslation"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 7,
+                        "beginColumn": 21,
+                        "endLine": 7,
+                        "endColumn": 68
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"from Animal where lower(upper(:foo)) like 'f%'\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"from Animal where lower(upper(:foo)) like 'f%'\""
+                        }
+                      },
+                      "value": "from Animal where lower(upper(:foo)) like 'f%'"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 7,
+                      "beginColumn": 3,
+                      "endLine": 7,
+                      "endColumn": 19
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      }
+                    },
+                    "identifier": "assertTranslation"
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.IfStmt",
+                "range": {
+                  "beginLine": 8,
+                  "beginColumn": 3,
+                  "endLine": 14,
+                  "endColumn": 3
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 34,
+                    "text": "if"
+                  },
+                  "endToken": {
+                    "kind": 100,
+                    "text": "}"
+                  }
+                },
+                "condition": {
+                  "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                  "range": {
+                    "beginLine": 8,
+                    "beginColumn": 8,
+                    "endLine": 8,
+                    "endColumn": 203
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 111,
+                      "text": "!"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "left": {
+                    "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                    "range": {
+                      "beginLine": 8,
+                      "beginColumn": 8,
+                      "endLine": 8,
+                      "endColumn": 153
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 111,
+                        "text": "!"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "left": {
+                      "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                      "range": {
+                        "beginLine": 8,
+                        "beginColumn": 8,
+                        "endLine": 8,
+                        "endColumn": 100
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 111,
+                          "text": "!"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "left": {
+                        "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                        "range": {
+                          "beginLine": 8,
+                          "beginColumn": 8,
+                          "endLine": 8,
+                          "endColumn": 50
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 111,
+                            "text": "!"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                          "range": {
+                            "beginLine": 8,
+                            "beginColumn": 10,
+                            "endLine": 8,
+                            "endColumn": 50
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 97,
+                              "text": "("
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "inner": {
+                            "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 12,
+                              "endLine": 8,
+                              "endColumn": 48
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SybaseDialect"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 12,
+                                "endLine": 8,
+                                "endColumn": 23
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 8,
+                                  "beginColumn": 12,
+                                  "endLine": 8,
+                                  "endColumn": 21
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  }
+                                },
+                                "identifier": "getDialect"
+                              }
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 36,
+                                "endLine": 8,
+                                "endColumn": 48
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "SybaseDialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "SybaseDialect"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 8,
+                                  "beginColumn": 36,
+                                  "endLine": 8,
+                                  "endColumn": 48
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "SybaseDialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "SybaseDialect"
+                                  }
+                                },
+                                "identifier": "SybaseDialect"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        },
+                        "operator": "LOGICAL_COMPLEMENT"
+                      },
+                      "operator": "AND",
+                      "right": {
+                        "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                        "range": {
+                          "beginLine": 8,
+                          "beginColumn": 56,
+                          "endLine": 8,
+                          "endColumn": 100
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 111,
+                            "text": "!"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                          "range": {
+                            "beginLine": 8,
+                            "beginColumn": 58,
+                            "endLine": 8,
+                            "endColumn": 100
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 97,
+                              "text": "("
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "inner": {
+                            "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 60,
+                              "endLine": 8,
+                              "endColumn": 98
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "Sybase11Dialect"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 60,
+                                "endLine": 8,
+                                "endColumn": 71
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 8,
+                                  "beginColumn": 60,
+                                  "endLine": 8,
+                                  "endColumn": 69
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  }
+                                },
+                                "identifier": "getDialect"
+                              }
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 84,
+                                "endLine": 8,
+                                "endColumn": 98
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "Sybase11Dialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "Sybase11Dialect"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 8,
+                                  "beginColumn": 84,
+                                  "endLine": 8,
+                                  "endColumn": 98
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "Sybase11Dialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "Sybase11Dialect"
+                                  }
+                                },
+                                "identifier": "Sybase11Dialect"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        },
+                        "operator": "LOGICAL_COMPLEMENT"
+                      }
+                    },
+                    "operator": "AND",
+                    "right": {
+                      "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                      "range": {
+                        "beginLine": 8,
+                        "beginColumn": 106,
+                        "endLine": 8,
+                        "endColumn": 153
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 111,
+                          "text": "!"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                        "range": {
+                          "beginLine": 8,
+                          "beginColumn": 108,
+                          "endLine": 8,
+                          "endColumn": 153
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 97,
+                            "text": "("
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "inner": {
+                          "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                          "range": {
+                            "beginLine": 8,
+                            "beginColumn": 110,
+                            "endLine": 8,
+                            "endColumn": 151
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "getDialect"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SybaseASE15Dialect"
+                            }
+                          },
+                          "expression": {
+                            "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 110,
+                              "endLine": 8,
+                              "endColumn": 121
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "arguments": [],
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 110,
+                                "endLine": 8,
+                                "endColumn": 119
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                }
+                              },
+                              "identifier": "getDialect"
+                            }
+                          },
+                          "type": {
+                            "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 134,
+                              "endLine": 8,
+                              "endColumn": 151
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "SybaseASE15Dialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SybaseASE15Dialect"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 8,
+                                "beginColumn": 134,
+                                "endLine": 8,
+                                "endColumn": 151
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "SybaseASE15Dialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "SybaseASE15Dialect"
+                                }
+                              },
+                              "identifier": "SybaseASE15Dialect"
+                            },
+                            "annotations": []
+                          }
+                        }
+                      },
+                      "operator": "LOGICAL_COMPLEMENT"
+                    }
+                  },
+                  "operator": "AND",
+                  "right": {
+                    "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                    "range": {
+                      "beginLine": 8,
+                      "beginColumn": 158,
+                      "endLine": 8,
+                      "endColumn": 203
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 111,
+                        "text": "!"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "expression": {
+                      "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                      "range": {
+                        "beginLine": 8,
+                        "beginColumn": 160,
+                        "endLine": 8,
+                        "endColumn": 203
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 97,
+                          "text": "("
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "inner": {
+                        "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                        "range": {
+                          "beginLine": 8,
+                          "beginColumn": 162,
+                          "endLine": 8,
+                          "endColumn": 201
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "getDialect"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SQLServerDialect"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                          "range": {
+                            "beginLine": 8,
+                            "beginColumn": 162,
+                            "endLine": 8,
+                            "endColumn": 173
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "getDialect"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "arguments": [],
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 162,
+                              "endLine": 8,
+                              "endColumn": 171
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              }
+                            },
+                            "identifier": "getDialect"
+                          }
+                        },
+                        "type": {
+                          "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                          "range": {
+                            "beginLine": 8,
+                            "beginColumn": 186,
+                            "endLine": 8,
+                            "endColumn": 201
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SQLServerDialect"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SQLServerDialect"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 8,
+                              "beginColumn": 186,
+                              "endLine": 8,
+                              "endColumn": 201
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "SQLServerDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SQLServerDialect"
+                              }
+                            },
+                            "identifier": "SQLServerDialect"
+                          },
+                          "annotations": []
+                        }
+                      }
+                    },
+                    "operator": "LOGICAL_COMPLEMENT"
+                  }
+                },
+                "thenStmt": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 8,
+                    "beginColumn": 207,
+                    "endLine": 14,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 13,
+                        "beginColumn": 4,
+                        "endLine": 13,
+                        "endColumn": 114
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "assertTranslation"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 4,
+                          "endLine": 13,
+                          "endColumn": 113
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "assertTranslation"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                            "range": {
+                              "beginLine": 13,
+                              "beginColumn": 22,
+                              "endLine": 13,
+                              "endColumn": 112
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 90,
+                                "text": "\"from Animal a where abs(abs(a.bodyWeight - 1.0 + :param) * abs(length('ffobar')-3)) = 3.0\""
+                              },
+                              "endToken": {
+                                "kind": 90,
+                                "text": "\"from Animal a where abs(abs(a.bodyWeight - 1.0 + :param) * abs(length('ffobar')-3)) = 3.0\""
+                              }
+                            },
+                            "value": "from Animal a where abs(abs(a.bodyWeight - 1.0 + :param) * abs(length('ffobar')-3)) = 3.0"
+                          }
+                        ],
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 13,
+                            "beginColumn": 4,
+                            "endLine": 13,
+                            "endColumn": 20
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "assertTranslation"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "assertTranslation"
+                            }
+                          },
+                          "identifier": "assertTranslation"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.IfStmt",
+                "range": {
+                  "beginLine": 15,
+                  "beginColumn": 3,
+                  "endLine": 17,
+                  "endColumn": 3
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 34,
+                    "text": "if"
+                  },
+                  "endToken": {
+                    "kind": 100,
+                    "text": "}"
+                  }
+                },
+                "condition": {
+                  "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                  "range": {
+                    "beginLine": 15,
+                    "beginColumn": 8,
+                    "endLine": 15,
+                    "endColumn": 300
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 111,
+                      "text": "!"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "left": {
+                    "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                    "range": {
+                      "beginLine": 15,
+                      "beginColumn": 8,
+                      "endLine": 15,
+                      "endColumn": 250
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 111,
+                        "text": "!"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "left": {
+                      "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                      "range": {
+                        "beginLine": 15,
+                        "beginColumn": 8,
+                        "endLine": 15,
+                        "endColumn": 195
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 111,
+                          "text": "!"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "left": {
+                        "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                        "range": {
+                          "beginLine": 15,
+                          "beginColumn": 8,
+                          "endLine": 15,
+                          "endColumn": 144
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 111,
+                            "text": "!"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "left": {
+                          "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 8,
+                            "endLine": 15,
+                            "endColumn": 95
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 111,
+                              "text": "!"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "left": {
+                            "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 8,
+                              "endLine": 15,
+                              "endColumn": 48
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 111,
+                                "text": "!"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 9,
+                                "endLine": 15,
+                                "endColumn": 48
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 97,
+                                  "text": "("
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "inner": {
+                                "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                                "range": {
+                                  "beginLine": 15,
+                                  "beginColumn": 11,
+                                  "endLine": 15,
+                                  "endColumn": 46
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "MySQLDialect"
+                                  }
+                                },
+                                "expression": {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 11,
+                                    "endLine": 15,
+                                    "endColumn": 22
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "getDialect"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 15,
+                                      "beginColumn": 11,
+                                      "endLine": 15,
+                                      "endColumn": 20
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "getDialect"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "getDialect"
+                                      }
+                                    },
+                                    "identifier": "getDialect"
+                                  }
+                                },
+                                "type": {
+                                  "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 35,
+                                    "endLine": 15,
+                                    "endColumn": 46
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "MySQLDialect"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "MySQLDialect"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 15,
+                                      "beginColumn": 35,
+                                      "endLine": 15,
+                                      "endColumn": 46
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "MySQLDialect"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "MySQLDialect"
+                                      }
+                                    },
+                                    "identifier": "MySQLDialect"
+                                  },
+                                  "annotations": []
+                                }
+                              }
+                            },
+                            "operator": "LOGICAL_COMPLEMENT"
+                          },
+                          "operator": "AND",
+                          "right": {
+                            "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 53,
+                              "endLine": 15,
+                              "endColumn": 95
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 111,
+                                "text": "!"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 55,
+                                "endLine": 15,
+                                "endColumn": 95
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 97,
+                                  "text": "("
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "inner": {
+                                "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                                "range": {
+                                  "beginLine": 15,
+                                  "beginColumn": 57,
+                                  "endLine": 15,
+                                  "endColumn": 93
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "SybaseDialect"
+                                  }
+                                },
+                                "expression": {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 57,
+                                    "endLine": 15,
+                                    "endColumn": 68
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "getDialect"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 15,
+                                      "beginColumn": 57,
+                                      "endLine": 15,
+                                      "endColumn": 66
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "getDialect"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "getDialect"
+                                      }
+                                    },
+                                    "identifier": "getDialect"
+                                  }
+                                },
+                                "type": {
+                                  "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 81,
+                                    "endLine": 15,
+                                    "endColumn": 93
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "SybaseDialect"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "SybaseDialect"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 15,
+                                      "beginColumn": 81,
+                                      "endLine": 15,
+                                      "endColumn": 93
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "SybaseDialect"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "SybaseDialect"
+                                      }
+                                    },
+                                    "identifier": "SybaseDialect"
+                                  },
+                                  "annotations": []
+                                }
+                              }
+                            },
+                            "operator": "LOGICAL_COMPLEMENT"
+                          }
+                        },
+                        "operator": "AND",
+                        "right": {
+                          "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 100,
+                            "endLine": 15,
+                            "endColumn": 144
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 111,
+                              "text": "!"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "expression": {
+                            "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 102,
+                              "endLine": 15,
+                              "endColumn": 144
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 97,
+                                "text": "("
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "inner": {
+                              "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 104,
+                                "endLine": 15,
+                                "endColumn": 142
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "Sybase11Dialect"
+                                }
+                              },
+                              "expression": {
+                                "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                "range": {
+                                  "beginLine": 15,
+                                  "beginColumn": 104,
+                                  "endLine": 15,
+                                  "endColumn": 115
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [],
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 104,
+                                    "endLine": 15,
+                                    "endColumn": 113
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "getDialect"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "getDialect"
+                                    }
+                                  },
+                                  "identifier": "getDialect"
+                                }
+                              },
+                              "type": {
+                                "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                                "range": {
+                                  "beginLine": 15,
+                                  "beginColumn": 128,
+                                  "endLine": 15,
+                                  "endColumn": 142
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "Sybase11Dialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "Sybase11Dialect"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 15,
+                                    "beginColumn": 128,
+                                    "endLine": 15,
+                                    "endColumn": 142
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "Sybase11Dialect"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "Sybase11Dialect"
+                                    }
+                                  },
+                                  "identifier": "Sybase11Dialect"
+                                },
+                                "annotations": []
+                              }
+                            }
+                          },
+                          "operator": "LOGICAL_COMPLEMENT"
+                        }
+                      },
+                      "operator": "AND",
+                      "right": {
+                        "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                        "range": {
+                          "beginLine": 15,
+                          "beginColumn": 149,
+                          "endLine": 15,
+                          "endColumn": 195
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 111,
+                            "text": "!"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 150,
+                            "endLine": 15,
+                            "endColumn": 195
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 97,
+                              "text": "("
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "inner": {
+                            "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 152,
+                              "endLine": 15,
+                              "endColumn": 193
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SybaseASE15Dialect"
+                              }
+                            },
+                            "expression": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 152,
+                                "endLine": 15,
+                                "endColumn": 163
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 15,
+                                  "beginColumn": 152,
+                                  "endLine": 15,
+                                  "endColumn": 161
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getDialect"
+                                  }
+                                },
+                                "identifier": "getDialect"
+                              }
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 176,
+                                "endLine": 15,
+                                "endColumn": 193
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "SybaseASE15Dialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "SybaseASE15Dialect"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 15,
+                                  "beginColumn": 176,
+                                  "endLine": 15,
+                                  "endColumn": 193
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "SybaseASE15Dialect"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "SybaseASE15Dialect"
+                                  }
+                                },
+                                "identifier": "SybaseASE15Dialect"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        },
+                        "operator": "LOGICAL_COMPLEMENT"
+                      }
+                    },
+                    "operator": "AND",
+                    "right": {
+                      "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                      "range": {
+                        "beginLine": 15,
+                        "beginColumn": 200,
+                        "endLine": 15,
+                        "endColumn": 250
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 111,
+                          "text": "!"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                        "range": {
+                          "beginLine": 15,
+                          "beginColumn": 202,
+                          "endLine": 15,
+                          "endColumn": 250
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 97,
+                            "text": "("
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "inner": {
+                          "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 204,
+                            "endLine": 15,
+                            "endColumn": 248
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "getDialect"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SybaseAnywhereDialect"
+                            }
+                          },
+                          "expression": {
+                            "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 204,
+                              "endLine": 15,
+                              "endColumn": 215
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "arguments": [],
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 204,
+                                "endLine": 15,
+                                "endColumn": 213
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "getDialect"
+                                }
+                              },
+                              "identifier": "getDialect"
+                            }
+                          },
+                          "type": {
+                            "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 228,
+                              "endLine": 15,
+                              "endColumn": 248
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "SybaseAnywhereDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SybaseAnywhereDialect"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 15,
+                                "beginColumn": 228,
+                                "endLine": 15,
+                                "endColumn": 248
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "SybaseAnywhereDialect"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "SybaseAnywhereDialect"
+                                }
+                              },
+                              "identifier": "SybaseAnywhereDialect"
+                            },
+                            "annotations": []
+                          }
+                        }
+                      },
+                      "operator": "LOGICAL_COMPLEMENT"
+                    }
+                  },
+                  "operator": "AND",
+                  "right": {
+                    "!": "com.github.javaparser.ast.expr.UnaryExpr",
+                    "range": {
+                      "beginLine": 15,
+                      "beginColumn": 255,
+                      "endLine": 15,
+                      "endColumn": 300
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 111,
+                        "text": "!"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "expression": {
+                      "!": "com.github.javaparser.ast.expr.EnclosedExpr",
+                      "range": {
+                        "beginLine": 15,
+                        "beginColumn": 257,
+                        "endLine": 15,
+                        "endColumn": 300
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 97,
+                          "text": "("
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "inner": {
+                        "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                        "range": {
+                          "beginLine": 15,
+                          "beginColumn": 259,
+                          "endLine": 15,
+                          "endColumn": 298
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "getDialect"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SQLServerDialect"
+                          }
+                        },
+                        "expression": {
+                          "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 259,
+                            "endLine": 15,
+                            "endColumn": 270
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "getDialect"
+                            },
+                            "endToken": {
+                              "kind": 98,
+                              "text": ")"
+                            }
+                          },
+                          "arguments": [],
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 259,
+                              "endLine": 15,
+                              "endColumn": 268
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "getDialect"
+                              }
+                            },
+                            "identifier": "getDialect"
+                          }
+                        },
+                        "type": {
+                          "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                          "range": {
+                            "beginLine": 15,
+                            "beginColumn": 283,
+                            "endLine": 15,
+                            "endColumn": 298
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "SQLServerDialect"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "SQLServerDialect"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 15,
+                              "beginColumn": 283,
+                              "endLine": 15,
+                              "endColumn": 298
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "SQLServerDialect"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "SQLServerDialect"
+                              }
+                            },
+                            "identifier": "SQLServerDialect"
+                          },
+                          "annotations": []
+                        }
+                      }
+                    },
+                    "operator": "LOGICAL_COMPLEMENT"
+                  }
+                },
+                "thenStmt": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 15,
+                    "beginColumn": 304,
+                    "endLine": 17,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 16,
+                        "beginColumn": 4,
+                        "endLine": 16,
+                        "endColumn": 87
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "assertTranslation"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                        "range": {
+                          "beginLine": 16,
+                          "beginColumn": 4,
+                          "endLine": 16,
+                          "endColumn": 86
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "assertTranslation"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                            "range": {
+                              "beginLine": 16,
+                              "beginColumn": 22,
+                              "endLine": 16,
+                              "endColumn": 85
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 90,
+                                "text": "\"from Animal where lower(upper('foo') || upper(:bar)) like 'f%'\""
+                              },
+                              "endToken": {
+                                "kind": 90,
+                                "text": "\"from Animal where lower(upper('foo') || upper(:bar)) like 'f%'\""
+                              }
+                            },
+                            "value": "from Animal where lower(upper('foo') || upper(:bar)) like 'f%'"
+                          }
+                        ],
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 16,
+                            "beginColumn": 4,
+                            "endLine": 16,
+                            "endColumn": 20
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "assertTranslation"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "assertTranslation"
+                            }
+                          },
+                          "identifier": "assertTranslation"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.IfStmt",
+                "range": {
+                  "beginLine": 18,
+                  "beginColumn": 3,
+                  "endLine": 20,
+                  "endColumn": 3
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 34,
+                    "text": "if"
+                  },
+                  "endToken": {
+                    "kind": 100,
+                    "text": "}"
+                  }
+                },
+                "condition": {
+                  "!": "com.github.javaparser.ast.expr.BinaryExpr",
+                  "range": {
+                    "beginLine": 18,
+                    "beginColumn": 8,
+                    "endLine": 18,
+                    "endColumn": 95
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "getDialect"
+                    },
+                    "endToken": {
+                      "kind": 94,
+                      "text": "PostgreSQL81Dialect"
+                    }
+                  },
+                  "left": {
+                    "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                    "range": {
+                      "beginLine": 18,
+                      "beginColumn": 8,
+                      "endLine": 18,
+                      "endColumn": 48
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "getDialect"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "PostgreSQLDialect"
+                      }
+                    },
+                    "expression": {
+                      "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                      "range": {
+                        "beginLine": 18,
+                        "beginColumn": 8,
+                        "endLine": 18,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "getDialect"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "arguments": [],
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 18,
+                          "beginColumn": 8,
+                          "endLine": 18,
+                          "endColumn": 17
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "getDialect"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "getDialect"
+                          }
+                        },
+                        "identifier": "getDialect"
+                      }
+                    },
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 18,
+                        "beginColumn": 32,
+                        "endLine": 18,
+                        "endColumn": 48
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "PostgreSQLDialect"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "PostgreSQLDialect"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 18,
+                          "beginColumn": 32,
+                          "endLine": 18,
+                          "endColumn": 48
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "PostgreSQLDialect"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "PostgreSQLDialect"
+                          }
+                        },
+                        "identifier": "PostgreSQLDialect"
+                      },
+                      "annotations": []
+                    }
+                  },
+                  "operator": "OR",
+                  "right": {
+                    "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                    "range": {
+                      "beginLine": 18,
+                      "beginColumn": 53,
+                      "endLine": 18,
+                      "endColumn": 95
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "getDialect"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "PostgreSQL81Dialect"
+                      }
+                    },
+                    "expression": {
+                      "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                      "range": {
+                        "beginLine": 18,
+                        "beginColumn": 53,
+                        "endLine": 18,
+                        "endColumn": 64
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "getDialect"
+                        },
+                        "endToken": {
+                          "kind": 98,
+                          "text": ")"
+                        }
+                      },
+                      "arguments": [],
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 18,
+                          "beginColumn": 53,
+                          "endLine": 18,
+                          "endColumn": 62
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "getDialect"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "getDialect"
+                          }
+                        },
+                        "identifier": "getDialect"
+                      }
+                    },
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 18,
+                        "beginColumn": 77,
+                        "endLine": 18,
+                        "endColumn": 95
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "PostgreSQL81Dialect"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "PostgreSQL81Dialect"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 18,
+                          "beginColumn": 77,
+                          "endLine": 18,
+                          "endColumn": 95
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "PostgreSQL81Dialect"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "PostgreSQL81Dialect"
+                          }
+                        },
+                        "identifier": "PostgreSQL81Dialect"
+                      },
+                      "annotations": []
+                    }
+                  }
+                },
+                "thenStmt": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 18,
+                    "beginColumn": 99,
+                    "endLine": 20,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ReturnStmt",
+                      "range": {
+                        "beginLine": 19,
+                        "beginColumn": 4,
+                        "endLine": 19,
+                        "endColumn": 10
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 49,
+                          "text": "return"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.IfStmt",
+                "range": {
+                  "beginLine": 21,
+                  "beginColumn": 3,
+                  "endLine": 25,
+                  "endColumn": 3
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 34,
+                    "text": "if"
+                  },
+                  "endToken": {
+                    "kind": 100,
+                    "text": "}"
+                  }
+                },
+                "condition": {
+                  "!": "com.github.javaparser.ast.expr.InstanceOfExpr",
+                  "range": {
+                    "beginLine": 21,
+                    "beginColumn": 8,
+                    "endLine": 21,
+                    "endColumn": 50
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "getDialect"
+                    },
+                    "endToken": {
+                      "kind": 94,
+                      "text": "AbstractHANADialect"
+                    }
+                  },
+                  "expression": {
+                    "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                    "range": {
+                      "beginLine": 21,
+                      "beginColumn": 8,
+                      "endLine": 21,
+                      "endColumn": 19
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "getDialect"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [],
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 21,
+                        "beginColumn": 8,
+                        "endLine": 21,
+                        "endColumn": 17
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "getDialect"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "getDialect"
+                        }
+                      },
+                      "identifier": "getDialect"
+                    }
+                  },
+                  "type": {
+                    "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                    "range": {
+                      "beginLine": 21,
+                      "beginColumn": 32,
+                      "endLine": 21,
+                      "endColumn": 50
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "AbstractHANADialect"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "AbstractHANADialect"
+                      }
+                    },
+                    "name": {
+                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                      "range": {
+                        "beginLine": 21,
+                        "beginColumn": 32,
+                        "endLine": 21,
+                        "endColumn": 50
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "AbstractHANADialect"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "AbstractHANADialect"
+                        }
+                      },
+                      "identifier": "AbstractHANADialect"
+                    },
+                    "annotations": []
+                  }
+                },
+                "thenStmt": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 21,
+                    "beginColumn": 54,
+                    "endLine": 25,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ReturnStmt",
+                      "range": {
+                        "beginLine": 24,
+                        "beginColumn": 4,
+                        "endLine": 24,
+                        "endColumn": 10
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 49,
+                          "text": "return"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "comment": [
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 23,
+                            "beginColumn": 4,
+                            "endLine": 23,
+                            "endColumn": 81
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            }
+                          },
+                          "content": " ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 9,
+                            "beginColumn": 4,
+                            "endLine": 9,
+                            "endColumn": 90
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            }
+                          },
+                          "content": " ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 10,
+                            "beginColumn": 4,
+                            "endLine": 10,
+                            "endColumn": 90
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            }
+                          },
+                          "content": " ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 11,
+                            "beginColumn": 4,
+                            "endLine": 11,
+                            "endColumn": 90
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            }
+                          },
+                          "content": " ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                        },
+                        {
+                          "!": "com.github.javaparser.ast.comments.LineComment",
+                          "range": {
+                            "beginLine": 22,
+                            "beginColumn": 4,
+                            "endLine": 22,
+                            "endColumn": 22
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            },
+                            "endToken": {
+                              "kind": 5,
+                              "text": "// ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                            }
+                          },
+                          "content": " ...al0_7_.mammal where [abs(cast(1 as float(19))-cast(? as float(19)))=1.0]"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 26,
+                  "beginColumn": 3,
+                  "endLine": 26,
+                  "endColumn": 93
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "assertTranslation"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 26,
+                    "beginColumn": 3,
+                    "endLine": 26,
+                    "endColumn": 92
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "assertTranslation"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                      "range": {
+                        "beginLine": 26,
+                        "beginColumn": 21,
+                        "endLine": 26,
+                        "endColumn": 91
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 90,
+                          "text": "\"from Animal where abs(cast(1 as float) - cast(:param as float)) = 1.0\""
+                        },
+                        "endToken": {
+                          "kind": 90,
+                          "text": "\"from Animal where abs(cast(1 as float) - cast(:param as float)) = 1.0\""
+                        }
+                      },
+                      "value": "from Animal where abs(cast(1 as float) - cast(:param as float)) = 1.0"
+                    }
+                  ],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 26,
+                      "beginColumn": 3,
+                      "endLine": 26,
+                      "endColumn": 19
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "assertTranslation"
+                      }
+                    },
+                    "identifier": "assertTranslation"
+                  }
+                }
+              }
+            ]
+          },
+          "type": {
+            "!": "com.github.javaparser.ast.type.VoidType",
+            "range": {
+              "beginLine": 3,
+              "beginColumn": 9,
+              "endLine": 3,
+              "endColumn": 12
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 62,
+                "text": "void"
+              },
+              "endToken": {
+                "kind": 62,
+                "text": "void"
+              }
+            },
+            "annotations": []
+          },
+          "modifiers": [
+            {
+              "!": "com.github.javaparser.ast.Modifier",
+              "range": {
+                "beginLine": 3,
+                "beginColumn": 2,
+                "endLine": 3,
+                "endColumn": 7
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 47,
+                  "text": "public"
+                },
+                "endToken": {
+                  "kind": 47,
+                  "text": "public"
+                }
+              },
+              "keyword": "PUBLIC"
+            }
+          ],
+          "name": {
+            "!": "com.github.javaparser.ast.expr.SimpleName",
+            "range": {
+              "beginLine": 3,
+              "beginColumn": 14,
+              "endLine": 3,
+              "endColumn": 46
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 94,
+                "text": "testExpressionWithParamInFunction"
+              },
+              "endToken": {
+                "kind": 94,
+                "text": "testExpressionWithParamInFunction"
+              }
+            },
+            "identifier": "testExpressionWithParamInFunction"
+          },
+          "parameters": [],
+          "thrownExceptions": [],
+          "typeParameters": [],
+          "annotations": [
+            {
+              "!": "com.github.javaparser.ast.expr.MarkerAnnotationExpr",
+              "range": {
+                "beginLine": 2,
+                "beginColumn": 2,
+                "endLine": 2,
+                "endColumn": 6
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 107,
+                  "text": "@"
+                },
+                "endToken": {
+                  "kind": 94,
+                  "text": "Test"
+                }
+              },
+              "name": {
+                "!": "com.github.javaparser.ast.expr.Name",
+                "range": {
+                  "beginLine": 2,
+                  "beginColumn": 3,
+                  "endLine": 2,
+                  "endColumn": 6
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "Test"
+                  },
+                  "endToken": {
+                    "kind": 94,
+                    "text": "Test"
+                  }
+                },
+                "identifier": "Test"
+              }
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "name": {
+        "!": "com.github.javaparser.ast.expr.SimpleName",
+        "range": {
+          "beginLine": 1,
+          "beginColumn": 7,
+          "endLine": 1,
+          "endColumn": 10
+        },
+        "tokenRange": {
+          "beginToken": {
+            "kind": 94,
+            "text": "Test"
+          },
+          "endToken": {
+            "kind": 94,
+            "text": "Test"
+          }
+        },
+        "identifier": "Test"
+      },
+      "annotations": []
+    }
+  ]
+}

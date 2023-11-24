@@ -1,0 +1,2176 @@
+{
+  "!": "com.github.javaparser.ast.CompilationUnit",
+  "range": {
+    "beginLine": 1,
+    "beginColumn": 1,
+    "endLine": 40,
+    "endColumn": 2
+  },
+  "tokenRange": {
+    "beginToken": {
+      "kind": 19,
+      "text": "class"
+    },
+    "endToken": {
+      "kind": 0,
+      "text": ""
+    }
+  },
+  "imports": [],
+  "types": [
+    {
+      "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+      "range": {
+        "beginLine": 1,
+        "beginColumn": 1,
+        "endLine": 40,
+        "endColumn": 2
+      },
+      "tokenRange": {
+        "beginToken": {
+          "kind": 19,
+          "text": "class"
+        },
+        "endToken": {
+          "kind": 100,
+          "text": "}"
+        }
+      },
+      "extendedTypes": [],
+      "implementedTypes": [],
+      "isInterface": "false",
+      "typeParameters": [],
+      "members": [
+        {
+          "!": "com.github.javaparser.ast.body.MethodDeclaration",
+          "range": {
+            "beginLine": 14,
+            "beginColumn": 2,
+            "endLine": 38,
+            "endColumn": 2
+          },
+          "tokenRange": {
+            "beginToken": {
+              "kind": 47,
+              "text": "public"
+            },
+            "endToken": {
+              "kind": 100,
+              "text": "}"
+            }
+          },
+          "body": {
+            "!": "com.github.javaparser.ast.stmt.BlockStmt",
+            "range": {
+              "beginLine": 14,
+              "beginColumn": 85,
+              "endLine": 38,
+              "endColumn": 2
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 99,
+                "text": "{"
+              },
+              "endToken": {
+                "kind": 100,
+                "text": "}"
+              }
+            },
+            "statements": [
+              {
+                "!": "com.github.javaparser.ast.stmt.IfStmt",
+                "range": {
+                  "beginLine": 15,
+                  "beginColumn": 3,
+                  "endLine": 37,
+                  "endColumn": 3
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 34,
+                    "text": "if"
+                  },
+                  "endToken": {
+                    "kind": 100,
+                    "text": "}"
+                  }
+                },
+                "condition": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 15,
+                    "beginColumn": 8,
+                    "endLine": 15,
+                    "endColumn": 16
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "isEmpty"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 15,
+                      "beginColumn": 8,
+                      "endLine": 15,
+                      "endColumn": 14
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "isEmpty"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "isEmpty"
+                      }
+                    },
+                    "identifier": "isEmpty"
+                  }
+                },
+                "elseStmt": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 18,
+                    "beginColumn": 8,
+                    "endLine": 37,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 19,
+                        "beginColumn": 4,
+                        "endLine": 20,
+                        "endColumn": 53
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 29,
+                          "text": "final"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 19,
+                          "beginColumn": 4,
+                          "endLine": 20,
+                          "endColumn": 52
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 29,
+                            "text": "final"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [
+                          {
+                            "!": "com.github.javaparser.ast.Modifier",
+                            "range": {
+                              "beginLine": 19,
+                              "beginColumn": 4,
+                              "endLine": 19,
+                              "endColumn": 8
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 29,
+                                "text": "final"
+                              },
+                              "endToken": {
+                                "kind": 29,
+                                "text": "final"
+                              }
+                            },
+                            "keyword": "FINAL"
+                          }
+                        ],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 19,
+                              "beginColumn": 37,
+                              "endLine": 20,
+                              "endColumn": 52
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "firstDependentAction"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 20,
+                                "beginColumn": 6,
+                                "endLine": 20,
+                                "endColumn": 52
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "dependenciesByAction"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 20,
+                                  "beginColumn": 47,
+                                  "endLine": 20,
+                                  "endColumn": 50
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "next"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "next"
+                                  }
+                                },
+                                "identifier": "next"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                "range": {
+                                  "beginLine": 20,
+                                  "beginColumn": 6,
+                                  "endLine": 20,
+                                  "endColumn": 45
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "dependenciesByAction"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [],
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 20,
+                                    "beginColumn": 36,
+                                    "endLine": 20,
+                                    "endColumn": 43
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "iterator"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "iterator"
+                                    }
+                                  },
+                                  "identifier": "iterator"
+                                },
+                                "scope": {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 20,
+                                    "beginColumn": 6,
+                                    "endLine": 20,
+                                    "endColumn": 34
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "dependenciesByAction"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 20,
+                                      "beginColumn": 27,
+                                      "endLine": 20,
+                                      "endColumn": 32
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "keySet"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "keySet"
+                                      }
+                                    },
+                                    "identifier": "keySet"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 20,
+                                      "beginColumn": 6,
+                                      "endLine": 20,
+                                      "endColumn": 25
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "dependenciesByAction"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "dependenciesByAction"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 20,
+                                        "beginColumn": 6,
+                                        "endLine": 20,
+                                        "endColumn": 25
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "dependenciesByAction"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "dependenciesByAction"
+                                        }
+                                      },
+                                      "identifier": "dependenciesByAction"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 19,
+                                "beginColumn": 37,
+                                "endLine": 19,
+                                "endColumn": 56
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "firstDependentAction"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "firstDependentAction"
+                                }
+                              },
+                              "identifier": "firstDependentAction"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 19,
+                                "beginColumn": 10,
+                                "endLine": 19,
+                                "endColumn": 35
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "AbstractEntityInsertAction"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "AbstractEntityInsertAction"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 19,
+                                  "beginColumn": 10,
+                                  "endLine": 19,
+                                  "endColumn": 35
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "AbstractEntityInsertAction"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "AbstractEntityInsertAction"
+                                  }
+                                },
+                                "identifier": "AbstractEntityInsertAction"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 22,
+                        "beginColumn": 4,
+                        "endLine": 22,
+                        "endColumn": 89
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "logCannotResolveNonNullableTransientDependencies"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                        "range": {
+                          "beginLine": 22,
+                          "beginColumn": 4,
+                          "endLine": 22,
+                          "endColumn": 88
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "logCannotResolveNonNullableTransientDependencies"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                            "range": {
+                              "beginLine": 22,
+                              "beginColumn": 54,
+                              "endLine": 22,
+                              "endColumn": 86
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "firstDependentAction"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "arguments": [],
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 22,
+                                "beginColumn": 75,
+                                "endLine": 22,
+                                "endColumn": 84
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getSession"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "getSession"
+                                }
+                              },
+                              "identifier": "getSession"
+                            },
+                            "scope": {
+                              "!": "com.github.javaparser.ast.expr.NameExpr",
+                              "range": {
+                                "beginLine": 22,
+                                "beginColumn": 54,
+                                "endLine": 22,
+                                "endColumn": 73
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "firstDependentAction"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "firstDependentAction"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 22,
+                                  "beginColumn": 54,
+                                  "endLine": 22,
+                                  "endColumn": 73
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "firstDependentAction"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "firstDependentAction"
+                                  }
+                                },
+                                "identifier": "firstDependentAction"
+                              }
+                            }
+                          }
+                        ],
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 22,
+                            "beginColumn": 4,
+                            "endLine": 22,
+                            "endColumn": 51
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "logCannotResolveNonNullableTransientDependencies"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "logCannotResolveNonNullableTransientDependencies"
+                            }
+                          },
+                          "identifier": "logCannotResolveNonNullableTransientDependencies"
+                        }
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 24,
+                        "beginColumn": 4,
+                        "endLine": 25,
+                        "endColumn": 54
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 29,
+                          "text": "final"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 24,
+                          "beginColumn": 4,
+                          "endLine": 25,
+                          "endColumn": 53
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 29,
+                            "text": "final"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [
+                          {
+                            "!": "com.github.javaparser.ast.Modifier",
+                            "range": {
+                              "beginLine": 24,
+                              "beginColumn": 4,
+                              "endLine": 24,
+                              "endColumn": 8
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 29,
+                                "text": "final"
+                              },
+                              "endToken": {
+                                "kind": 29,
+                                "text": "final"
+                              }
+                            },
+                            "keyword": "FINAL"
+                          }
+                        ],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 24,
+                              "beginColumn": 43,
+                              "endLine": 25,
+                              "endColumn": 53
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "nonNullableTransientDependencies"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 25,
+                                "beginColumn": 6,
+                                "endLine": 25,
+                                "endColumn": 53
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "dependenciesByAction"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "!": "com.github.javaparser.ast.expr.NameExpr",
+                                  "range": {
+                                    "beginLine": 25,
+                                    "beginColumn": 32,
+                                    "endLine": 25,
+                                    "endColumn": 51
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "firstDependentAction"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "firstDependentAction"
+                                    }
+                                  },
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 25,
+                                      "beginColumn": 32,
+                                      "endLine": 25,
+                                      "endColumn": 51
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "firstDependentAction"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "firstDependentAction"
+                                      }
+                                    },
+                                    "identifier": "firstDependentAction"
+                                  }
+                                }
+                              ],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 25,
+                                  "beginColumn": 27,
+                                  "endLine": 25,
+                                  "endColumn": 29
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "get"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "get"
+                                  }
+                                },
+                                "identifier": "get"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 25,
+                                  "beginColumn": 6,
+                                  "endLine": 25,
+                                  "endColumn": 25
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "dependenciesByAction"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "dependenciesByAction"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 25,
+                                    "beginColumn": 6,
+                                    "endLine": 25,
+                                    "endColumn": 25
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "dependenciesByAction"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "dependenciesByAction"
+                                    }
+                                  },
+                                  "identifier": "dependenciesByAction"
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 24,
+                                "beginColumn": 43,
+                                "endLine": 24,
+                                "endColumn": 74
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "nonNullableTransientDependencies"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "nonNullableTransientDependencies"
+                                }
+                              },
+                              "identifier": "nonNullableTransientDependencies"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 24,
+                                "beginColumn": 10,
+                                "endLine": 24,
+                                "endColumn": 41
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "NonNullableTransientDependencies"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "NonNullableTransientDependencies"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 24,
+                                  "beginColumn": 10,
+                                  "endLine": 24,
+                                  "endColumn": 41
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "NonNullableTransientDependencies"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "NonNullableTransientDependencies"
+                                  }
+                                },
+                                "identifier": "NonNullableTransientDependencies"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 26,
+                        "beginColumn": 4,
+                        "endLine": 27,
+                        "endColumn": 90
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 29,
+                          "text": "final"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 26,
+                          "beginColumn": 4,
+                          "endLine": 27,
+                          "endColumn": 89
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 29,
+                            "text": "final"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [
+                          {
+                            "!": "com.github.javaparser.ast.Modifier",
+                            "range": {
+                              "beginLine": 26,
+                              "beginColumn": 4,
+                              "endLine": 26,
+                              "endColumn": 8
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 29,
+                                "text": "final"
+                              },
+                              "endToken": {
+                                "kind": 29,
+                                "text": "final"
+                              }
+                            },
+                            "keyword": "FINAL"
+                          }
+                        ],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 26,
+                              "beginColumn": 17,
+                              "endLine": 27,
+                              "endColumn": 89
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "firstTransientDependency"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 27,
+                                "beginColumn": 6,
+                                "endLine": 27,
+                                "endColumn": 89
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "nonNullableTransientDependencies"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 27,
+                                  "beginColumn": 84,
+                                  "endLine": 27,
+                                  "endColumn": 87
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "next"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "next"
+                                  }
+                                },
+                                "identifier": "next"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                "range": {
+                                  "beginLine": 27,
+                                  "beginColumn": 6,
+                                  "endLine": 27,
+                                  "endColumn": 82
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "nonNullableTransientDependencies"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [],
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 27,
+                                    "beginColumn": 73,
+                                    "endLine": 27,
+                                    "endColumn": 80
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "iterator"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "iterator"
+                                    }
+                                  },
+                                  "identifier": "iterator"
+                                },
+                                "scope": {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 27,
+                                    "beginColumn": 6,
+                                    "endLine": 27,
+                                    "endColumn": 71
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "nonNullableTransientDependencies"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 27,
+                                      "beginColumn": 39,
+                                      "endLine": 27,
+                                      "endColumn": 69
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "getNonNullableTransientEntities"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "getNonNullableTransientEntities"
+                                      }
+                                    },
+                                    "identifier": "getNonNullableTransientEntities"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 27,
+                                      "beginColumn": 6,
+                                      "endLine": 27,
+                                      "endColumn": 37
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "nonNullableTransientDependencies"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "nonNullableTransientDependencies"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 27,
+                                        "beginColumn": 6,
+                                        "endLine": 27,
+                                        "endColumn": 37
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "nonNullableTransientDependencies"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "nonNullableTransientDependencies"
+                                        }
+                                      },
+                                      "identifier": "nonNullableTransientDependencies"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 26,
+                                "beginColumn": 17,
+                                "endLine": 26,
+                                "endColumn": 40
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "firstTransientDependency"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "firstTransientDependency"
+                                }
+                              },
+                              "identifier": "firstTransientDependency"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 26,
+                                "beginColumn": 10,
+                                "endLine": 26,
+                                "endColumn": 15
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "Object"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "Object"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 26,
+                                  "beginColumn": 10,
+                                  "endLine": 26,
+                                  "endColumn": 15
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "Object"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "Object"
+                                  }
+                                },
+                                "identifier": "Object"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 28,
+                        "beginColumn": 4,
+                        "endLine": 29,
+                        "endColumn": 121
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 29,
+                          "text": "final"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.VariableDeclarationExpr",
+                        "range": {
+                          "beginLine": 28,
+                          "beginColumn": 4,
+                          "endLine": 29,
+                          "endColumn": 120
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 29,
+                            "text": "final"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "annotations": [],
+                        "modifiers": [
+                          {
+                            "!": "com.github.javaparser.ast.Modifier",
+                            "range": {
+                              "beginLine": 28,
+                              "beginColumn": 4,
+                              "endLine": 28,
+                              "endColumn": 8
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 29,
+                                "text": "final"
+                              },
+                              "endToken": {
+                                "kind": 29,
+                                "text": "final"
+                              }
+                            },
+                            "keyword": "FINAL"
+                          }
+                        ],
+                        "variables": [
+                          {
+                            "!": "com.github.javaparser.ast.body.VariableDeclarator",
+                            "range": {
+                              "beginLine": 28,
+                              "beginColumn": 17,
+                              "endLine": 29,
+                              "endColumn": 120
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "firstPropertyPath"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "initializer": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 29,
+                                "beginColumn": 6,
+                                "endLine": 29,
+                                "endColumn": 120
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "nonNullableTransientDependencies"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 29,
+                                  "beginColumn": 115,
+                                  "endLine": 29,
+                                  "endColumn": 118
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "next"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "next"
+                                  }
+                                },
+                                "identifier": "next"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                "range": {
+                                  "beginLine": 29,
+                                  "beginColumn": 6,
+                                  "endLine": 29,
+                                  "endColumn": 113
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "nonNullableTransientDependencies"
+                                  },
+                                  "endToken": {
+                                    "kind": 98,
+                                    "text": ")"
+                                  }
+                                },
+                                "arguments": [],
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 29,
+                                    "beginColumn": 104,
+                                    "endLine": 29,
+                                    "endColumn": 111
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "iterator"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "iterator"
+                                    }
+                                  },
+                                  "identifier": "iterator"
+                                },
+                                "scope": {
+                                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                                  "range": {
+                                    "beginLine": 29,
+                                    "beginColumn": 6,
+                                    "endLine": 29,
+                                    "endColumn": 102
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "nonNullableTransientDependencies"
+                                    },
+                                    "endToken": {
+                                      "kind": 98,
+                                      "text": ")"
+                                    }
+                                  },
+                                  "arguments": [
+                                    {
+                                      "!": "com.github.javaparser.ast.expr.NameExpr",
+                                      "range": {
+                                        "beginLine": 29,
+                                        "beginColumn": 77,
+                                        "endLine": 29,
+                                        "endColumn": 100
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "firstTransientDependency"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "firstTransientDependency"
+                                        }
+                                      },
+                                      "name": {
+                                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                                        "range": {
+                                          "beginLine": 29,
+                                          "beginColumn": 77,
+                                          "endLine": 29,
+                                          "endColumn": 100
+                                        },
+                                        "tokenRange": {
+                                          "beginToken": {
+                                            "kind": 94,
+                                            "text": "firstTransientDependency"
+                                          },
+                                          "endToken": {
+                                            "kind": 94,
+                                            "text": "firstTransientDependency"
+                                          }
+                                        },
+                                        "identifier": "firstTransientDependency"
+                                      }
+                                    }
+                                  ],
+                                  "name": {
+                                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                                    "range": {
+                                      "beginLine": 29,
+                                      "beginColumn": 39,
+                                      "endLine": 29,
+                                      "endColumn": 74
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "getNonNullableTransientPropertyPaths"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "getNonNullableTransientPropertyPaths"
+                                      }
+                                    },
+                                    "identifier": "getNonNullableTransientPropertyPaths"
+                                  },
+                                  "scope": {
+                                    "!": "com.github.javaparser.ast.expr.NameExpr",
+                                    "range": {
+                                      "beginLine": 29,
+                                      "beginColumn": 6,
+                                      "endLine": 29,
+                                      "endColumn": 37
+                                    },
+                                    "tokenRange": {
+                                      "beginToken": {
+                                        "kind": 94,
+                                        "text": "nonNullableTransientDependencies"
+                                      },
+                                      "endToken": {
+                                        "kind": 94,
+                                        "text": "nonNullableTransientDependencies"
+                                      }
+                                    },
+                                    "name": {
+                                      "!": "com.github.javaparser.ast.expr.SimpleName",
+                                      "range": {
+                                        "beginLine": 29,
+                                        "beginColumn": 6,
+                                        "endLine": 29,
+                                        "endColumn": 37
+                                      },
+                                      "tokenRange": {
+                                        "beginToken": {
+                                          "kind": 94,
+                                          "text": "nonNullableTransientDependencies"
+                                        },
+                                        "endToken": {
+                                          "kind": 94,
+                                          "text": "nonNullableTransientDependencies"
+                                        }
+                                      },
+                                      "identifier": "nonNullableTransientDependencies"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 28,
+                                "beginColumn": 17,
+                                "endLine": 28,
+                                "endColumn": 33
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "firstPropertyPath"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "firstPropertyPath"
+                                }
+                              },
+                              "identifier": "firstPropertyPath"
+                            },
+                            "type": {
+                              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                              "range": {
+                                "beginLine": 28,
+                                "beginColumn": 10,
+                                "endLine": 28,
+                                "endColumn": 15
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "String"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "String"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 28,
+                                  "beginColumn": 10,
+                                  "endLine": 28,
+                                  "endColumn": 15
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "String"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "String"
+                                  }
+                                },
+                                "identifier": "String"
+                              },
+                              "annotations": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ThrowStmt",
+                      "range": {
+                        "beginLine": 31,
+                        "beginColumn": 4,
+                        "endLine": 36,
+                        "endColumn": 5
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 57,
+                          "text": "throw"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                        "range": {
+                          "beginLine": 31,
+                          "beginColumn": 10,
+                          "endLine": 36,
+                          "endColumn": 4
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 42,
+                            "text": "new"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                            "range": {
+                              "beginLine": 32,
+                              "beginColumn": 6,
+                              "endLine": 32,
+                              "endColumn": 113
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 90,
+                                "text": "\"Not-null property references a transient value - transient instance must be saved before current operation\""
+                              },
+                              "endToken": {
+                                "kind": 90,
+                                "text": "\"Not-null property references a transient value - transient instance must be saved before current operation\""
+                              }
+                            },
+                            "value": "Not-null property references a transient value - transient instance must be saved before current operation"
+                          },
+                          {
+                            "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                            "range": {
+                              "beginLine": 33,
+                              "beginColumn": 6,
+                              "endLine": 33,
+                              "endColumn": 82
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "firstDependentAction"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "arguments": [
+                              {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 33,
+                                  "beginColumn": 57,
+                                  "endLine": 33,
+                                  "endColumn": 80
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "firstTransientDependency"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "firstTransientDependency"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 33,
+                                    "beginColumn": 57,
+                                    "endLine": 33,
+                                    "endColumn": 80
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "firstTransientDependency"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "firstTransientDependency"
+                                    }
+                                  },
+                                  "identifier": "firstTransientDependency"
+                                }
+                              }
+                            ],
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 33,
+                                "beginColumn": 40,
+                                "endLine": 33,
+                                "endColumn": 54
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "guessEntityName"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "guessEntityName"
+                                }
+                              },
+                              "identifier": "guessEntityName"
+                            },
+                            "scope": {
+                              "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                              "range": {
+                                "beginLine": 33,
+                                "beginColumn": 6,
+                                "endLine": 33,
+                                "endColumn": 38
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "firstDependentAction"
+                                },
+                                "endToken": {
+                                  "kind": 98,
+                                  "text": ")"
+                                }
+                              },
+                              "arguments": [],
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 33,
+                                  "beginColumn": 27,
+                                  "endLine": 33,
+                                  "endColumn": 36
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "getSession"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "getSession"
+                                  }
+                                },
+                                "identifier": "getSession"
+                              },
+                              "scope": {
+                                "!": "com.github.javaparser.ast.expr.NameExpr",
+                                "range": {
+                                  "beginLine": 33,
+                                  "beginColumn": 6,
+                                  "endLine": 33,
+                                  "endColumn": 25
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "firstDependentAction"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "firstDependentAction"
+                                  }
+                                },
+                                "name": {
+                                  "!": "com.github.javaparser.ast.expr.SimpleName",
+                                  "range": {
+                                    "beginLine": 33,
+                                    "beginColumn": 6,
+                                    "endLine": 33,
+                                    "endColumn": 25
+                                  },
+                                  "tokenRange": {
+                                    "beginToken": {
+                                      "kind": 94,
+                                      "text": "firstDependentAction"
+                                    },
+                                    "endToken": {
+                                      "kind": 94,
+                                      "text": "firstDependentAction"
+                                    }
+                                  },
+                                  "identifier": "firstDependentAction"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                            "range": {
+                              "beginLine": 34,
+                              "beginColumn": 6,
+                              "endLine": 34,
+                              "endColumn": 41
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "firstDependentAction"
+                              },
+                              "endToken": {
+                                "kind": 98,
+                                "text": ")"
+                              }
+                            },
+                            "arguments": [],
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 34,
+                                "beginColumn": 27,
+                                "endLine": 34,
+                                "endColumn": 39
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "getEntityName"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "getEntityName"
+                                }
+                              },
+                              "identifier": "getEntityName"
+                            },
+                            "scope": {
+                              "!": "com.github.javaparser.ast.expr.NameExpr",
+                              "range": {
+                                "beginLine": 34,
+                                "beginColumn": 6,
+                                "endLine": 34,
+                                "endColumn": 25
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "firstDependentAction"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "firstDependentAction"
+                                }
+                              },
+                              "name": {
+                                "!": "com.github.javaparser.ast.expr.SimpleName",
+                                "range": {
+                                  "beginLine": 34,
+                                  "beginColumn": 6,
+                                  "endLine": 34,
+                                  "endColumn": 25
+                                },
+                                "tokenRange": {
+                                  "beginToken": {
+                                    "kind": 94,
+                                    "text": "firstDependentAction"
+                                  },
+                                  "endToken": {
+                                    "kind": 94,
+                                    "text": "firstDependentAction"
+                                  }
+                                },
+                                "identifier": "firstDependentAction"
+                              }
+                            }
+                          },
+                          {
+                            "!": "com.github.javaparser.ast.expr.NameExpr",
+                            "range": {
+                              "beginLine": 35,
+                              "beginColumn": 6,
+                              "endLine": 35,
+                              "endColumn": 22
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "firstPropertyPath"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "firstPropertyPath"
+                              }
+                            },
+                            "name": {
+                              "!": "com.github.javaparser.ast.expr.SimpleName",
+                              "range": {
+                                "beginLine": 35,
+                                "beginColumn": 6,
+                                "endLine": 35,
+                                "endColumn": 22
+                              },
+                              "tokenRange": {
+                                "beginToken": {
+                                  "kind": 94,
+                                  "text": "firstPropertyPath"
+                                },
+                                "endToken": {
+                                  "kind": 94,
+                                  "text": "firstPropertyPath"
+                                }
+                              },
+                              "identifier": "firstPropertyPath"
+                            }
+                          }
+                        ],
+                        "type": {
+                          "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                          "range": {
+                            "beginLine": 31,
+                            "beginColumn": 14,
+                            "endLine": 31,
+                            "endColumn": 44
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "TransientPropertyValueException"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "TransientPropertyValueException"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 31,
+                              "beginColumn": 14,
+                              "endLine": 31,
+                              "endColumn": 44
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "TransientPropertyValueException"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "TransientPropertyValueException"
+                              }
+                            },
+                            "identifier": "TransientPropertyValueException"
+                          },
+                          "annotations": []
+                        }
+                      }
+                    }
+                  ]
+                },
+                "thenStmt": {
+                  "!": "com.github.javaparser.ast.stmt.BlockStmt",
+                  "range": {
+                    "beginLine": 15,
+                    "beginColumn": 20,
+                    "endLine": 17,
+                    "endColumn": 3
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 99,
+                      "text": "{"
+                    },
+                    "endToken": {
+                      "kind": 100,
+                      "text": "}"
+                    }
+                  },
+                  "statements": [
+                    {
+                      "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                      "range": {
+                        "beginLine": 16,
+                        "beginColumn": 4,
+                        "endLine": 16,
+                        "endColumn": 93
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "LOG"
+                        },
+                        "endToken": {
+                          "kind": 103,
+                          "text": ";"
+                        }
+                      },
+                      "expression": {
+                        "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                        "range": {
+                          "beginLine": 16,
+                          "beginColumn": 4,
+                          "endLine": 16,
+                          "endColumn": 92
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "LOG"
+                          },
+                          "endToken": {
+                            "kind": 98,
+                            "text": ")"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                            "range": {
+                              "beginLine": 16,
+                              "beginColumn": 15,
+                              "endLine": 16,
+                              "endColumn": 90
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 90,
+                                "text": "\"No entity insert actions have non-nullable, transient entity dependencies.\""
+                              },
+                              "endToken": {
+                                "kind": 90,
+                                "text": "\"No entity insert actions have non-nullable, transient entity dependencies.\""
+                              }
+                            },
+                            "value": "No entity insert actions have non-nullable, transient entity dependencies."
+                          }
+                        ],
+                        "name": {
+                          "!": "com.github.javaparser.ast.expr.SimpleName",
+                          "range": {
+                            "beginLine": 16,
+                            "beginColumn": 8,
+                            "endLine": 16,
+                            "endColumn": 12
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "trace"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "trace"
+                            }
+                          },
+                          "identifier": "trace"
+                        },
+                        "scope": {
+                          "!": "com.github.javaparser.ast.expr.NameExpr",
+                          "range": {
+                            "beginLine": 16,
+                            "beginColumn": 4,
+                            "endLine": 16,
+                            "endColumn": 6
+                          },
+                          "tokenRange": {
+                            "beginToken": {
+                              "kind": 94,
+                              "text": "LOG"
+                            },
+                            "endToken": {
+                              "kind": 94,
+                              "text": "LOG"
+                            }
+                          },
+                          "name": {
+                            "!": "com.github.javaparser.ast.expr.SimpleName",
+                            "range": {
+                              "beginLine": 16,
+                              "beginColumn": 4,
+                              "endLine": 16,
+                              "endColumn": 6
+                            },
+                            "tokenRange": {
+                              "beginToken": {
+                                "kind": 94,
+                                "text": "LOG"
+                              },
+                              "endToken": {
+                                "kind": 94,
+                                "text": "LOG"
+                              }
+                            },
+                            "identifier": "LOG"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "type": {
+            "!": "com.github.javaparser.ast.type.VoidType",
+            "range": {
+              "beginLine": 14,
+              "beginColumn": 9,
+              "endLine": 14,
+              "endColumn": 12
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 62,
+                "text": "void"
+              },
+              "endToken": {
+                "kind": 62,
+                "text": "void"
+              }
+            },
+            "annotations": []
+          },
+          "modifiers": [
+            {
+              "!": "com.github.javaparser.ast.Modifier",
+              "range": {
+                "beginLine": 14,
+                "beginColumn": 2,
+                "endLine": 14,
+                "endColumn": 7
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 47,
+                  "text": "public"
+                },
+                "endToken": {
+                  "kind": 47,
+                  "text": "public"
+                }
+              },
+              "keyword": "PUBLIC"
+            }
+          ],
+          "name": {
+            "!": "com.github.javaparser.ast.expr.SimpleName",
+            "range": {
+              "beginLine": 14,
+              "beginColumn": 14,
+              "endLine": 14,
+              "endColumn": 51
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 94,
+                "text": "checkNoUnresolvedActionsAfterOperation"
+              },
+              "endToken": {
+                "kind": 94,
+                "text": "checkNoUnresolvedActionsAfterOperation"
+              }
+            },
+            "identifier": "checkNoUnresolvedActionsAfterOperation"
+          },
+          "parameters": [],
+          "thrownExceptions": [
+            {
+              "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+              "range": {
+                "beginLine": 14,
+                "beginColumn": 62,
+                "endLine": 14,
+                "endColumn": 83
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 94,
+                  "text": "PropertyValueException"
+                },
+                "endToken": {
+                  "kind": 94,
+                  "text": "PropertyValueException"
+                }
+              },
+              "name": {
+                "!": "com.github.javaparser.ast.expr.SimpleName",
+                "range": {
+                  "beginLine": 14,
+                  "beginColumn": 62,
+                  "endLine": 14,
+                  "endColumn": 83
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "PropertyValueException"
+                  },
+                  "endToken": {
+                    "kind": 94,
+                    "text": "PropertyValueException"
+                  }
+                },
+                "identifier": "PropertyValueException"
+              },
+              "annotations": []
+            }
+          ],
+          "typeParameters": [],
+          "annotations": [],
+          "comment": {
+            "!": "com.github.javaparser.ast.comments.JavadocComment",
+            "range": {
+              "beginLine": 2,
+              "beginColumn": 1,
+              "endLine": 13,
+              "endColumn": 4
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 8,
+                "text": "/**\n\t * Throws {@link org.hibernate.PropertyValueException} if there are any unresolved\n\t * entity insert actions that depend on non-nullable associations with\n\t * a transient entity. This method should be called on completion of\n\t * an operation (after all cascades are completed) that saves an entity.\n\t *\n\t * @throws org.hibernate.PropertyValueException if there are any unresolved entity\n\t * insert actions; {@link org.hibernate.PropertyValueException#getEntityName()}\n\t * and {@link org.hibernate.PropertyValueException#getPropertyName()} will\n\t * return the entity name and property value for the first unresolved\n\t * entity insert action.\n\t */"
+              },
+              "endToken": {
+                "kind": 8,
+                "text": "/**\n\t * Throws {@link org.hibernate.PropertyValueException} if there are any unresolved\n\t * entity insert actions that depend on non-nullable associations with\n\t * a transient entity. This method should be called on completion of\n\t * an operation (after all cascades are completed) that saves an entity.\n\t *\n\t * @throws org.hibernate.PropertyValueException if there are any unresolved entity\n\t * insert actions; {@link org.hibernate.PropertyValueException#getEntityName()}\n\t * and {@link org.hibernate.PropertyValueException#getPropertyName()} will\n\t * return the entity name and property value for the first unresolved\n\t * entity insert action.\n\t */"
+              }
+            },
+            "content": "\n\t * Throws {@link org.hibernate.PropertyValueException} if there are any unresolved\n\t * entity insert actions that depend on non-nullable associations with\n\t * a transient entity. This method should be called on completion of\n\t * an operation (after all cascades are completed) that saves an entity.\n\t *\n\t * @throws org.hibernate.PropertyValueException if there are any unresolved entity\n\t * insert actions; {@link org.hibernate.PropertyValueException#getEntityName()}\n\t * and {@link org.hibernate.PropertyValueException#getPropertyName()} will\n\t * return the entity name and property value for the first unresolved\n\t * entity insert action.\n\t "
+          }
+        }
+      ],
+      "modifiers": [],
+      "name": {
+        "!": "com.github.javaparser.ast.expr.SimpleName",
+        "range": {
+          "beginLine": 1,
+          "beginColumn": 7,
+          "endLine": 1,
+          "endColumn": 10
+        },
+        "tokenRange": {
+          "beginToken": {
+            "kind": 94,
+            "text": "Test"
+          },
+          "endToken": {
+            "kind": 94,
+            "text": "Test"
+          }
+        },
+        "identifier": "Test"
+      },
+      "annotations": []
+    }
+  ]
+}

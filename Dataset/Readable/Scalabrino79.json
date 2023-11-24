@@ -1,0 +1,2217 @@
+{
+  "!": "com.github.javaparser.ast.CompilationUnit",
+  "range": {
+    "beginLine": 1,
+    "beginColumn": 1,
+    "endLine": 31,
+    "endColumn": 2
+  },
+  "tokenRange": {
+    "beginToken": {
+      "kind": 19,
+      "text": "class"
+    },
+    "endToken": {
+      "kind": 0,
+      "text": ""
+    }
+  },
+  "imports": [],
+  "types": [
+    {
+      "!": "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+      "range": {
+        "beginLine": 1,
+        "beginColumn": 1,
+        "endLine": 31,
+        "endColumn": 2
+      },
+      "tokenRange": {
+        "beginToken": {
+          "kind": 19,
+          "text": "class"
+        },
+        "endToken": {
+          "kind": 100,
+          "text": "}"
+        }
+      },
+      "extendedTypes": [],
+      "implementedTypes": [],
+      "isInterface": "false",
+      "typeParameters": [],
+      "members": [
+        {
+          "!": "com.github.javaparser.ast.body.MethodDeclaration",
+          "range": {
+            "beginLine": 2,
+            "beginColumn": 2,
+            "endLine": 29,
+            "endColumn": 2
+          },
+          "tokenRange": {
+            "beginToken": {
+              "kind": 107,
+              "text": "@"
+            },
+            "endToken": {
+              "kind": 100,
+              "text": "}"
+            }
+          },
+          "body": {
+            "!": "com.github.javaparser.ast.stmt.BlockStmt",
+            "range": {
+              "beginLine": 4,
+              "beginColumn": 74,
+              "endLine": 29,
+              "endColumn": 2
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 99,
+                "text": "{"
+              },
+              "endToken": {
+                "kind": 100,
+                "text": "}"
+              }
+            },
+            "statements": [
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 11,
+                  "beginColumn": 3,
+                  "endLine": 11,
+                  "endColumn": 99
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 11,
+                    "beginColumn": 3,
+                    "endLine": 11,
+                    "endColumn": 98
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 11,
+                      "beginColumn": 85,
+                      "endLine": 11,
+                      "endColumn": 96
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkIterate"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkIterate"
+                      }
+                    },
+                    "identifier": "checkIterate"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 11,
+                      "beginColumn": 3,
+                      "endLine": 11,
+                      "endColumn": 83
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 11,
+                          "beginColumn": 22,
+                          "endLine": 11,
+                          "endColumn": 81
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.name.first = 'John'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.name.first = 'John'\""
+                          }
+                        },
+                        "value": "from Zoo z join z.mammals as m where m.name.first = 'John'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 11,
+                        "beginColumn": 7,
+                        "endLine": 11,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 11,
+                          "beginColumn": 7,
+                          "endLine": 11,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 13,
+                  "beginColumn": 3,
+                  "endLine": 13,
+                  "endColumn": 92
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 13,
+                    "beginColumn": 3,
+                    "endLine": 13,
+                    "endColumn": 91
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 13,
+                      "beginColumn": 82,
+                      "endLine": 13,
+                      "endColumn": 89
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 13,
+                      "beginColumn": 3,
+                      "endLine": 13,
+                      "endColumn": 80
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 22,
+                          "endLine": 13,
+                          "endColumn": 78
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.pregnant = false\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.pregnant = false\""
+                          }
+                        },
+                        "value": "from Zoo z join z.mammals as m where m.pregnant = false"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 13,
+                        "beginColumn": 7,
+                        "endLine": 13,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 13,
+                          "beginColumn": 7,
+                          "endLine": 13,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 14,
+                  "beginColumn": 3,
+                  "endLine": 14,
+                  "endColumn": 110
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 14,
+                    "beginColumn": 3,
+                    "endLine": 14,
+                    "endColumn": 109
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 14,
+                      "beginColumn": 100,
+                      "endLine": 14,
+                      "endColumn": 107
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 14,
+                      "beginColumn": 3,
+                      "endLine": 14,
+                      "endColumn": 98
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 14,
+                          "beginColumn": 22,
+                          "endLine": 14,
+                          "endColumn": 96
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select m.pregnant from Zoo z join z.mammals as m where m.pregnant = false\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select m.pregnant from Zoo z join z.mammals as m where m.pregnant = false\""
+                          }
+                        },
+                        "value": "select m.pregnant from Zoo z join z.mammals as m where m.pregnant = false"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 14,
+                        "beginColumn": 7,
+                        "endLine": 14,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 14,
+                          "beginColumn": 7,
+                          "endLine": 14,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 16,
+                  "beginColumn": 3,
+                  "endLine": 16,
+                  "endColumn": 97
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 16,
+                    "beginColumn": 3,
+                    "endLine": 16,
+                    "endColumn": 96
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 16,
+                      "beginColumn": 87,
+                      "endLine": 16,
+                      "endColumn": 94
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 16,
+                      "beginColumn": 3,
+                      "endLine": 16,
+                      "endColumn": 85
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 16,
+                          "beginColumn": 22,
+                          "endLine": 16,
+                          "endColumn": 83
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.description = 'tabby'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.description = 'tabby'\""
+                          }
+                        },
+                        "value": "from Zoo z join z.mammals as m where m.description = 'tabby'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 16,
+                        "beginColumn": 7,
+                        "endLine": 16,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 16,
+                          "beginColumn": 7,
+                          "endLine": 16,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 17,
+                  "beginColumn": 3,
+                  "endLine": 17,
+                  "endColumn": 118
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 17,
+                    "beginColumn": 3,
+                    "endLine": 17,
+                    "endColumn": 117
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 17,
+                      "beginColumn": 108,
+                      "endLine": 17,
+                      "endColumn": 115
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 17,
+                      "beginColumn": 3,
+                      "endLine": 17,
+                      "endColumn": 106
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 17,
+                          "beginColumn": 22,
+                          "endLine": 17,
+                          "endColumn": 104
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select m.description from Zoo z join z.mammals as m where m.description = 'tabby'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select m.description from Zoo z join z.mammals as m where m.description = 'tabby'\""
+                          }
+                        },
+                        "value": "select m.description from Zoo z join z.mammals as m where m.description = 'tabby'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 17,
+                        "beginColumn": 7,
+                        "endLine": 17,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 17,
+                          "beginColumn": 7,
+                          "endLine": 17,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 19,
+                  "beginColumn": 3,
+                  "endLine": 19,
+                  "endColumn": 95
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 19,
+                    "beginColumn": 3,
+                    "endLine": 19,
+                    "endColumn": 94
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 19,
+                      "beginColumn": 85,
+                      "endLine": 19,
+                      "endColumn": 92
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 19,
+                      "beginColumn": 3,
+                      "endLine": 19,
+                      "endColumn": 83
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 19,
+                          "beginColumn": 22,
+                          "endLine": 19,
+                          "endColumn": 81
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.name.first = 'John'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"from Zoo z join z.mammals as m where m.name.first = 'John'\""
+                          }
+                        },
+                        "value": "from Zoo z join z.mammals as m where m.name.first = 'John'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 19,
+                        "beginColumn": 7,
+                        "endLine": 19,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 19,
+                          "beginColumn": 7,
+                          "endLine": 19,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 20,
+                  "beginColumn": 3,
+                  "endLine": 20,
+                  "endColumn": 109
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 20,
+                    "beginColumn": 3,
+                    "endLine": 20,
+                    "endColumn": 108
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 20,
+                      "beginColumn": 99,
+                      "endLine": 20,
+                      "endColumn": 106
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 20,
+                      "beginColumn": 3,
+                      "endLine": 20,
+                      "endColumn": 97
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 20,
+                          "beginColumn": 22,
+                          "endLine": 20,
+                          "endColumn": 95
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select m.name from Zoo z join z.mammals as m where m.name.first = 'John'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select m.name from Zoo z join z.mammals as m where m.name.first = 'John'\""
+                          }
+                        },
+                        "value": "select m.name from Zoo z join z.mammals as m where m.name.first = 'John'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 20,
+                        "beginColumn": 7,
+                        "endLine": 20,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 20,
+                          "beginColumn": 7,
+                          "endLine": 20,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 22,
+                  "beginColumn": 3,
+                  "endLine": 22,
+                  "endColumn": 85
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 22,
+                    "beginColumn": 3,
+                    "endLine": 22,
+                    "endColumn": 84
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 22,
+                      "beginColumn": 75,
+                      "endLine": 22,
+                      "endColumn": 82
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 22,
+                      "beginColumn": 3,
+                      "endLine": 22,
+                      "endColumn": 73
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 22,
+                          "beginColumn": 22,
+                          "endLine": 22,
+                          "endColumn": 71
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select m.pregnant from Zoo z join z.mammals as m\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select m.pregnant from Zoo z join z.mammals as m\""
+                          }
+                        },
+                        "value": "select m.pregnant from Zoo z join z.mammals as m"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 22,
+                        "beginColumn": 7,
+                        "endLine": 22,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 22,
+                          "beginColumn": 7,
+                          "endLine": 22,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 23,
+                  "beginColumn": 3,
+                  "endLine": 23,
+                  "endColumn": 88
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 23,
+                    "beginColumn": 3,
+                    "endLine": 23,
+                    "endColumn": 87
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 23,
+                      "beginColumn": 78,
+                      "endLine": 23,
+                      "endColumn": 85
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 23,
+                      "beginColumn": 3,
+                      "endLine": 23,
+                      "endColumn": 76
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 23,
+                          "beginColumn": 22,
+                          "endLine": 23,
+                          "endColumn": 74
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select m.description from Zoo z join z.mammals as m\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select m.description from Zoo z join z.mammals as m\""
+                          }
+                        },
+                        "value": "select m.description from Zoo z join z.mammals as m"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 23,
+                        "beginColumn": 7,
+                        "endLine": 23,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 23,
+                          "beginColumn": 7,
+                          "endLine": 23,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 24,
+                  "beginColumn": 3,
+                  "endLine": 24,
+                  "endColumn": 81
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 24,
+                    "beginColumn": 3,
+                    "endLine": 24,
+                    "endColumn": 80
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 24,
+                      "beginColumn": 71,
+                      "endLine": 24,
+                      "endColumn": 78
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 24,
+                      "beginColumn": 3,
+                      "endLine": 24,
+                      "endColumn": 69
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 24,
+                          "beginColumn": 22,
+                          "endLine": 24,
+                          "endColumn": 67
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select m.name from Zoo z join z.mammals as m\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select m.name from Zoo z join z.mammals as m\""
+                          }
+                        },
+                        "value": "select m.name from Zoo z join z.mammals as m"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 24,
+                        "beginColumn": 7,
+                        "endLine": 24,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 24,
+                          "beginColumn": 7,
+                          "endLine": 24,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 26,
+                  "beginColumn": 3,
+                  "endLine": 26,
+                  "endColumn": 105
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 26,
+                    "beginColumn": 3,
+                    "endLine": 26,
+                    "endColumn": 104
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 26,
+                      "beginColumn": 95,
+                      "endLine": 26,
+                      "endColumn": 102
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 26,
+                      "beginColumn": 3,
+                      "endLine": 26,
+                      "endColumn": 93
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 26,
+                          "beginColumn": 22,
+                          "endLine": 26,
+                          "endColumn": 91
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"from DomesticAnimal da join da.owner as o where o.nickName = 'Gavin'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"from DomesticAnimal da join da.owner as o where o.nickName = 'Gavin'\""
+                          }
+                        },
+                        "value": "from DomesticAnimal da join da.owner as o where o.nickName = 'Gavin'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 26,
+                        "beginColumn": 7,
+                        "endLine": 26,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 26,
+                          "beginColumn": 7,
+                          "endLine": 26,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 27,
+                  "beginColumn": 3,
+                  "endLine": 27,
+                  "endColumn": 122
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 27,
+                    "beginColumn": 3,
+                    "endLine": 27,
+                    "endColumn": 121
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 27,
+                      "beginColumn": 112,
+                      "endLine": 27,
+                      "endColumn": 119
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 27,
+                      "beginColumn": 3,
+                      "endLine": 27,
+                      "endColumn": 110
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 27,
+                          "beginColumn": 22,
+                          "endLine": 27,
+                          "endColumn": 108
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select da.father from DomesticAnimal da join da.owner as o where o.nickName = 'Gavin'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select da.father from DomesticAnimal da join da.owner as o where o.nickName = 'Gavin'\""
+                          }
+                        },
+                        "value": "select da.father from DomesticAnimal da join da.owner as o where o.nickName = 'Gavin'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 27,
+                        "beginColumn": 7,
+                        "endLine": 27,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 27,
+                          "beginColumn": 7,
+                          "endLine": 27,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              },
+              {
+                "!": "com.github.javaparser.ast.stmt.ExpressionStmt",
+                "range": {
+                  "beginLine": 28,
+                  "beginColumn": 3,
+                  "endLine": 28,
+                  "endColumn": 110
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 42,
+                    "text": "new"
+                  },
+                  "endToken": {
+                    "kind": 103,
+                    "text": ";"
+                  }
+                },
+                "expression": {
+                  "!": "com.github.javaparser.ast.expr.MethodCallExpr",
+                  "range": {
+                    "beginLine": 28,
+                    "beginColumn": 3,
+                    "endLine": 28,
+                    "endColumn": 109
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 42,
+                      "text": "new"
+                    },
+                    "endToken": {
+                      "kind": 98,
+                      "text": ")"
+                    }
+                  },
+                  "arguments": [],
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 28,
+                      "beginColumn": 100,
+                      "endLine": 28,
+                      "endColumn": 107
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "checkAll"
+                      }
+                    },
+                    "identifier": "checkAll"
+                  },
+                  "scope": {
+                    "!": "com.github.javaparser.ast.expr.ObjectCreationExpr",
+                    "range": {
+                      "beginLine": 28,
+                      "beginColumn": 3,
+                      "endLine": 28,
+                      "endColumn": 98
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 42,
+                        "text": "new"
+                      },
+                      "endToken": {
+                        "kind": 98,
+                        "text": ")"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                        "range": {
+                          "beginLine": 28,
+                          "beginColumn": 22,
+                          "endLine": 28,
+                          "endColumn": 96
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 90,
+                            "text": "\"select da.father from DomesticAnimal da where da.owner.nickName = 'Gavin'\""
+                          },
+                          "endToken": {
+                            "kind": 90,
+                            "text": "\"select da.father from DomesticAnimal da where da.owner.nickName = 'Gavin'\""
+                          }
+                        },
+                        "value": "select da.father from DomesticAnimal da where da.owner.nickName = 'Gavin'"
+                      }
+                    ],
+                    "type": {
+                      "!": "com.github.javaparser.ast.type.ClassOrInterfaceType",
+                      "range": {
+                        "beginLine": 28,
+                        "beginColumn": 7,
+                        "endLine": 28,
+                        "endColumn": 19
+                      },
+                      "tokenRange": {
+                        "beginToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        },
+                        "endToken": {
+                          "kind": 94,
+                          "text": "SyntaxChecker"
+                        }
+                      },
+                      "name": {
+                        "!": "com.github.javaparser.ast.expr.SimpleName",
+                        "range": {
+                          "beginLine": 28,
+                          "beginColumn": 7,
+                          "endLine": 28,
+                          "endColumn": 19
+                        },
+                        "tokenRange": {
+                          "beginToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          },
+                          "endToken": {
+                            "kind": 94,
+                            "text": "SyntaxChecker"
+                          }
+                        },
+                        "identifier": "SyntaxChecker"
+                      },
+                      "annotations": []
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "type": {
+            "!": "com.github.javaparser.ast.type.VoidType",
+            "range": {
+              "beginLine": 4,
+              "beginColumn": 9,
+              "endLine": 4,
+              "endColumn": 12
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 62,
+                "text": "void"
+              },
+              "endToken": {
+                "kind": 62,
+                "text": "void"
+              }
+            },
+            "annotations": []
+          },
+          "modifiers": [
+            {
+              "!": "com.github.javaparser.ast.Modifier",
+              "range": {
+                "beginLine": 4,
+                "beginColumn": 2,
+                "endLine": 4,
+                "endColumn": 7
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 47,
+                  "text": "public"
+                },
+                "endToken": {
+                  "kind": 47,
+                  "text": "public"
+                }
+              },
+              "keyword": "PUBLIC"
+            }
+          ],
+          "name": {
+            "!": "com.github.javaparser.ast.expr.SimpleName",
+            "range": {
+              "beginLine": 4,
+              "beginColumn": 14,
+              "endLine": 4,
+              "endColumn": 70
+            },
+            "tokenRange": {
+              "beginToken": {
+                "kind": 94,
+                "text": "testSubclassOrSuperclassPropertyReferenceInJoinedSubclass"
+              },
+              "endToken": {
+                "kind": 94,
+                "text": "testSubclassOrSuperclassPropertyReferenceInJoinedSubclass"
+              }
+            },
+            "identifier": "testSubclassOrSuperclassPropertyReferenceInJoinedSubclass"
+          },
+          "parameters": [],
+          "thrownExceptions": [],
+          "typeParameters": [],
+          "annotations": [
+            {
+              "!": "com.github.javaparser.ast.expr.MarkerAnnotationExpr",
+              "range": {
+                "beginLine": 2,
+                "beginColumn": 2,
+                "endLine": 2,
+                "endColumn": 6
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 107,
+                  "text": "@"
+                },
+                "endToken": {
+                  "kind": 94,
+                  "text": "Test"
+                }
+              },
+              "name": {
+                "!": "com.github.javaparser.ast.expr.Name",
+                "range": {
+                  "beginLine": 2,
+                  "beginColumn": 3,
+                  "endLine": 2,
+                  "endColumn": 6
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "Test"
+                  },
+                  "endToken": {
+                    "kind": 94,
+                    "text": "Test"
+                  }
+                },
+                "identifier": "Test"
+              }
+            },
+            {
+              "!": "com.github.javaparser.ast.expr.NormalAnnotationExpr",
+              "range": {
+                "beginLine": 3,
+                "beginColumn": 2,
+                "endLine": 3,
+                "endColumn": 38
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 107,
+                  "text": "@"
+                },
+                "endToken": {
+                  "kind": 98,
+                  "text": ")"
+                }
+              },
+              "pairs": [
+                {
+                  "!": "com.github.javaparser.ast.expr.MemberValuePair",
+                  "range": {
+                    "beginLine": 3,
+                    "beginColumn": 17,
+                    "endLine": 3,
+                    "endColumn": 36
+                  },
+                  "tokenRange": {
+                    "beginToken": {
+                      "kind": 94,
+                      "text": "jiraKey"
+                    },
+                    "endToken": {
+                      "kind": 90,
+                      "text": "\"HHH-1631\""
+                    }
+                  },
+                  "name": {
+                    "!": "com.github.javaparser.ast.expr.SimpleName",
+                    "range": {
+                      "beginLine": 3,
+                      "beginColumn": 17,
+                      "endLine": 3,
+                      "endColumn": 23
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 94,
+                        "text": "jiraKey"
+                      },
+                      "endToken": {
+                        "kind": 94,
+                        "text": "jiraKey"
+                      }
+                    },
+                    "identifier": "jiraKey"
+                  },
+                  "value": {
+                    "!": "com.github.javaparser.ast.expr.StringLiteralExpr",
+                    "range": {
+                      "beginLine": 3,
+                      "beginColumn": 27,
+                      "endLine": 3,
+                      "endColumn": 36
+                    },
+                    "tokenRange": {
+                      "beginToken": {
+                        "kind": 90,
+                        "text": "\"HHH-1631\""
+                      },
+                      "endToken": {
+                        "kind": 90,
+                        "text": "\"HHH-1631\""
+                      }
+                    },
+                    "value": "HHH-1631"
+                  }
+                }
+              ],
+              "name": {
+                "!": "com.github.javaparser.ast.expr.Name",
+                "range": {
+                  "beginLine": 3,
+                  "beginColumn": 3,
+                  "endLine": 3,
+                  "endColumn": 14
+                },
+                "tokenRange": {
+                  "beginToken": {
+                    "kind": 94,
+                    "text": "TestForIssue"
+                  },
+                  "endToken": {
+                    "kind": 94,
+                    "text": "TestForIssue"
+                  }
+                },
+                "identifier": "TestForIssue"
+              }
+            }
+          ],
+          "comment": [
+            {
+              "!": "com.github.javaparser.ast.comments.LineComment",
+              "range": {
+                "beginLine": 5,
+                "beginColumn": 3,
+                "endLine": 5,
+                "endColumn": 83
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                },
+                "endToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                }
+              },
+              "content": "ActiveTestSuite.super.runTest(test, result);"
+            },
+            {
+              "!": "com.github.javaparser.ast.comments.LineComment",
+              "range": {
+                "beginLine": 7,
+                "beginColumn": 3,
+                "endLine": 7,
+                "endColumn": 71
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                },
+                "endToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                }
+              },
+              "content": "ActiveTestSuite.super.runTest(test, result);"
+            },
+            {
+              "!": "com.github.javaparser.ast.comments.LineComment",
+              "range": {
+                "beginLine": 8,
+                "beginColumn": 3,
+                "endLine": 8,
+                "endColumn": 72
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                },
+                "endToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                }
+              },
+              "content": "ActiveTestSuite.super.runTest(test, result);"
+            },
+            {
+              "!": "com.github.javaparser.ast.comments.LineComment",
+              "range": {
+                "beginLine": 9,
+                "beginColumn": 3,
+                "endLine": 9,
+                "endColumn": 71
+              },
+              "tokenRange": {
+                "beginToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                },
+                "endToken": {
+                  "kind": 5,
+                  "text": "//ActiveTestSuite.super.runTest(test, result);"
+                }
+              },
+              "content": "ActiveTestSuite.super.runTest(test, result);"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "name": {
+        "!": "com.github.javaparser.ast.expr.SimpleName",
+        "range": {
+          "beginLine": 1,
+          "beginColumn": 7,
+          "endLine": 1,
+          "endColumn": 10
+        },
+        "tokenRange": {
+          "beginToken": {
+            "kind": 94,
+            "text": "Test"
+          },
+          "endToken": {
+            "kind": 94,
+            "text": "Test"
+          }
+        },
+        "identifier": "Test"
+      },
+      "annotations": []
+    }
+  ]
+}

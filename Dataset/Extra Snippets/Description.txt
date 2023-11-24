@@ -1,0 +1,37 @@
+sample1：
+违反了2.2 File encoding规则，因为它使用了GBK编码而不是UTF-8编码。
+违反了2.3 Special characters规则，因为它使用了一些特殊字符，如$、%、@等，并且没有转义这些字符。
+
+sample3：
+代码块1违背3.1license/copyright information
+代码块2违背3.2requirement for package statement
+
+sample6：
+在这个示例中，我们没有使用常见的方法(4.5 line wrap)，例如将所有参数放在一行或按逗号对参数进行对齐。相反，我们在适当的语法级别处断开了行，并使用了适当的缩进。
+在一些情况下，如if/else块和for循环中，我们在打开括号后换行，以保持良好的可读性。同样，在lambda表达式中，我们在箭头后换行，而不是在参数列表后换行。
+每个后续行都至少缩进了+4个空格，并且如果开始于语法上相似的元素，则使用相同的缩进级别。
+
+sample7：
+违反了在if-else语句和函数调用之间没有垂直空格。这违反了4.6.1 Vertical Whitespace的规则，该规则要求在代码块的逻辑组成部分之间始终使用单个空白行
+
+sample9：
+违反4.8.4 Switch Statements & 4.8.5 Annotations
+There is no line break and an increased indentation level after the case 1: label, violating the rule that a line break and increased indentation should follow every switch label.
+The @Deprecated annotation is listed on the same line as the field declaration, violating the rule that annotations applying to a class should be listed on separate lines.
+Note that the use of the @Nullable annotation on the setField method parameter is not a violation, as it is a type-use annotation and there are no specific formatting rules for these annotations on parameters.
+
+sample10：
+违反5.2.2 Class names和5.2.5 Non-constant field names。
+类名使用小写字母和数字的混合写法，而不是 UpperCamelCase。
+同时，我将在类中使用 UPPER_SNAKE_CASE 格式的字段名，而不是lowerCamelCase 格式。
+
+sample11：
+违反6Programming Practices 6.1@Override: always used 6.2 Caught exceptions: not ignored
+在此示例中，doSomethingElse()方法没有使用@Override注释，因为它没有覆盖任何超类或实现任何接口方法。
+而handleException()方法违反了Caught exceptions: not ignored规则，因为它什么也不做，没有打印日志或者重新抛出异常。
+
+sample12：
+违反6Programming Practices 6.3Static members: qualified using class 6.4 Finalizers: not used
+违反了Static members: qualified using class规则，因为我们在访问静态变量和方法时没有使用类名进行限定。
+违反了Finalizers: not used规则，因为我们重写了Object.finalize()方法，这在大多数情况下是不必要的，并且会对程序性能产生负面影响。
+
